@@ -104,8 +104,8 @@ class CfgWeapons
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Dart])";
 		hiddenSelectionsTextures[]=
 		{
-			"SWLB_clones_spec\data\helmet_co.paa",
-			"SWLB_clones_spec\data\helmet_co.paa"
+			"XRayArmor\assets\helmets\Helmet_Commando_EOD.paa",
+			"XRayArmor\assets\helmets\Helmet_Commando_EOD.paa"
 		};
 	};
 	class XRAY_Helmet_Commando_Medic: SWLB_clone_commando_helmet_k1
@@ -246,8 +246,8 @@ class CfgVehicles
 		uniformClass = "XRAY_Uniform_Commando_EOD";
 		hiddenSelectionsTextures[]=
 		{
-			"SWLB_clones_spec\data\camo1_co.paa",
-			"SWLB_clones_spec\data\camo2_co.paa"
+			"XRayArmor\assets\uniforms\Uniform_Commando_Upper.paa",
+			"XRayArmor\assets\uniforms\Uniform_Commando_Lower.paa"
 		};
 		backpack = "XRAY_BP_Commando_EOD";
 	};
@@ -307,8 +307,8 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[]=
 		{
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_EOD_Addon.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_EOD_Base.paa"
 		};
 		maximumLoad = 740;
 	};
