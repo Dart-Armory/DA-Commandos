@@ -307,8 +307,8 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[]=
 		{
-			"XRayArmor\assets\backpacks\BP_Commando_EOD_Addon.paa",
-			"XRayArmor\assets\backpacks\BP_Commando_EOD_Base.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_EOD.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_EOD.paa"
 		};
 		maximumLoad = 740;
 	};
