@@ -6,7 +6,7 @@ class CfgFactionClasses
 		author = "DartRuffian";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "[DA] Dart Armory"
+		displayName = "[DA] Dart Armory";
 	};
 };
 
@@ -20,7 +20,7 @@ class CfgEditorSubcategories
 		scopeCurator = 2;
 		displayName = "X-Ray Commando Squad";
 	};
-}
+};
 
 class CfgPatches
 {
