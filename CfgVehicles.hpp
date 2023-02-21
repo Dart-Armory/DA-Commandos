@@ -149,8 +149,8 @@ class CfgVehicles
 		uniformClass = "XRay_Uniform_Commando_Medic";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\data\camo1_co.paa",
-			"SWLB_clones_spec\data\camo2_co.paa"
+			"XRayArmor\assets\uniforms\Uniform_Commando_Medic_Upper.paa",
+			"XRayArmor\assets\uniforms\Uniform_Commando_Medic_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -288,9 +288,9 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc])";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_tech_co.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_Medic_Base.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_Medic_Base.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_Medic_Extra.paa"
 		};
 	};
 	class XRay_BP_Commando_Medic_Custom_Huge: XRay_BP_Commando_Medic_Base_Huge
@@ -298,9 +298,9 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_tech_co.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_Medic_Base.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_Medic_Base.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_Medic_Extra.paa"
 		};
 	};
 

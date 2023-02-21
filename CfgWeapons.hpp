@@ -50,8 +50,8 @@ class CfgWeapons
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Doc])";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\data\helmet_co.paa",
-			"SWLB_clones_spec\data\helmet_co.paa"
+			"XRayArmor\assets\helmets\Helmet_Commando_Medic.paa",
+			"XRayArmor\assets\helmets\Helmet_Commando_Medic.paa"
 		};
 	};
 	class XRay_Helmet_Commando_Sniper: XRay_Helmet_Commando_Base
