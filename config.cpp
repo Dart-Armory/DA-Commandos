@@ -36,10 +36,10 @@ class CfgPatches
 		units[] =
 		{
 			// Units
-			"XRay_Foreigner_Commando",
-			"XRay_Dart_Commando",
-			"XRay_Doc_Commando",
-			"XRay_Glitch_Commando",
+			"XRay_Commando_SL",
+			"XRay_Commando_EOD",
+			"XRay_Commando_Medic",
+			"XRay_Commando_Sniper",
 
 			// Backpacks
 			"XRay_BP_Commando_SL",
