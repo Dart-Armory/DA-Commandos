@@ -37,7 +37,7 @@ class CfgVehicles
 		{
 			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
-		backpack = "XRay_BP_Commando_SL";
+		backpack = "XRay_BP_Commando_SL_Custom";
 	};
 	class XRay_Commando_EOD_Custom: SWLB_clone_commando_eod_base
 	{
@@ -62,7 +62,7 @@ class CfgVehicles
 		{
 			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
-		backpack = "XRay_BP_Commando_EOD";
+		backpack = "XRay_BP_Commando_EOD_Custom";
 	};
 	class XRay_Commando_Medic_Custom: SWLB_clone_commando_base
 	{
@@ -87,7 +87,7 @@ class CfgVehicles
 		{
 			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
-		backpack = "XRay_BP_Commando_Medic";
+		backpack = "XRay_BP_Commando_Medic_Custom";
 	};
 	class XRay_Commando_Sniper_Custom: SWLB_clone_commando_sniper_base
 	{
@@ -112,12 +112,12 @@ class CfgVehicles
 		{
 			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
-		backpack = "XRay_BP_Commando_Sniper";
+		backpack = "XRay_BP_Commando_Sniper_Custom";
 	};
 
 
 	// Backpacks
-	class XRay_BP_Commando_SL: SWLB_clone_commando_backpack_k2_rto
+	class XRay_BP_Commando_SL_Custom: SWLB_clone_commando_backpack_k2_rto
 	{
 		author = "DartRuffian";
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner])";
@@ -130,13 +130,13 @@ class CfgVehicles
 		maximumLoad = 740;
 	};
 
-	class XRay_BP_Commando_SL_Huge: XRay_BP_Commando_SL
+	class XRay_BP_Commando_SL_Custom_Huge: XRay_BP_Commando_SL_Custom
 	{
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner]) (Huge)";
 		maximumLoad = 1100;
 	};
 
-	class XRay_BP_Commando_EOD: SWLB_clone_commando_backpack_k2_eod
+	class XRay_BP_Commando_EOD_Custom: SWLB_clone_commando_backpack_k2_eod
 	{
 		author = "DartRuffian";
 		displayName = "Katarn II Clone Commando EOD Backpack (X-Ray [Dart])";
@@ -149,13 +149,13 @@ class CfgVehicles
 		maximumLoad = 740;
 	};
 
-	class XRay_BP_Commando_EOD_Huge: XRay_BP_Commando_EOD
+	class XRay_BP_Commando_EOD_Custom_Huge: XRay_BP_Commando_EOD_Custom
 	{
 		displayName = "Katarn II Clone Commando EOD Backpack (X-Ray [Dart]) (Huge)";
 		maximumLoad = 1100;
 	};
 
-	class XRay_BP_Commando_Medic: SWLB_clone_commando_backpack_k2_tech
+	class XRay_BP_Commando_Medic_Custom: SWLB_clone_commando_backpack_k2_tech
 	{
 		author = "DartRuffian";
 		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc])";	
@@ -168,13 +168,13 @@ class CfgVehicles
 		maximumLoad = 740;
 	};
 
-	class XRay_BP_Commando_Medic_Huge: XRay_BP_Commando_Medic
+	class XRay_BP_Commando_Medic_Custom_Huge: XRay_BP_Commando_Medic_Custom
 	{
 		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc]) (Huge)";	
 		maximumLoad = 1100;
 	};
 
-	class XRay_BP_Commando_Sniper: SWLB_clone_commando_backpack_k2
+	class XRay_BP_Commando_Sniper_Custom: SWLB_clone_commando_backpack_k2
 	{
 		author = "DartRuffian";
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch])";
@@ -187,7 +187,7 @@ class CfgVehicles
 		maximumLoad = 740;
 	};
 
-	class XRay_BP_Commando_Sniper_Huge: XRay_BP_Commando_Sniper
+	class XRay_BP_Commando_Sniper_Custom_Huge: XRay_BP_Commando_Sniper_Custom
 	{
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch]) (Huge)";
 		maximumLoad = 1100;

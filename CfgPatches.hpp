@@ -23,14 +23,14 @@ class CfgPatches
 			"XRay_Commando_Sniper_Custom",
 
 			// Backpacks
-			"XRay_BP_Commando_SL",
-			"XRay_BP_Commando_SL_Huge",
-			"XRay_BP_Commando_EOD",
-			"XRay_BP_Commando_EOD_Huge",
-			"XRay_BP_Commando_Medic",
-			"XRay_BP_Commando_Medic_Huge",
-			"XRay_BP_Commando_Sniper",
-			"XRay_BP_Commando_Sniper_Huge"
+			"XRay_BP_Commando_SL_Custom",
+			"XRay_BP_Commando_SL_Custom_Huge",
+			"XRay_BP_Commando_EOD_Custom",
+			"XRay_BP_Commando_EOD_Custom_Huge",
+			"XRay_BP_Commando_Medic_Custom",
+			"XRay_BP_Commando_Medic_Custom_Huge",
+			"XRay_BP_Commando_Sniper_Custom",
+			"XRay_BP_Commando_Sniper_Custom_Huge"
 		};
 		weapons[] =
 		{
