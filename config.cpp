@@ -1,30 +1,32 @@
-class CfgFactionClasses
+class CfgMods
+{
+	class Mod_Base;
+	class DartArmory: Mod_Base
+	{
+		name = "[DA] Dart Armory";
+	};
+};
+
+class CfgEditorCategories
 {
 	class DA_Commandos_XRay
 	{
-		dlc = "DA_Customs";
-		author = "DartRuffian";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "[DA] Dart Armory";
+		displayName = "[DA] Dart Armory - X-Ray Squad";
 	};
 };
 
 class CfgEditorSubcategories
 {
-	class DA_XRay
+	class DA_XRay_Customs
 	{
-		dlc = "DA";
-		author = "DartRuffian";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "X-Ray Commando Squad";
+		// Custom Armor Units
+		displayName = "Customs";
 	};
 };
 
 class CfgPatches
 {
-	class ls_armor_bluefor
+	class XRayArmor
 	{
 		author = "DartRuffian";
 		requiredVersion = 0.1;
@@ -226,7 +228,9 @@ class CfgVehicles
 	class XRay_Commando_SL: SWLB_clone_commando_sl_base
 	{
 		author = "DartRuffian";
-		editorSubcategory = "DA_XRay";
+		editorCategory = "DA_Commandos_XRay";
+		editorSubcategory = "DA_XRay_Customs";
+
 		displayName = "Clone Commando Squad Leader - Foreigner";
 
 		uniformClass = "XRay_Uniform_Commando_SL";
@@ -240,7 +244,9 @@ class CfgVehicles
 	class XRay_Commando_EOD: SWLB_clone_commando_eod_base
 	{
 		author = "DartRuffian";
-		editorSubcategory = "DA_XRay";
+		editorCategory = "DA_Commandos_XRay";
+		editorSubcategory = "DA_XRay_Customs";
+
 		displayName = "Clone Commando EOD Specialist - Dart";
 
 		uniformClass = "XRay_Uniform_Commando_EOD";
@@ -254,7 +260,9 @@ class CfgVehicles
 	class XRay_Commando_Medic: SWLB_clone_commando_base
 	{
 		author = "DartRuffian";
-		editorSubcategory = "DA_XRay";
+		editorCategory = "DA_Commandos_XRay";
+		editorSubcategory = "DA_XRay_Customs";
+		
 		displayName = "Clone Commando Medic - Doc";
 
 		uniformClass = "XRay_Uniform_Commando_Medic";
@@ -268,7 +276,9 @@ class CfgVehicles
 	class XRay_Commando_Sniper: SWLB_clone_commando_sniper_base
 	{
 		author = "DartRuffian";
-		editorSubcategory = "DA_XRay";
+		editorCategory = "DA_Commandos_XRay";
+		editorSubcategory = "DA_XRay_Customs";
+		
 		displayName = "Clone Commando Sniper - Glitch";
 
 		uniformClass = "XRay_Uniform_Commando_Sniper";
