@@ -126,8 +126,8 @@ class CfgVehicles
 		uniformClass = "XRay_Uniform_Commando_EOD";
 		hiddenSelectionsTextures[] =
 		{
-			"XRayArmor\assets\uniforms\Uniform_Commando_Upper.paa",
-			"XRayArmor\assets\uniforms\Uniform_Commando_Lower.paa"
+			"XRayArmor\assets\uniforms\Uniform_Commando_EOD_Upper.paa",
+			"XRayArmor\assets\uniforms\Uniform_Commando_EOD_Lower.paa"
 		};
 
 		linkedItems[] =

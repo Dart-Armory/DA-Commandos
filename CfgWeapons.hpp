@@ -175,11 +175,13 @@ class CfgWeapons
 	class XRay_Vest_Commando_Medic_Custom: XRay_Vest_Commando_Medic_Base
 	{
 		displayName = "Katarn I Clone Commando Medic Vest (X-Ray [Doc])";
-		hiddenSelectionsTextures[] =
-		{
-			"SWLB_clones_spec\data\camo2_co.paa",
-			"SWLB_clones_spec\data\camo2_co.paa"
-		};
+		// Current Medic kit uses a vest without a model, so there's no point in this.
+		// Included in case the vest changes.
+		// hiddenSelectionsTextures[] =
+		// {
+		// 	"SWLB_clones_spec\data\camo2_co.paa",
+		// 	"SWLB_clones_spec\data\camo2_co.paa"
+		// };
 	};
 	class XRay_Vest_Commando_Sniper_Custom: XRay_Vest_Commando_Sniper_Base
 	{
