@@ -289,7 +289,8 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_tech_co.paa"
 		};
 	};
 	class XRay_BP_Commando_Medic_Custom_Huge: XRay_BP_Commando_Medic_Base_Huge
@@ -298,7 +299,8 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_tech_co.paa"
 		};
 	};
 
