@@ -82,7 +82,7 @@ class CfgWeapons
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Foreigner])";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass = "XRay_Commando_SL";
+			uniformClass = "XRay_Commando_SL_Custom";
 			uniformType = "Neopren";
 		};
 	};
@@ -91,7 +91,7 @@ class CfgWeapons
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Dart])";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass = "XRay_Commando_EOD";
+			uniformClass = "XRay_Commando_EOD_Custom";
 			uniformType = "Neopren";
 		};
 	};
@@ -100,7 +100,7 @@ class CfgWeapons
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Doc])";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass = "XRay_Commando_Medic";
+			uniformClass = "XRay_Commando_Medic_Custom";
 			uniformType = "Neopren";
 		};
 	};
@@ -109,7 +109,7 @@ class CfgWeapons
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Glitch])";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass = "XRay_Commando_Sniper";
+			uniformClass = "XRay_Commando_Sniper_Custom";
 			uniformType = "Neopren";
 		};
 	};

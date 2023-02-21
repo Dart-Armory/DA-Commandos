@@ -14,7 +14,7 @@ class CfgVehicles
 	// Base Commandos
 
 	// Customs
-	class XRay_Commando_SL: SWLB_clone_commando_sl_base
+	class XRay_Commando_SL_Custom: SWLB_clone_commando_sl_base
 	{
 		author = "DartRuffian";
 		editorCategory = "DartArmory";
@@ -39,7 +39,7 @@ class CfgVehicles
 		};
 		backpack = "XRay_BP_Commando_SL";
 	};
-	class XRay_Commando_EOD: SWLB_clone_commando_eod_base
+	class XRay_Commando_EOD_Custom: SWLB_clone_commando_eod_base
 	{
 		author = "DartRuffian";
 		editorCategory = "DartArmory";
@@ -64,7 +64,7 @@ class CfgVehicles
 		};
 		backpack = "XRay_BP_Commando_EOD";
 	};
-	class XRay_Commando_Medic: SWLB_clone_commando_base
+	class XRay_Commando_Medic_Custom: SWLB_clone_commando_base
 	{
 		author = "DartRuffian";
 		editorCategory = "DartArmory";
@@ -89,7 +89,7 @@ class CfgVehicles
 		};
 		backpack = "XRay_BP_Commando_Medic";
 	};
-	class XRay_Commando_Sniper: SWLB_clone_commando_sniper_base
+	class XRay_Commando_Sniper_Custom: SWLB_clone_commando_sniper_base
 	{
 		author = "DartRuffian";
 		editorCategory = "DartArmory";

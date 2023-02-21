@@ -12,10 +12,15 @@ class CfgPatches
 		units[] =
 		{
 			// Units
-			"XRay_Commando_SL",
-			"XRay_Commando_EOD",
-			"XRay_Commando_Medic",
-			"XRay_Commando_Sniper",
+			// "XRay_Commando_SL_Base",
+			// "XRay_Commando_EOD_Base",
+			// "XRay_Commando_Medic_Base",
+			// "XRay_Commando_Sniper_Base",
+
+			"XRay_Commando_SL_Custom",
+			"XRay_Commando_EOD_Custom",
+			"XRay_Commando_Medic_Custom",
+			"XRay_Commando_Sniper_Custom",
 
 			// Backpacks
 			"XRay_BP_Commando_SL",
