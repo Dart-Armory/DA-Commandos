@@ -90,9 +90,21 @@ class CfgWeapons
 	class ItemInfo;
 
 	// Helmets
-	class XRay_Helmet_Commando_SL: SWLB_clone_commando_helmet_k1
+	class XRay_Helmet_Commando_Base: SWLB_clone_commando_helmet_k1
 	{
 		author = "DartRuffian";
+		scope = 2;
+		scopeArsenal = 2;
+
+		displayName = "Katarn I Clone Commando Helmet (X-Ray [Plain])";
+		hiddenSelectionsTextures[] =
+		{
+			"SWLB_clones_spec\data\helmet_co.paa",
+			"SWLB_clones_spec\data\helmet_co.paa"
+		};
+	};
+	class XRay_Helmet_Commando_SL: XRay_Helmet_Commando_Base
+	{
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Foreigner])";
 		hiddenSelectionsTextures[] =
 		{
@@ -100,9 +112,8 @@ class CfgWeapons
 			"SWLB_clones_spec\data\helmet_co.paa"
 		};
 	};
-	class XRay_Helmet_Commando_EOD: SWLB_clone_commando_helmet_k1
+	class XRay_Helmet_Commando_EOD: XRay_Helmet_Commando_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Dart])";
 		hiddenSelectionsTextures[] =
 		{
@@ -110,9 +121,8 @@ class CfgWeapons
 			"XRayArmor\assets\helmets\Helmet_Commando_EOD.paa"
 		};
 	};
-	class XRay_Helmet_Commando_Medic: SWLB_clone_commando_helmet_k1
+	class XRay_Helmet_Commando_Medic: XRay_Helmet_Commando_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Doc])";
 		hiddenSelectionsTextures[] =
 		{
@@ -120,9 +130,8 @@ class CfgWeapons
 			"SWLB_clones_spec\data\helmet_co.paa"
 		};
 	};
-	class XRay_Helmet_Commando_Sniper: SWLB_clone_commando_helmet_k1
+	class XRay_Helmet_Commando_Sniper: XRay_Helmet_Commando_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Glitch])";
 		hiddenSelectionsTextures[] =
 		{
@@ -132,9 +141,20 @@ class CfgWeapons
 	};
 
 	// Uniforms
-	class XRay_Uniform_Commando_SL: SWLB_clone_commando_uniform_k1
+	class XRay_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
 	{
 		author = "DartRuffian";
+		scope = 2;
+		scopeArsenal = 2;
+
+		displayName = "Katarn I Clone Commando Armor (X-Ray [Plain])";
+		class ItemInfo: ItemInfo
+		{
+			uniformType = "Neopren";
+		};
+	};
+	class XRay_Uniform_Commando_SL: XRay_Uniform_Commando_Base
+	{
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Foreigner])";
 		class ItemInfo: ItemInfo
 		{
@@ -142,9 +162,8 @@ class CfgWeapons
 			uniformType = "Neopren";
 		};
 	};
-	class XRay_Uniform_Commando_EOD: SWLB_clone_commando_uniform_k1
+	class XRay_Uniform_Commando_EOD: XRay_Uniform_Commando_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Dart])";
 		class ItemInfo: ItemInfo
 		{
@@ -152,9 +171,8 @@ class CfgWeapons
 			uniformType = "Neopren";
 		};
 	};
-	class XRay_Uniform_Commando_Medic: SWLB_clone_commando_uniform_k1
+	class XRay_Uniform_Commando_Medic: XRay_Uniform_Commando_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Doc])";
 		class ItemInfo: ItemInfo
 		{
@@ -162,9 +180,8 @@ class CfgWeapons
 			uniformType = "Neopren";
 		};
 	};
-	class XRay_Uniform_Commando_Sniper: SWLB_clone_commando_uniform_k1
+	class XRay_Uniform_Commando_Sniper: XRay_Uniform_Commando_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Glitch])";
 		class ItemInfo: ItemInfo
 		{
@@ -174,40 +191,79 @@ class CfgWeapons
 	};
 
 	// Vests
-	class XRay_Vest_Commando_SL: SWLB_clone_commando_sl_armor_k1
+	// Basic Vests
+	class XRay_Vest_Commando_SL_Base: SWLB_clone_commando_sl_armor_k1
 	{
 		author = "DartRuffian";
+		displayName = "Katarn I Clone Commando Squad Leader Pauldron (X-Ray [Plain])";
+		class ItemInfo: ItemInfo
+		{
+			vestType = "Rebreather";
+		};
+	};
+	class XRay_Vest_Commando_EOD_Base: SWLB_clone_commando_eod_armor_k1
+	{
+		author = "DartRuffian";
+		displayName = "Katarn I Clone Commando EOD Vest (X-Ray [Plain])";
+		class ItemInfo: ItemInfo
+		{
+			vestType = "Rebreather";
+		};
+	};
+	class XRay_Vest_Commando_Medic_Base: SWLB_clone_commando_basic_armor_k1
+	{
+		author = "DartRuffian";
+		displayName = "Katarn I Clone Commando Medic Vest (X-Ray [Plain])";
+		class ItemInfo: ItemInfo
+		{
+			vestType = "Rebreather";
+		};
+	};
+	class XRay_Vest_Commando_Sniper_Base: SWLB_clone_commando_sniper_armor_k1
+	{
+		author = "DartRuffian";
+		displayName = "Katarn I Clone Commando Sniper Vest (X-Ray [Plain])";
+		class ItemInfo: ItemInfo
+		{
+			vestType = "Rebreather";
+		};
+	};
+
+	// Custom Vests
+	class XRay_Vest_Commando_SL_Custom: XRay_Vest_Commando_SL_Base
+	{
 		displayName = "Katarn I Clone Commando Squad Leader Pauldron (X-Ray [Foreigner])";
-		class ItemInfo: ItemInfo
+		hiddenSelectionsTextures[] =
 		{
-			vestType = "Rebreather";
+			"SWLB_clones_spec\data\camo2_co.paa",
+			"SWLB_clones_spec\data\camo2_co.paa"
 		};
 	};
-	class XRay_Vest_Commando_EOD: SWLB_clone_commando_eod_armor_k1
+	class XRay_Vest_Commando_EOD_Custom: XRay_Vest_Commando_EOD_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando EOD Vest (X-Ray [Dart])";
-		class ItemInfo: ItemInfo
+		hiddenSelectionsTextures[] =
 		{
-			vestType = "Rebreather";
+			"SWLB_clones_spec\data\camo2_co.paa",
+			"SWLB_clones_spec\data\camo2_co.paa"
 		};
 	};
-	class XRay_Vest_Commando_Medic: SWLB_clone_commando_basic_armor_k1
+	class XRay_Vest_Commando_Medic_Custom: XRay_Vest_Commando_Medic_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Medic Vest (X-Ray [Doc])";
-		class ItemInfo: ItemInfo
+		hiddenSelectionsTextures[] =
 		{
-			vestType = "Rebreather";
+			"SWLB_clones_spec\data\camo2_co.paa",
+			"SWLB_clones_spec\data\camo2_co.paa"
 		};
 	};
-	class XRay_Vest_Commando_Sniper: SWLB_clone_commando_sniper_armor_k1
+	class XRay_Vest_Commando_Sniper_Custom: XRay_Vest_Commando_Sniper_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn I Clone Commando Sniper Vest (X-Ray [Glitch])";
-		class ItemInfo: ItemInfo
+		hiddenSelectionsTextures[] =
 		{
-			vestType = "Rebreather";
+			"SWLB_clones_spec\data\camo2_co.paa",
+			"SWLB_clones_spec\data\camo2_co.paa"
 		};
 	};
 };
