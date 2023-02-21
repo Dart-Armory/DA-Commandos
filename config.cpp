@@ -281,6 +281,9 @@ class CfgVehicles
 	class SWLB_clone_commando_eod_base;
 
 	// Units
+	// Base Commandos
+
+	// Customs
 	class XRay_Commando_SL: SWLB_clone_commando_sl_base
 	{
 		author = "DartRuffian";
@@ -294,6 +297,15 @@ class CfgVehicles
 		{
 			"SWLB_clones_spec\data\camo1_co.paa",
 			"SWLB_clones_spec\data\camo2_co.paa"
+		};
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_SL";
 	};
@@ -311,6 +323,15 @@ class CfgVehicles
 			"XRayArmor\assets\uniforms\Uniform_Commando_Upper.paa",
 			"XRayArmor\assets\uniforms\Uniform_Commando_Lower.paa"
 		};
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
 		backpack = "XRay_BP_Commando_EOD";
 	};
 	class XRay_Commando_Medic: SWLB_clone_commando_base
@@ -326,6 +347,15 @@ class CfgVehicles
 		{
 			"SWLB_clones_spec\data\camo1_co.paa",
 			"SWLB_clones_spec\data\camo2_co.paa"
+		};
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_Medic";
 	};
@@ -343,8 +373,18 @@ class CfgVehicles
 			"SWLB_clones_spec\data\camo1_co.paa",
 			"SWLB_clones_spec\data\camo2_co.paa"
 		};
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
 		backpack = "XRay_BP_Commando_Sniper";
 	};
+
 
 	// Backpacks
 	class XRay_BP_Commando_SL: SWLB_clone_commando_backpack_k2_rto
