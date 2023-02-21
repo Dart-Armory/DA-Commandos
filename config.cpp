@@ -9,9 +9,9 @@ class CfgMods
 
 class CfgEditorCategories
 {
-	class DA_Commandos_XRay
+	class DartArmory
 	{
-		displayName = "[DA] Dart Armory - X-Ray Squad";
+		displayName = "[DA] Dart Armory";
 	};
 };
 
@@ -20,7 +20,7 @@ class CfgEditorSubcategories
 	class DA_XRay_Customs
 	{
 		// Custom Armor Units
-		displayName = "Customs";
+		displayName = "X-Ray Squad Customs";
 	};
 };
 
@@ -228,10 +228,10 @@ class CfgVehicles
 	class XRay_Commando_SL: SWLB_clone_commando_sl_base
 	{
 		author = "DartRuffian";
-		editorCategory = "DA_Commandos_XRay";
+		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 
-		displayName = "Clone Commando Squad Leader - Foreigner";
+		displayName = "Foreigner (X-Ray [Squad Lead])";
 
 		uniformClass = "XRay_Uniform_Commando_SL";
 		hiddenSelectionsTextures[] =
@@ -244,10 +244,10 @@ class CfgVehicles
 	class XRay_Commando_EOD: SWLB_clone_commando_eod_base
 	{
 		author = "DartRuffian";
-		editorCategory = "DA_Commandos_XRay";
+		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 
-		displayName = "Clone Commando EOD Specialist - Dart";
+		displayName = "Dart (X-Ray [EOD])";
 
 		uniformClass = "XRay_Uniform_Commando_EOD";
 		hiddenSelectionsTextures[] =
@@ -260,10 +260,10 @@ class CfgVehicles
 	class XRay_Commando_Medic: SWLB_clone_commando_base
 	{
 		author = "DartRuffian";
-		editorCategory = "DA_Commandos_XRay";
+		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 		
-		displayName = "Clone Commando Medic - Doc";
+		displayName = "Doc (X-Ray [Medic])";
 
 		uniformClass = "XRay_Uniform_Commando_Medic";
 		hiddenSelectionsTextures[] =
@@ -276,10 +276,10 @@ class CfgVehicles
 	class XRay_Commando_Sniper: SWLB_clone_commando_sniper_base
 	{
 		author = "DartRuffian";
-		editorCategory = "DA_Commandos_XRay";
+		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 		
-		displayName = "Clone Commando Sniper - Glitch";
+		displayName = "Glitch (X-Ray [Sniper])";
 
 		uniformClass = "XRay_Uniform_Commando_Sniper";
 		hiddenSelectionsTextures[] =
