@@ -298,8 +298,8 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
 		};
 		maximumLoad = 740;
 	};
@@ -336,8 +336,8 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
 		};
 		maximumLoad = 740;
 	};
@@ -355,8 +355,8 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"\SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
 		};
 		maximumLoad = 740;
 	};
