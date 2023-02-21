@@ -22,6 +22,11 @@ class CfgEditorCategories
 
 class CfgEditorSubcategories
 {
+	class DA_XRay_Base
+	{
+		// Custom Armor Units
+		displayName = "X-Ray Squad Base";
+	};
 	class DA_XRay_Customs
 	{
 		// Custom Armor Units

@@ -12,12 +12,90 @@ class CfgVehicles
 
 	// Units
 	// Base Commandos
-
-	// Customs
-	class XRay_Commando_SL_Custom: SWLB_clone_commando_sl_base
+	class XRay_Commando_SL_Base: SWLB_clone_commando_sl_base
 	{
 		author = "DartRuffian";
 		editorCategory = "DartArmory";
+		editorSubcategory = "DA_XRay_Base";
+
+		displayName = "Clone Commando Squad Leader (X-Ray)";
+
+		uniformClass = "XRay_Uniform_Commando_Base";
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_SL_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_SL_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		backpack = "XRay_BP_Commando_SL_Base";
+	};
+	class XRay_Commando_EOD_Base: SWLB_clone_commando_eod_base
+	{
+		author = "DartRuffian";
+		editorCategory = "DartArmory";
+		editorSubcategory = "DA_XRay_Base";
+
+		displayName = "Clone Commando EOD (X-Ray)";
+
+		uniformClass = "XRay_Uniform_Commando_Base";
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_EOD_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_EOD_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		backpack = "XRay_BP_Commando_EOD_Base";
+	};
+	class XRay_Commando_Medic_Base: SWLB_clone_commando_base
+	{
+		author = "DartRuffian";
+		editorCategory = "DartArmory";
+		editorSubcategory = "DA_XRay_Base";
+		
+		displayName = "Clone Commando Medic (X-Ray)";
+
+		uniformClass = "XRay_Uniform_Commando_Base";
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Medic_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Medic_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		backpack = "XRay_BP_Commando_Medic_Base";
+	};
+	class XRay_Commando_Sniper_Base: SWLB_clone_commando_sniper_base
+	{
+		author = "DartRuffian";
+		editorCategory = "DartArmory";
+		editorSubcategory = "DA_XRay_Base";
+		
+		displayName = "Clone Commando Sniper (X-Ray)";
+
+		uniformClass = "XRay_Uniform_Commando_Base";
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Sniper_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Sniper_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		backpack = "XRay_BP_Commando_Sniper_Base";
+	};
+
+	// Customs
+	class XRay_Commando_SL_Custom: XRay_Commando_SL_Base
+	{
 		editorSubcategory = "DA_XRay_Customs";
 
 		displayName = "Foreigner (X-Ray [Squad Lead])";
@@ -39,10 +117,8 @@ class CfgVehicles
 		};
 		backpack = "XRay_BP_Commando_SL_Custom";
 	};
-	class XRay_Commando_EOD_Custom: SWLB_clone_commando_eod_base
+	class XRay_Commando_EOD_Custom: XRay_Commando_EOD_Base
 	{
-		author = "DartRuffian";
-		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 
 		displayName = "Dart (X-Ray [EOD])";
@@ -64,10 +140,8 @@ class CfgVehicles
 		};
 		backpack = "XRay_BP_Commando_EOD_Custom";
 	};
-	class XRay_Commando_Medic_Custom: SWLB_clone_commando_base
+	class XRay_Commando_Medic_Custom: XRay_Commando_Medic_Base
 	{
-		author = "DartRuffian";
-		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 		
 		displayName = "Doc (X-Ray [Medic])";
@@ -89,7 +163,7 @@ class CfgVehicles
 		};
 		backpack = "XRay_BP_Commando_Medic_Custom";
 	};
-	class XRay_Commando_Sniper_Custom: SWLB_clone_commando_sniper_base
+	class XRay_Commando_Sniper_Custom: XRay_Commando_Sniper_Base
 	{
 		author = "DartRuffian";
 		editorCategory = "DartArmory";
@@ -117,79 +191,133 @@ class CfgVehicles
 
 
 	// Backpacks
-	class XRay_BP_Commando_SL_Custom: SWLB_clone_commando_backpack_k2_rto
+	// Base
+	class XRay_BP_Commando_SL_Base: SWLB_clone_commando_backpack_k2_rto
 	{
 		author = "DartRuffian";
-		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner])";
+		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Plain])";
+		maximumLoad = 740;
+	};
 
+	class XRay_BP_Commando_SL_Base_Huge: XRay_BP_Commando_SL_Base
+	{
+		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Plain]) (Huge)";
+		maximumLoad = 1100;
+	};
+
+	class XRay_BP_Commando_EOD_Base: SWLB_clone_commando_backpack_k2_eod
+	{
+		author = "DartRuffian";
+		displayName = "Katarn II Clone Commando EOD Backpack (X-Ray [Plain])";
+		maximumLoad = 740;
+	};
+
+	class XRay_BP_Commando_EOD_Base_Huge: XRay_BP_Commando_EOD_Base
+	{
+		displayName = "Katarn II Clone Commando EOD Backpack (X-Ray [Plain]) (Huge)";
+		maximumLoad = 1100;
+	};
+
+	class XRay_BP_Commando_Medic_Base: SWLB_clone_commando_backpack_k2_tech
+	{
+		author = "DartRuffian";
+		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Plain])";	
+		maximumLoad = 740;
+	};
+
+	class XRay_BP_Commando_Medic_Base_Huge: XRay_BP_Commando_Medic_Base
+	{
+		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Plain]) (Huge)";	
+		maximumLoad = 1100;
+	};
+
+	class XRay_BP_Commando_Sniper_Base: SWLB_clone_commando_backpack_k2
+	{
+		author = "DartRuffian";
+		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Plain])";
+		maximumLoad = 740;
+	};
+
+	class XRay_BP_Commando_Sniper_Base_Huge: XRay_BP_Commando_Sniper_Base
+	{
+		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Plain]) (Huge)";
+		maximumLoad = 1100;
+	};
+
+	// Customs
+	class XRay_BP_Commando_SL_Custom: XRay_BP_Commando_SL_Base
+	{
+		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner])";
 		hiddenSelectionsTextures[] =
 		{
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
 		};
-		maximumLoad = 740;
 	};
-
-	class XRay_BP_Commando_SL_Custom_Huge: XRay_BP_Commando_SL_Custom
+	class XRay_BP_Commando_SL_Custom_Huge: XRay_BP_Commando_SL_Base_Huge
 	{
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner]) (Huge)";
-		maximumLoad = 1100;
+		hiddenSelectionsTextures[] =
+		{
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+		};
 	};
 
-	class XRay_BP_Commando_EOD_Custom: SWLB_clone_commando_backpack_k2_eod
+	class XRay_BP_Commando_EOD_Custom: XRay_BP_Commando_EOD_Base
 	{
-		author = "DartRuffian";
 		displayName = "Katarn II Clone Commando EOD Backpack (X-Ray [Dart])";
-
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\backpacks\BP_Commando_EOD.paa",
 			"XRayArmor\assets\backpacks\BP_Commando_EOD.paa"
 		};
-		maximumLoad = 740;
 	};
-
-	class XRay_BP_Commando_EOD_Custom_Huge: XRay_BP_Commando_EOD_Custom
+	class XRay_BP_Commando_EOD_Custom_Huge: XRay_BP_Commando_EOD_Base_Huge
 	{
 		displayName = "Katarn II Clone Commando EOD Backpack (X-Ray [Dart]) (Huge)";
-		maximumLoad = 1100;
+		hiddenSelectionsTextures[] =
+		{
+			"XRayArmor\assets\backpacks\BP_Commando_EOD.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_EOD.paa"
+		};
 	};
 
-	class XRay_BP_Commando_Medic_Custom: SWLB_clone_commando_backpack_k2_tech
+	class XRay_BP_Commando_Medic_Custom: XRay_BP_Commando_Medic_Base
 	{
-		author = "DartRuffian";
-		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc])";	
-
+		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc])";
 		hiddenSelectionsTextures[] =
 		{
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
 		};
-		maximumLoad = 740;
+	};
+	class XRay_BP_Commando_Medic_Custom_Huge: XRay_BP_Commando_Medic_Base_Huge
+	{
+		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc]) (Huge)";
+		hiddenSelectionsTextures[] =
+		{
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+		};
 	};
 
-	class XRay_BP_Commando_Medic_Custom_Huge: XRay_BP_Commando_Medic_Custom
+	class XRay_BP_Commando_Sniper_Custom: XRay_BP_Commando_Sniper_Base
 	{
-		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc]) (Huge)";	
-		maximumLoad = 1100;
-	};
-
-	class XRay_BP_Commando_Sniper_Custom: SWLB_clone_commando_backpack_k2
-	{
-		author = "DartRuffian";
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch])";
-
 		hiddenSelectionsTextures[] =
 		{
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
 			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
 		};
-		maximumLoad = 740;
 	};
-
-	class XRay_BP_Commando_Sniper_Custom_Huge: XRay_BP_Commando_Sniper_Custom
+	class XRay_BP_Commando_Sniper_Custom_Huge: XRay_BP_Commando_Sniper_Base_Huge
 	{
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch]) (Huge)";
-		maximumLoad = 1100;
+		hiddenSelectionsTextures[] =
+		{
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
+			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+		};
 	};
 };
