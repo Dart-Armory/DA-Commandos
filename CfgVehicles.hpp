@@ -103,8 +103,8 @@ class CfgVehicles
 		uniformClass = "XRay_Uniform_Commando_SL";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\data\camo1_co.paa",
-			"SWLB_clones_spec\data\camo2_co.paa"
+			"XRayArmor\assets\uniforms\Uniform_Commando_SL_Upper.paa",
+			"XRayArmor\assets\uniforms\Uniform_Commando_SL_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -250,8 +250,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner])";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa",
+			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa"
 		};
 	};
 	class XRay_BP_Commando_SL_Custom_Huge: XRay_BP_Commando_SL_Base_Huge
@@ -259,8 +259,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa",
+			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa"
 		};
 	};
 
