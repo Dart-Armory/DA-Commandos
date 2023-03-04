@@ -64,12 +64,6 @@ class CfgPatches
 			"XRay_Uniform_Commando_Sniper",
 
 			// Vests
-			// Base
-			"XRay_Vest_Commando_SL",
-			"XRay_Vest_Commando_EOD",
-			"XRay_Vest_Commando_Medic",
-			"XRay_Vest_Commando_Sniper",
-			// Customs
 			"XRay_Vest_Commando_SL",
 			"XRay_Vest_Commando_EOD",
 			"XRay_Vest_Commando_Medic",

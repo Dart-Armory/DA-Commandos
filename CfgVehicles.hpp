@@ -24,11 +24,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_SL_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_SL","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_SL_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_SL","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_SL_Base";
 	};
@@ -44,11 +44,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_EOD_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_EOD","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_EOD_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_EOD","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_EOD_Base";
 	};
@@ -64,11 +64,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Medic_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Medic","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Medic_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Medic","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_Medic_Base";
 	};
@@ -84,11 +84,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Sniper_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Sniper","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Sniper_Base","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Base","XRay_Vest_Commando_Sniper","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_Sniper_Base";
 	};
@@ -109,11 +109,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_SL","XRay_Vest_Commando_SL","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_SL_Custom";
 	};
@@ -132,11 +132,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_EOD","XRay_Vest_Commando_EOD","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_EOD_Custom";
 	};
@@ -155,11 +155,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Medic","XRay_Vest_Commando_Medic","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_Medic_Custom";
 	};
@@ -180,11 +180,11 @@ class CfgVehicles
 
 		linkedItems[] =
 		{
-			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		respawnLinkedItems[] =
 		{
-			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper_Custom","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+			"XRay_Helmet_Commando_Sniper","XRay_Vest_Commando_Sniper","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
 		};
 		backpack = "XRay_BP_Commando_Sniper_Custom";
 	};
