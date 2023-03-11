@@ -174,8 +174,8 @@ class CfgVehicles
 		uniformClass = "XRay_Uniform_Commando_Sniper";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\data\camo1_co.paa",
-			"SWLB_clones_spec\data\camo2_co.paa"
+			"XRayArmor\assets\uniforms\Uniform_Commando_Sniper_Upper.paa",
+			"XRayArmor\assets\uniforms\Uniform_Commando_Sniper_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -309,8 +309,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch])";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa",
+			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa"
 		};
 	};
 	class XRay_BP_Commando_Sniper_Custom_Huge: XRay_BP_Commando_Sniper_Base_Huge
@@ -318,8 +318,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa",
-			"SWLB_clones_spec\backpacks\data\backpack_co.paa"
+			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa",
+			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa"
 		};
 	};
 };
