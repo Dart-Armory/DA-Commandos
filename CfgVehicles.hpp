@@ -144,7 +144,7 @@ class CfgVehicles
 	{
 		editorSubcategory = "DA_XRay_Customs";
 		
-		displayName = "Doc (X-Ray [Medic])";
+		displayName = "Dokter (X-Ray [Medic])";
 
 		uniformClass = "XRay_Uniform_Commando_Medic";
 		hiddenSelectionsTextures[] =
@@ -169,7 +169,7 @@ class CfgVehicles
 		editorCategory = "DartArmory";
 		editorSubcategory = "DA_XRay_Customs";
 		
-		displayName = "Glitch (X-Ray [Sniper])";
+		displayName = "Frost (X-Ray [Sniper])";
 
 		uniformClass = "XRay_Uniform_Commando_Sniper";
 		hiddenSelectionsTextures[] =
@@ -285,7 +285,7 @@ class CfgVehicles
 
 	class XRay_BP_Commando_Medic_Custom: XRay_BP_Commando_Medic_Base
 	{
-		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc])";
+		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Dokter])";
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\backpacks\BP_Commando_Medic_Base.paa",
@@ -295,7 +295,7 @@ class CfgVehicles
 	};
 	class XRay_BP_Commando_Medic_Custom_Huge: XRay_BP_Commando_Medic_Base_Huge
 	{
-		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Doc]) (Huge)";
+		displayName = "Katarn II Clone Commando Medic Backpack (X-Ray [Dokter]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\backpacks\BP_Commando_Medic_Base.paa",
@@ -306,7 +306,7 @@ class CfgVehicles
 
 	class XRay_BP_Commando_Sniper_Custom: XRay_BP_Commando_Sniper_Base
 	{
-		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch])";
+		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Frost])";
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa",
@@ -315,7 +315,7 @@ class CfgVehicles
 	};
 	class XRay_BP_Commando_Sniper_Custom_Huge: XRay_BP_Commando_Sniper_Base_Huge
 	{
-		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch]) (Huge)";
+		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Frost]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa",

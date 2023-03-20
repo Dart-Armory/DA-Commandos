@@ -47,7 +47,7 @@ class CfgWeapons
 	};
 	class XRay_Helmet_Commando_Medic: XRay_Helmet_Commando_Base
 	{
-		displayName = "Katarn I Clone Commando Helmet (X-Ray [Doc])";
+		displayName = "Katarn I Clone Commando Helmet (X-Ray [Dokter])";
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\helmets\Helmet_Commando_Medic.paa",
@@ -56,7 +56,7 @@ class CfgWeapons
 	};
 	class XRay_Helmet_Commando_Sniper: XRay_Helmet_Commando_Base
 	{
-		displayName = "Katarn I Clone Commando Helmet (X-Ray [Glitch])";
+		displayName = "Katarn I Clone Commando Helmet (X-Ray [Frost])";
 		hiddenSelectionsTextures[] =
 		{
 			"XRayArmor\assets\helmets\Helmet_Commando_Sniper.paa",
@@ -97,7 +97,7 @@ class CfgWeapons
 	};
 	class XRay_Uniform_Commando_Medic: XRay_Uniform_Commando_Base
 	{
-		displayName = "Katarn I Clone Commando Armor (X-Ray [Doc])";
+		displayName = "Katarn I Clone Commando Armor (X-Ray [Dokter])";
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "XRay_Commando_Medic_Custom";
@@ -106,7 +106,7 @@ class CfgWeapons
 	};
 	class XRay_Uniform_Commando_Sniper: XRay_Uniform_Commando_Base
 	{
-		displayName = "Katarn I Clone Commando Armor (X-Ray [Glitch])";
+		displayName = "Katarn I Clone Commando Armor (X-Ray [Frost])";
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "XRay_Commando_Sniper_Custom";
