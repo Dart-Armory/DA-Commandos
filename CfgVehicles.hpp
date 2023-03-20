@@ -250,8 +250,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner])";
 		hiddenSelectionsTextures[] =
 		{
-			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa",
-			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_SL.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_SL.paa"
 		};
 	};
 	class XRay_BP_Commando_SL_Custom_Huge: XRay_BP_Commando_SL_Base_Huge
@@ -259,8 +259,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando RTO Backpack (X-Ray [Foreigner]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
-			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa",
-			"XRayArmor\assets\backpacks\Backpack_Commando_SL.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_SL.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_SL.paa"
 		};
 	};
 
@@ -309,8 +309,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch])";
 		hiddenSelectionsTextures[] =
 		{
-			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa",
-			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa"
 		};
 	};
 	class XRay_BP_Commando_Sniper_Custom_Huge: XRay_BP_Commando_Sniper_Base_Huge
@@ -318,8 +318,8 @@ class CfgVehicles
 		displayName = "Katarn II Clone Commando Sniper Backpack (X-Ray [Glitch]) (Huge)";
 		hiddenSelectionsTextures[] =
 		{
-			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa",
-			"XRayArmor\assets\backpacks\Backpack_Commando_Sniper.paa"
+			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa",
+			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa"
 		};
 	};
 };
