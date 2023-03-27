@@ -189,6 +189,33 @@ class CfgVehicles
 		backpack = "XRay_BP_Commando_Sniper_Custom";
 	};
 
+	// Imperial
+	class XRay_Commando_Imperial_Base: SWLB_clone_commando_base
+	{
+		author = "DartRuffian";
+		editorCategory = "DartArmory";
+		editorSubcategory = "DA_XRay_Customs";
+		
+		displayName = "Imperial Commando";
+
+		uniformClass = "XRay_Uniform_Commando_Imperial";
+		hiddenSelectionsTextures[] =
+		{
+			"XRayArmor\assets\uniforms\Uniform_Commando_Imperial_Upper.paa",
+			"XRayArmor\assets\uniforms\Uniform_Commando_Imperial_Lower.paa"
+		};
+
+		linkedItems[] =
+		{
+			"XRay_Helmet_Commando_Imperial","SWLB_clone_commando_basic_armor_k1","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		respawnLinkedItems[] =
+		{
+			"XRay_Helmet_Commando_Imperial","SWLB_clone_commando_basic_armor_k1","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass",
+		};
+		backpack = "XRay_BP_Commando_Imperial";
+	};
+
 
 	// Backpacks
 	// Base
@@ -320,6 +347,25 @@ class CfgVehicles
 		{
 			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa",
 			"XRayArmor\assets\backpacks\BP_Commando_Sniper.paa"
+		};
+	};
+
+	class XRay_BP_Commando_Imperial: XRay_BP_Commando_Sniper_Base
+	{
+		displayName = "Katarn II Imperial Commando Backpack";
+		hiddenSelectionsTextures[] =
+		{
+			"XRayArmor\assets\backpacks\Backpack_Commando_Imperial_Base.paa",
+			"XRayArmor\assets\backpacks\Backpack_Commando_Imperial_Base.paa"
+		};
+	};
+	class XRay_BP_Commando_Imperial_Huge: XRay_BP_Commando_Imperial
+	{
+		displayName = "Katarn II Imperial Commando Backpack (Huge)";
+		hiddenSelectionsTextures[] =
+		{
+			"XRayArmor\assets\backpacks\Backpack_Commando_Imperial_Base.paa",
+			"XRayArmor\assets\backpacks\Backpack_Commando_Imperial_Base.paa"
 		};
 	};
 };

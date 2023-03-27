@@ -27,6 +27,18 @@ class CfgWeapons
 			"SWLB_clones_spec\data\helmet_co.paa"
 		};
 	};
+
+	class XRay_Helmet_Commando_Imperial: XRay_Helmet_Commando_Base
+	{
+		displayName = "Katarn I Imperial Commando Helmet";
+		hiddenSelectionsTextures[] =
+		{
+			"XRayArmor\assets\helmets\Helmet_Commando_Imperial.paa",
+			"XRayArmor\assets\helmets\Helmet_Commando_Imperial.paa"
+		};
+	};
+
+	
 	class XRay_Helmet_Commando_SL: XRay_Helmet_Commando_Base
 	{
 		displayName = "Katarn I Clone Commando Helmet (X-Ray [Foreigner])";
@@ -77,6 +89,17 @@ class CfgWeapons
 			uniformType = "Neopren";
 		};
 	};
+
+	class XRay_Uniform_Commando_Imperial: XRay_Uniform_Commando_Base
+	{
+		displayName = "Katarn I Clone Commando Armor (X-Ray [Plain])";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass = "XRay_Commando_Imperial_Base";
+			uniformType = "Neopren";
+		};
+	};
+
 	class XRay_Uniform_Commando_SL: XRay_Uniform_Commando_Base
 	{
 		displayName = "Katarn I Clone Commando Armor (X-Ray [Foreigner])";

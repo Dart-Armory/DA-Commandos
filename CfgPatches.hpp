@@ -22,6 +22,8 @@ class CfgPatches
 			"XRay_Commando_EOD_Custom",
 			"XRay_Commando_Medic_Custom",
 			"XRay_Commando_Sniper_Custom",
+			// Imperial
+			"XRay_Commando_Imperial_Base",
 
 			// Backpacks
 			// Base
@@ -41,13 +43,18 @@ class CfgPatches
 			"XRay_BP_Commando_Medic_Custom",
 			"XRay_BP_Commando_Medic_Custom_Huge",
 			"XRay_BP_Commando_Sniper_Custom",
-			"XRay_BP_Commando_Sniper_Custom_Huge"
+			"XRay_BP_Commando_Sniper_Custom_Huge",
+			// Imperial
+			"XRay_BP_Commando_Imperial",
+			"XRay_BP_Commando_Imperial_Huge"
 		};
 		weapons[] =
 		{
 			// Helmets
 			// Base
 			"XRay_Helmet_Commando_Base",
+			// Imperial
+			"XRay_Helmet_Commando_Imperial",
 			// Customs
 			"XRay_Helmet_Commando_SL",
 			"XRay_Helmet_Commando_EOD",
@@ -62,6 +69,8 @@ class CfgPatches
 			"XRay_Uniform_Commando_EOD",
 			"XRay_Uniform_Commando_Medic",
 			"XRay_Uniform_Commando_Sniper",
+			// Imperial
+			"XRay_Uniform_Commando_Imperial",
 
 			// Vests
 			"XRay_Vest_Commando_SL",
