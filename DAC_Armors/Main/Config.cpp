@@ -62,6 +62,7 @@ class CfgWeapons
 		{
 			uniformClass = "DAC_Unit_Commando_Base";
 			uniformType = "Neopren";
+			modelSides[] = {0,1,3};
 		};
 	};
 

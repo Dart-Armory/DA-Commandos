@@ -52,6 +52,7 @@ class CfgWeapons
 
 class CfgVehicles
 {
+	class ItemInfo;
 	// ┌───────────────────────┐
     // │       Units       │
     // └───────────────────────┘
@@ -71,6 +72,11 @@ class CfgVehicles
 		{
 			DAC_Armors\Data\Imperial\Uniforms\Imperial_Uniform_Upper.paa,
 			DAC_Armors\Data\Imperial\Uniforms\Imperial_Uniform_Lower.paa
+		};
+
+		class ItemInfo: ItemInfo
+		{
+			modelSides[] = {0,1,3};
 		};
 
 		linkedItems[] =
