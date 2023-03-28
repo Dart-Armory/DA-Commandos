@@ -157,7 +157,7 @@ class CfgVehicles
 
 	class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
 	{
-		displayName = "[DA] Imperial Commando Tech Specialist";
+		displayName = "Imperial Commando Tech Specialist";
 		editorSubcategory = "DAC_Imperial";
 
 		uniformClass = "DAC_Uniform_Imperial_Commando";

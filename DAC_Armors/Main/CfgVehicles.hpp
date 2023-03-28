@@ -22,7 +22,7 @@ class CfgVehicles
 		faction = "DA_Commandos";
 		editorSubcategory = "DAC_Base";
 
-		displayName = "[DA] Clone Commando";
+		displayName = "Clone Commando";
 		uniformClass = "DAC_Uniform_Commando_Base";
 		hiddenSelectionsTextures[] =
 		{
@@ -43,7 +43,7 @@ class CfgVehicles
 
 	class DAC_Unit_Commando_SL_Base: DAC_Unit_Commando_Base
 	{
-		displayName = "[DA] Clone Commando Squad Leader";
+		displayName = "Clone Commando Squad Leader";
 		editorPreview="SWLB_clones_spec\data\ui\editorPreviews\SWLB_clone_commando_sl_base.jpg";
 
 		linkedItems[] =
@@ -59,7 +59,7 @@ class CfgVehicles
 
 	class DAC_Unit_Commando_EOD_Base: DAC_Unit_Commando_Base
 	{
-		displayName = "[DA] Clone Commando Explosives Specialist";
+		displayName = "Clone Commando Explosives Specialist";
 		editorPreview="SWLB_clones_spec\data\ui\editorPreviews\SWLB_clone_commando_eod_base.jpg";
 
 		linkedItems[] =
@@ -75,7 +75,7 @@ class CfgVehicles
 
 	class DAC_Unit_Commando_DM_Base: DAC_Unit_Commando_Base
 	{
-		displayName = "[DA] Clone Commando Designated Marksman";
+		displayName = "Clone Commando Designated Marksman";
 		editorPreview="SWLB_clones_spec\data\ui\editorPreviews\SWLB_clone_commando_sniper_base.jpg";
 
 		linkedItems[] =
@@ -91,7 +91,7 @@ class CfgVehicles
 
 	class DAC_Unit_Commando_Tech_Base: DAC_Unit_Commando_Base
 	{
-		displayName = "[DA] Clone Commando Tech Specialist";
+		displayName = "Clone Commando Tech Specialist";
 		editorPreview="SWLB_clones_spec\data\ui\editorPreviews\SWLB_clone_commando_tech_base.jpg";
 
 		linkedItems[] =
