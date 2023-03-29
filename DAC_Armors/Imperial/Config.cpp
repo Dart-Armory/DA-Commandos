@@ -73,7 +73,7 @@ class CfgVehicles
 			DAC_Armors\Data\Imperial\Uniforms\Imperial_Uniform_Upper.paa,
 			DAC_Armors\Data\Imperial\Uniforms\Imperial_Uniform_Lower.paa
 		};
-		modelSides[] = {0, 1, 2, 3}; // Makes the model 
+		modelSides[] = {0, 1, 2, 3}; // Makes the model available to all sides
 
 		linkedItems[] =
 		{
