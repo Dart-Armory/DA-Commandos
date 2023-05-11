@@ -115,7 +115,7 @@ class CfgVehicles
 		displayName = "Clone Commando Squad Leader (X-Ray [Foreigner])";
 		editorSubcategory = "DAC_XRay";
 
-		uniformClass = "DAC_Uniform_Commando_SL";
+		uniformClass = "DAC_Uniform_XRay_SL";
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\Data\XRay\Uniforms\XRay_Uniform_SL_Upper.paa,
@@ -138,7 +138,7 @@ class CfgVehicles
 		displayName = "Clone Commando Explosives Specialist (X-Ray [Dart])";
 		editorSubcategory = "DAC_XRay";
 
-		uniformClass = "DAC_Uniform_Commando_EOD";
+		uniformClass = "DAC_Uniform_XRay_EOD";
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\Data\XRay\Uniforms\XRay_Uniform_EOD_Upper.paa,
@@ -161,7 +161,7 @@ class CfgVehicles
 		displayName = "Clone Commando Designated Marksman (X-Ray [Frost])";
 		editorSubcategory = "DAC_XRay";
 
-		uniformClass = "DAC_Uniform_Commando_DM";
+		uniformClass = "DAC_Uniform_XRay_DM";
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\Data\XRay\Uniforms\XRay_Uniform_DM_Upper.paa,
@@ -184,7 +184,7 @@ class CfgVehicles
 		displayName = "Clone Commando Medic (X-Ray [Doktor])";
 		editorSubcategory = "DAC_XRay";
 
-		uniformClass = "DAC_Uniform_Commando_Medic";
+		uniformClass = "DAC_Uniform_XRay_Medic";
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\Data\XRay\Uniforms\XRay_Uniform_Medic_Upper.paa,
