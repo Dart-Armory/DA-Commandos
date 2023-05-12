@@ -13,11 +13,20 @@ You can find a list of all the included squads below:
 
 ---
 **Commando Squads**
+
 <u>X-Ray Squad</u>
 * Squad Leader - CC-3424 "Shephard"
 * Demolitions Expert - CC-0925 "Dart"
 * Squad Medic - CC-4242 "Doktor"
 * Designated Marksman - CC-4447 "Frost"
+
+<u>Zulu Squad</u>
+
+Squad is TBD
+* Squad Leader - CC-XXXX ""
+* Demolitions Expert - CC-XXXX ""
+* Squad Medic - CC-XXXX ""
+* Designated Marksman - CC-XXXX ""
 
 **Other Assets**
 * Imperial Commando Armor (*as seen in the Bad Batch*)
