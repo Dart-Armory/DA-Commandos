@@ -2,9 +2,9 @@
 
 class CfgVehicles
 {
-	// ┌───────────────────────┐
+	// ┌───────────────────┐
     // │       Units       │
-    // └───────────────────────┘
+    // └───────────────────┘
 	class SWLB_clone_commando_base;
 
 	class DAC_Unit_Commando_Base: SWLB_clone_commando_base
@@ -105,9 +105,9 @@ class CfgVehicles
 		backpack = "DAC_Backpack_Tech_Base";
 	};
 
-	// ┌───────────────────────┐
+	// ┌───────────────────┐
     // │     Backpacks     │
-    // └───────────────────────┘
+    // └───────────────────┘
 	class SWLB_clone_commando_backpack_k2;
 	class SWLB_clone_commando_backpack_k2_eod;
 	class SWLB_clone_commando_backpack_k2_rto;

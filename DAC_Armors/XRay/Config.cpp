@@ -3,7 +3,6 @@
 
 class CfgEditorSubcategories
 {
-	// DAC = Dart Armory Commandos
 	class DAC_XRay
 	{
 		displayName = "X-Ray Clone Commando Squad";
@@ -14,9 +13,9 @@ class CfgEditorSubcategories
 class CfgWeapons
 {
 	class ItemInfo;
-	// ┌───────────┐
-    // │ Helmets │
-    // └───────────┘
+	// ┌───────────────────┐
+    // │      Helmets      │
+    // └───────────────────┘
 	class DAC_Helmet_Commando_Base;
 
 	class DAC_Helmet_XRay_SL: DAC_Helmet_Commando_Base
@@ -56,9 +55,9 @@ class CfgWeapons
 		};
 	};
 
-	// ┌─────────────────┐
-    // │   Uniforms   │
-    // └─────────────────┘
+	// ┌────────────────────┐
+    // │      Uniforms      │
+    // └────────────────────┘
 	class DAC_Uniform_Commando_Base;
 
 	class DAC_Uniform_XRay_SL: DAC_Uniform_Commando_Base
@@ -102,9 +101,9 @@ class CfgWeapons
 
 class CfgVehicles
 {
-	// ┌───────────────────────┐
+	// ┌───────────────────┐
     // │       Units       │
-    // └───────────────────────┘
+    // └───────────────────┘
 	class DAC_Unit_Commando_SL_Base;
 	class DAC_Unit_Commando_EOD_Base;
 	class DAC_Unit_Commando_DM_Base;
@@ -202,9 +201,9 @@ class CfgVehicles
 		backpack = "DAC_Backpack_XRay_Medic";
 	};
 
-	// ┌───────────────────────┐
+	// ┌───────────────────┐
     // │     Backpacks     │
-    // └───────────────────────┘
+    // └───────────────────┘
 	class DAC_Backpack_Base;
 	class DAC_Backpack_RTO_Base;
 	class DAC_Backpack_EOD_Base;

@@ -4,10 +4,8 @@
 
 class CfgEditorSubcategories
 {
-	// DAC = Dart Armory Commandos
 	class DAC_Base
 	{
-		// Base Commando Units
 		displayName = "Commando Squad Base";
 	};
 };
@@ -17,9 +15,9 @@ class CfgWeapons
 {
 	class ItemInfo;
 
-	// ┌───────────┐
-    // │ Helmets │
-    // └───────────┘
+	// ┌───────────────────┐
+    // │      Helmets      │
+    // └───────────────────┘
 	class SWLB_clone_commando_helmet_k1;
 
 	class DAC_Helmet_Commando_Base: SWLB_clone_commando_helmet_k1
@@ -41,9 +39,9 @@ class CfgWeapons
 		};
 	};
 
-	// ┌─────────────────┐
-    // │   Uniforms   │
-    // └─────────────────┘
+	// ┌────────────────────┐
+    // │      Uniforms      │
+    // └────────────────────┘
 	class SWLB_clone_commando_uniform_k1;
 
 	class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
@@ -66,9 +64,9 @@ class CfgWeapons
 		};
 	};
 
-	// ┌───────────────────────┐
+	// ┌───────────────────┐
     // │       Vests       │
-    // └───────────────────────┘
+    // └───────────────────┘
 	class SWLB_clone_commando_basic_armor_k1;
 	class SWLB_clone_commando_sl_armor_k1;
 	class SWLB_clone_commando_eod_armor_k1;
@@ -184,9 +182,9 @@ class CfgWeapons
         };
 	};
 
-	// ┌─────────────────┐
-    // │     NVGs     │
-    // └─────────────────┘
+	// ┌──────────────────┐
+    // │       NVGs       │
+    // └──────────────────┘
 	class SWLB_clone_commando_nvg;
 	class SWLB_clone_commando_nvg_antenna;
 

@@ -3,7 +3,6 @@
 
 class CfgEditorSubcategories
 {
-	// DAC = Dart Armory Commandos
 	class DAC_Imperial
 	{
 		displayName = "Imperial Commandos";
@@ -18,9 +17,9 @@ class CfgEditorSubcategories
 
 class CfgWeapons
 {
-	// ┌───────────┐
-    // │ Helmets │
-    // └───────────┘
+	// ┌───────────────────┐
+    // │      Helmets      │
+    // └───────────────────┘
 	class DAC_Helmet_Commando_Base;
 
 	class DAC_Helmet_Imperial_Commando: DAC_Helmet_Commando_Base
@@ -32,9 +31,9 @@ class CfgWeapons
 			DAC_Armors\Data\Imperial\Helmets\Imperial_Helmet.paa  // Main Helmet
 		};
 	};
-	// ┌─────────────────┐
-    // │   Uniforms   │
-    // └─────────────────┘
+	// ┌────────────────────┐
+    // │      Uniforms      │
+    // └────────────────────┘
 	class DAC_Uniform_Commando_Base;
 	class ItemInfo;
 
@@ -53,9 +52,9 @@ class CfgWeapons
 class CfgVehicles
 {
 	class ItemInfo;
-	// ┌───────────────────────┐
+	// ┌───────────────────┐
     // │       Units       │
-    // └───────────────────────┘
+    // └───────────────────┘
 	class DAC_Unit_Commando_Base;
 	class DAC_Unit_Commando_SL_Base;
 	class DAC_Unit_Commando_EOD_Base;
