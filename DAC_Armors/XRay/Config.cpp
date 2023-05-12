@@ -131,7 +131,6 @@ class CfgVehicles
 		};
 		backpack = "DAC_Backpack_XRay_SL";
 	};
-
 	class DAC_Unit_XRay_EOD: DAC_Unit_Commando_EOD_Base
 	{
 		displayName = "Clone Commando Explosives Specialist (X-Ray [Dart])";
@@ -154,7 +153,6 @@ class CfgVehicles
 		};
 		backpack = "DAC_Backpack_XRay_EOD";
 	};
-
 	class DAC_Unit_XRay_DM: DAC_Unit_Commando_DM_Base
 	{
 		displayName = "Clone Commando Designated Marksman (X-Ray [Frost])";
@@ -177,7 +175,6 @@ class CfgVehicles
 		};
 		backpack = "DAC_Backpack_XRay_DM";
 	};
-
 	class DAC_Unit_XRay_Medic: DAC_Unit_Commando_Tech_Base
 	{
 		displayName = "Clone Commando Medic (X-Ray [Doktor])";
