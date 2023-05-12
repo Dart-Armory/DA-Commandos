@@ -111,7 +111,7 @@ class CfgVehicles
 
 	class DAC_Unit_XRay_SL: DAC_Unit_Commando_SL_Base
 	{
-		displayName = "Clone Commando Squad Leader (X-Ray [Foreigner])";
+		displayName = "Clone Commando Squad Leader (X-Ray [Shephard])";
 		editorSubcategory = "DAC_XRay";
 
 		uniformClass = "DAC_Uniform_XRay_SL";
