@@ -21,8 +21,6 @@ You can find a list of all the included squads below:
 * Designated Marksman - CC-4447 "Frost"
 
 <u>Zulu Squad</u>
-
-Squad is TBD
 * Squad Leader - CC-0777 "Galahad"
 * Demolitions Expert - CC-3555 "Thor"
 * Squad Medic - CC-2222 "Cherryy"
