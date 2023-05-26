@@ -34,8 +34,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Commando Helmet";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Data\Base\Helmets\Commando_Helmet_Base.paa, // Visor
-			DAC_Armors\Data\Base\Helmets\Commando_Helmet_Base.paa  // Main Helmet
+			DAC_Armors\Main\Data\Helmets\Commando_Helmet_Base.paa, // Visor
+			DAC_Armors\Main\Data\Helmets\Commando_Helmet_Base.paa  // Main Helmet
 		};
 	};
 
@@ -111,7 +111,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] =
         {
-            DAC_Armors\Data\Base\Vests\Commando_Vests_AiO.paa
+            DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa
         };
 	};
 
@@ -133,7 +133,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] =
         {
-            DAC_Armors\Data\Base\Vests\Commando_Vests_AiO.paa
+            DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa
         };
 	};
 
@@ -155,8 +155,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] =
         {
-            DAC_Armors\Data\Base\Vests\Commando_Vests_AiO.paa,
-			DAC_Armors\Data\Base\Vests\Commando_Vests_AiO.paa
+            DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa,
+			DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa
         };
 	};
 
@@ -178,7 +178,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] =
         {
-            DAC_Armors\Data\Base\Vests\Commando_Vests_AiO.paa
+            DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa
         };
 	};
 
@@ -202,8 +202,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Commando Visor";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Data\Base\NVGs\Commando_NVG_Visor.paa,
-			DAC_Armors\Data\Base\NVGs\Commando_NVG_Visor.paa
+			DAC_Armors\Main\Data\NVGs\Commando_NVG_Visor.paa,
+			DAC_Armors\Main\Data\NVGs\Commando_NVG_Visor.paa
 		};
 
 		visionMode[] = { "Normal", "NVG", "TI" };
@@ -224,7 +224,7 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Commando Antenna";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Data\Base\NVGs\Commando_NVG_Antenna.paa
+			DAC_Armors\Main\Data\NVGs\Commando_NVG_Antenna.paa
 		};
 
 		visionMode[] = { "Normal", "NVG", "TI" };
