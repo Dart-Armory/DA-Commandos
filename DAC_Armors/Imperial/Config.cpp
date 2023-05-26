@@ -27,8 +27,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Imperial Commando Helmet";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Imperial\Data\\Helmets\Imperial_Helmet.paa, // Visor
-			DAC_Armors\Imperial\Data\\Helmets\Imperial_Helmet.paa  // Main Helmet
+			DAC_Armors\Imperial\Data\Helmets\Imperial_Helmet.paa, // Visor
+			DAC_Armors\Imperial\Data\Helmets\Imperial_Helmet.paa  // Main Helmet
 		};
 	};
 	// ┌────────────────────┐
@@ -69,8 +69,8 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_Imperial_Commando";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Imperial\Data\\Uniforms\Imperial_Uniform_Upper.paa,
-			DAC_Armors\Imperial\Data\\Uniforms\Imperial_Uniform_Lower.paa
+			DAC_Armors\Imperial\Data\Uniforms\Imperial_Uniform_Upper.paa,
+			DAC_Armors\Imperial\Data\Uniforms\Imperial_Uniform_Lower.paa
 		};
 		modelSides[] = {0, 1, 2, 3}; // Makes the model available to all sides
 
