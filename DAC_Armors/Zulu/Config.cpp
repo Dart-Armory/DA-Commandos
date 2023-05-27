@@ -58,7 +58,11 @@ class CfgWeapons
 	// ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
-	class DAC_Uniform_Commando_Base;
+	class SWLB_clone_commando_uniform_k1;
+	class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
+	{
+		class ItemInfo;
+	};
 
 	class DAC_Uniform_Zulu_SL: DAC_Uniform_Commando_Base
 	{
@@ -66,7 +70,6 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "DAC_Unit_Zulu_SL";
-			uniformType = "Neopren";
 		};
 	};
 	class DAC_Uniform_Zulu_EOD: DAC_Uniform_Commando_Base
@@ -75,7 +78,6 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "DAC_Unit_Zulu_EOD";
-			uniformType = "Neopren";
 		};
 	};
 	class DAC_Uniform_Zulu_Medic: DAC_Uniform_Commando_Base
@@ -84,7 +86,6 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "DAC_Unit_Zulu_Medic";
-			uniformType = "Neopren";
 		};
 	};
 	class DAC_Uniform_Zulu_DM: DAC_Uniform_Commando_Base
@@ -93,7 +94,6 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "DAC_Unit_Zulu_DM";
-			uniformType = "Neopren";
 		};
 	};
 };

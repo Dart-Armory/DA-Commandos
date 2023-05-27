@@ -34,8 +34,11 @@ class CfgWeapons
 	// ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
-	class DAC_Uniform_Commando_Base;
-	class ItemInfo;
+	class SWLB_clone_commando_uniform_k1;
+	class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
+	{
+		class ItemInfo;
+	};
 
 	class DAC_Uniform_Imperial_Commando: DAC_Uniform_Commando_Base
 	{
@@ -43,7 +46,6 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "DAC_Unit_Imperial_Commando";
-			uniformType = "Neopren";
 		};
 	};
 };
@@ -58,8 +60,8 @@ class CfgVehicles
 	class DAC_Unit_Commando_Base;
 	class DAC_Unit_Commando_SL_Base;
 	class DAC_Unit_Commando_EOD_Base;
-	class DAC_Unit_Commando_DM_Base;
 	class DAC_Unit_Commando_Tech_Base;
+	class DAC_Unit_Commando_DM_Base;
 
 	class DAC_Unit_Imperial_Commando: DAC_Unit_Commando_Base
 	{
@@ -72,7 +74,6 @@ class CfgVehicles
 			DAC_Armors\Imperial\Data\Uniforms\Imperial_Uniform_Upper.paa,
 			DAC_Armors\Imperial\Data\Uniforms\Imperial_Uniform_Lower.paa
 		};
-		modelSides[] = {0, 1, 2, 3}; // Makes the model available to all sides
 
 		linkedItems[] =
 		{
@@ -134,28 +135,6 @@ class CfgVehicles
 		side = 0;
 	};
 
-	class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
-	{
-		displayName = "Imperial Commando Designated Marksman";
-		editorSubcategory = "DAC_Imperial";
-
-		uniformClass = "DAC_Uniform_Imperial_Commando";
-		linkedItems[] =
-		{
-			"DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_DM_Base","DAC_NVG_Commando_Visor","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass"
-		};
-		respawnLinkedItems[] =
-		{
-			"DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_DM_Base","DAC_NVG_Commando_Visor","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass"
-		};
-	};
-	class DAC_Unit_Imperial_Commando_DM_OPFOR: DAC_Unit_Imperial_Commando_DM
-	{
-		faction = "DA_Commandos_OPFOR";
-		editorSubcategory = "DAC_Imperial_OPFOR";
-		side = 0;
-	};
-
 	class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
 	{
 		displayName = "Imperial Commando Tech Specialist";
@@ -172,6 +151,28 @@ class CfgVehicles
 		};
 	};
 	class DAC_Unit_Imperial_Commando_Tech_OPFOR: DAC_Unit_Imperial_Commando_Tech
+	{
+		faction = "DA_Commandos_OPFOR";
+		editorSubcategory = "DAC_Imperial_OPFOR";
+		side = 0;
+	};
+
+	class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
+	{
+		displayName = "Imperial Commando Designated Marksman";
+		editorSubcategory = "DAC_Imperial";
+
+		uniformClass = "DAC_Uniform_Imperial_Commando";
+		linkedItems[] =
+		{
+			"DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_DM_Base","DAC_NVG_Commando_Visor","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass"
+		};
+		respawnLinkedItems[] =
+		{
+			"DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_DM_Base","DAC_NVG_Commando_Visor","lsd_gar_republicCommando_hud","ItemMap","SWLB_comlink","ItemCompass"
+		};
+	};
+	class DAC_Unit_Imperial_Commando_DM_OPFOR: DAC_Unit_Imperial_Commando_DM
 	{
 		faction = "DA_Commandos_OPFOR";
 		editorSubcategory = "DAC_Imperial_OPFOR";

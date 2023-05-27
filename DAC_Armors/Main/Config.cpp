@@ -42,7 +42,11 @@ class CfgWeapons
 	// ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
-	class SWLB_clone_commando_uniform_k1;
+	class U_B_CombatUniform_mcam;
+	class SWLB_clone_commando_uniform_k1: U_B_CombatUniform_mcam
+	{
+		class ItemInfo;
+	};
 
 	class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
 	{
@@ -60,18 +64,20 @@ class CfgWeapons
 		{
 			uniformClass = "DAC_Unit_Commando_Base";
 			uniformType = "Neopren";
-			modelSides[] = {0,1,3};
+			modelSides[] = {0, 1, 2, 3};
 		};
 	};
 
 	// ┌───────────────────┐
     // │       Vests       │
     // └───────────────────┘
-	class SWLB_clone_commando_basic_armor_k1;
-	class SWLB_clone_commando_sl_armor_k1;
-	class SWLB_clone_commando_eod_armor_k1;
-	class SWLB_clone_commando_sniper_armor_k1;
-	class SWLB_clone_commando_tech_armor_k1;
+	class V_PlateCarrier1_rgr;
+
+	class SWLB_clone_commando_basic_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
+	class SWLB_clone_commando_sl_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
+	class SWLB_clone_commando_eod_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
+	class SWLB_clone_commando_sniper_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
+	class SWLB_clone_commando_tech_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
 
 	// Vests currently cannot be retextured due to the hiddenSelections not being set correctly
 

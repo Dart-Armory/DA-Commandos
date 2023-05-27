@@ -19,10 +19,10 @@ class CfgPatches
 			"DAC_Unit_Imperial_Commando_SL_OPFOR",
 			"DAC_Unit_Imperial_Commando_EOD",
 			"DAC_Unit_Imperial_Commando_EOD_OPFOR",
-			"DAC_Unit_Imperial_Commando_DM",
-			"DAC_Unit_Imperial_Commando_DM_OPFOR",
 			"DAC_Unit_Imperial_Commando_Tech",
-			"DAC_Unit_Imperial_Commando_Tech_OPFOR"
+			"DAC_Unit_Imperial_Commando_Tech_OPFOR",
+			"DAC_Unit_Imperial_Commando_DM",
+			"DAC_Unit_Imperial_Commando_DM_OPFOR"
 		};
 		weapons[] =
 		{
