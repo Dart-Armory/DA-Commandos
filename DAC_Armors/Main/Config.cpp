@@ -65,6 +65,12 @@ class CfgWeapons
 			uniformClass = "DAC_Unit_Commando_Base";
 			uniformType = "Neopren";
 			modelSides[] = {0, 1, 2, 3};
+            /*
+            0: OPFOR
+            1: BLUFOR
+            2: Independent
+            3: Civilian
+            */
 		};
 	};
 
