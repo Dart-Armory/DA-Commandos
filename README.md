@@ -23,11 +23,17 @@ You can find a list of all the included squads below:
 <u>Zulu Squad</u>
 * Squad Leader - CC-0777 "Galahad"
 * Demolitions Expert - CC-3555 "Thor"
-* Squad Medic - CC-2222 "Cherryy"
+* Squad Medic - CC-XXXX TBD
 * Designated Marksman - CC-0180 "Cyan"
 
+<u>Golf Squad</u>
+* Squad Leader - CC-8789
+* Demolitions Expert - CC-1320
+* Squad Medic - CC-1901
+* Designated Marksman - CC-9999
+
 **Other Assets**
-* Imperial Commando Armor (*as seen in the Bad Batch*)
+* Imperial Commando Armor (*as seen in "Star Wars: The Bad Batch"*)
 
 ---
 
