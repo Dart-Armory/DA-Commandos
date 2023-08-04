@@ -15,7 +15,7 @@ You can find a list of all the included squads below:
 **Commando Squads**
 
 <u>X-Ray Squad</u>
-* Squad Leader - CC-2022 "Frosty"
+* Squad Leader - CC-2022 "Nix"
 * Demolitions Expert - CC-0925 "Dart"
 * Squad Medic - CC-4242 "Doktor"
 * Designated Marksman - CC-4447 "Frost"

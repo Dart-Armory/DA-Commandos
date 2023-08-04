@@ -20,7 +20,7 @@ class CfgWeapons
 
 	class DAC_Helmet_XRay_SL: DAC_Helmet_Commando_Base
 	{
-		displayName = "[DA] Katarn I Clone Commando Helmet (X-Ray [Frosty])";
+		displayName = "[DA] Katarn I Clone Commando Helmet (X-Ray [Nix])";
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\XRay\Data\Helmets\XRay_Helmet_SL.paa,
@@ -66,7 +66,7 @@ class CfgWeapons
 
 	class DAC_Uniform_XRay_SL: DAC_Uniform_Commando_Base
 	{
-		displayName = "[DA] Katarn I Clone Commando Armor (X-Ray [Frosty])";
+		displayName = "[DA] Katarn I Clone Commando Armor (X-Ray [Nix])";
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "DAC_Unit_XRay_SL";
@@ -111,7 +111,7 @@ class CfgVehicles
 
 	class DAC_Unit_XRay_SL: DAC_Unit_Commando_SL_Base
 	{
-		displayName = "Clone Commando Squad Leader (X-Ray [Frosty])";
+		displayName = "Clone Commando Squad Leader (X-Ray [Nix])";
 		editorSubcategory = "DAC_XRay";
 
 		uniformClass = "DAC_Uniform_XRay_SL";
@@ -208,7 +208,7 @@ class CfgVehicles
 
 	class DAC_Backpack_XRay_SL: DAC_Backpack_RTO_Base
 	{
-		displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Frosty])";
+		displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix])";
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\XRay\Data\Backpacks\XRay_BP_SL2.paa,
@@ -217,7 +217,7 @@ class CfgVehicles
 	};
 	class DAC_Backpack_XRay_SL_Huge: DAC_Backpack_XRay_SL
 	{
-		displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Frosty]) (Huge)";
+		displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix]) (Huge)";
 		maximumLoad = HUGE_SIZE;
 	};
 
