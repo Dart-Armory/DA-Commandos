@@ -7,7 +7,7 @@ It originally started as a small mod for one Commando Squad, but I decided to po
 
 Each Commando Squad features a Squad Leader, Explosives Specialist, Squad Medic, and Designated Marksman; this is slightly altered from how Commando Squads are organized in canon, as there is no medic, but this is simply a gameplay change for Arma.
 
-These armors in this mod are all used by real people for a custom campaign run by someone in the [104th Wolfpack Battalion](https://discord.gg/DF4eEDZNrW) (this is a campaign run seperate from our unit, we do not have Commandos in our unit itself); the only exception being the Imperial Commando armor, as that was a side project I decided to include in the mod.
+These armors in this mod are all used by real people for custom campaigns run by Bail from the [104th Wolfpack Battalion](https://discord.gg/DF4eEDZNrW) (this is a campaign run seperate from our unit, we do not have Commandos in our unit itself); the only exception being the Imperial Commando armor, as that was a side project I decided to include in the mod.
 
 You can find a list of all the included squads below:
 
