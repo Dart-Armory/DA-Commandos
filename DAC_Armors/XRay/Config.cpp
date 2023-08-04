@@ -118,7 +118,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			DAC_Armors\XRay\Data\Uniforms\XRay_Uniform_SL_Upper.paa,
-			DAC_Armors\XRay\Data\Uniforms\XRay_Uniform_SL_Lower.paa
+			DAC_Armors\XRay\Data\Uniforms\XRay_Uniform_SL2_Lower.paa
 		};
 
 		linkedItems[] =
@@ -161,7 +161,7 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_XRay_Medic";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\XRay\Data\Uniforms\XRay_Uniform_Medic_Upper.paa,
+			DAC_Armors\XRay\Data\Uniforms\XRay_Uniform_Medic2_Upper.paa,
 			DAC_Armors\XRay\Data\Uniforms\XRay_Uniform_Medic_Lower.paa
 		};
 
