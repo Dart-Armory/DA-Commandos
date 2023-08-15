@@ -29,6 +29,7 @@ class CfgVehicles
 			DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Upper.paa,
 			DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Lower.paa
 		};
+		nakedUniform = "lsd_gar_bodyGlove_uniform";
 
 		linkedItems[] =
 		{
