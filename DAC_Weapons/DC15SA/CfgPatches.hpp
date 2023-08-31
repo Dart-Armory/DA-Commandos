@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class DAC_DC15SA
+    class DAC_Weapons_DC15SA
     {
         author = "DartRuffian";
         addonRootClass = "DA_Commando_Weapons";
@@ -15,5 +15,10 @@ class CfgPatches
         {
             "DAC_Weapons_DC15SA"
         };
+    };
+    class DAC_DC15SA: DAC_Weapons_DC15SA // Legacy name
+    {
+        requiredAddons[] = {};
+        weapons[] = {};
     };
 };
