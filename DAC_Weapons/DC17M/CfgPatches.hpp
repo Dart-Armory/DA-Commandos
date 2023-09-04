@@ -12,7 +12,7 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "DAC_Weap_DC17M"
+            "DAC_DC17M"
         };
     };
     class DAC_DC17M: DAC_Weapons_DC17M // Legacy name
