@@ -5,7 +5,7 @@ class CfgWeapons
 {
     class JLTS_stun_muzzle;
     class LFP_RazorBlade;
-    class DAC_Weapons_DC15SA: LFP_RazorBlade
+    class DAC_DC15SA: LFP_RazorBlade
     {
         // Mod Info
         dlc = "DA_Commandos";
@@ -24,5 +24,10 @@ class CfgWeapons
             reloadAction = "GestureReloadPistol";
             reloadMagazineSound[] = { "LF_Weapon_Unit\main\sounds\dc15_reload.wss", 0.8, 1, 10 };
         };
+    };
+    class DAC_Weapons_DC15SA: DAC_DC15SA
+    {
+        scope = 1;
+        scopeArsenal = 0;
     };
 };

@@ -16,7 +16,7 @@ class CfgWeapons
             class scope;
         };
     };
-    class DAC_Weap_DC17M: LFP_DC17M
+    class DAC_DC17M: LFP_DC17M
     {
         // Mod Info
         dlc = "DA_Commandos";
@@ -27,5 +27,11 @@ class CfgWeapons
         scopeArsenal = 2;
 
         displayName = "[DA] DC-17M";
+    };
+
+    class DAC_Weap_DC17M: DAC_DC17M
+    {
+        scope = 1;
+        scopeArsenal = 0;
     };
 };
