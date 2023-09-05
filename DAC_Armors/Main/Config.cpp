@@ -243,3 +243,16 @@ class CfgWeapons
 		thermalMode[] = { 0, 1 }; // WHOT, BHOT
 	};
 };
+
+
+class CfgGlasses
+{
+    // https://community.bistudio.com/wiki/Arma_3:_Characters_And_Gear_Encoding_Guide#Facewear_Configuration
+    class lsd_gar_republicCommando_hud;
+    class DAC_Commando_Hud_Diving: lsd_gar_republicCommando_hud
+    {
+        author = "DartRuffian";
+        displayName = "[DA] Katarn I Commando Helmet Interior";
+        mode = 1;
+    };
+};
