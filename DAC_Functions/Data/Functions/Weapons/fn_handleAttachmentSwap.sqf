@@ -1,3 +1,18 @@
+/*
+ * Author: DartRuffian
+ * Handles automatic weapon attachment switching for different magazines.
+ *
+ * Arguments:
+ * See https://community.bistudio.com/wiki/Arma_3:_Event_Handlers/Reloaded
+ *
+ * Return Value:
+ * None
+ *
+ * Examples:
+ * reloaded = "_this call DAC_fnc_handleAttachmentSwap";
+ */
+
+
 params ["_unit", "_weapon", "_muzzle", "_newMagazine", "_oldMagazine"];
 
 // Check if enabled and has attachments configured
