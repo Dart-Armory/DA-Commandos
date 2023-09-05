@@ -34,9 +34,41 @@ class CfgWeapons
 
         class OpticsModes: OpticsModes
         {
-            class optics: optics
+            delete optics;
+            class scope: scope {};
+        };
+    };
+
+    class DAC_DC17M_Sniper: DAC_DC17M
+    {
+        displayName = "[DA] DC-17M Sniper";
+
+        class OpticsModes: OpticsModes
+        {
+            class optics
             {
-                visionMode[] = { "Normal", "NVG", "TI"};
+                discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 };
+                discreteDistanceInitIndex = 1;
+                discreteFov[] = { "0.25/3", "0.25/6", "0.25/9", "0.25/12", "0.25/15", "0.25/20" };
+                discreteInitIndex = 0;
+
+                opticsZoomInit = 0.125;
+                opticsZoomMax = 0.125;
+                opticsZoomMin = 0.0625;
+                useModelOptics = 1;
+
+                distanceZoomMax = 1200;
+                distanceZoomMin = 300;
+
+                cameraDir = "";
+                memoryPointCamera = "eye2";
+
+                opticsDisablePeripherialVision = 1;
+                opticsFlare = 1;
+                opticsID = 1;
+                opticsPPEffects[] = { "OpticsCHAbera2", "OpticsBlur3" };
+
+                visionMode[] = { "Normal", "NVG", "TI" };
                 thermalMode[] = { 0 };
             };
             class scope: scope {};
