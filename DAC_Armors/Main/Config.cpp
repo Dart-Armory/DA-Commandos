@@ -251,18 +251,24 @@ class CfgGlasses
     class ls_combatGoggles_base;
     class lsd_gar_republicCommando_hud: ls_combatGoggles_base
     {
-        DAC_Armor_landGoggles = "lsd_gar_republicCommando_hud";
+        DAC_Armor_landGoggles = "DAC_Commando_Hud";
         DAC_Armor_waterGoggles = "DAC_Commando_Hud_Diving";
     };
 
-    class DAC_Commando_Hud_Diving: lsd_gar_republicCommando_hud
+    class DAC_Commando_Hud: lsd_gar_republicCommando_hud
+    {
+        author = "DartRuffian";
+        displayName = "[DA] Katarn I Commando Helmet Interior";
+
+        DAC_Armor_landGoggles = "DAC_Commando_Hud";
+        DAC_Armor_waterGoggles = "DAC_Commando_Hud_Diving";
+    };
+
+    class DAC_Commando_Hud_Diving: DAC_Commando_Hud
     {
         // Scope
         scope = 1;
         scopeArsenal = 0;
-
-        author = "DartRuffian";
-        displayName = "[DA] Katarn I Commando Helmet Interior";
         mode = 1;
     };
 };
