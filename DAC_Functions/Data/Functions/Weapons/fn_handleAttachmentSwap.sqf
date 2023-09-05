@@ -51,8 +51,6 @@ if (_attachments isEqualTo []) exitWith
         0
     ] call BIS_fnc_returnConfigEntry;
 
-    systemChat str _matches;
-
     // Only add the first attachment that matches
     if (_matches isEqualTo 1) exitWith
     {
