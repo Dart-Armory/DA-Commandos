@@ -3,14 +3,10 @@
 
 class CfgWeapons
 {
-    class Rifle;
-    class LFP_rifle_base: Rifle
-    {
-        class OpticsModes;
-    };
+    class LFP_rifle_base;
     class LFP_DC17M: LFP_rifle_base
     {
-        class OpticsModes: OpticsModes
+        class OpticsModes
         {
             class optics;
             class scope;
@@ -34,6 +30,16 @@ class CfgWeapons
             { "DAC_DC17M_isBlasterMag", "lfp_dc17m_attachment_blaster" },
             { "DAC_DC17M_isGLMag", "lfp_dc17m_attachment_gl" },
             { "DAC_DC17M_isSniperMag", "lfp_dc17m_attachment_sniper" }
+        };
+
+        class OpticsModes: OpticsModes
+        {
+            class optics: optics
+            {
+                visionMode[] = { "Normal", "NVG", "TI"};
+                thermalMode[] = { 0 };
+            };
+            class scope: scope {};
         };
     };
 
