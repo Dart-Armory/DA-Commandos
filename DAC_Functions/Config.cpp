@@ -5,6 +5,12 @@ class CfgFunctions
 {
     class DAC
     {
+        class Armor
+        {
+            file = "DAC_Functions\Data\Functions\Armor";
+            class switchGoggles {};
+        };
+
         class Weapons
         {
             file = "DAC_Functions\Data\Functions\Weapons";
@@ -53,6 +59,10 @@ class Extended_InitPost_EventHandlers
         class DAC_AddRadio
         {
             init = "_this call DAC_fnc_addRadio";
+        };
+        class DAC_SwitchGoggles
+        {
+            init = "_this call DAC_fnc_switchGoggles";
         };
     };
 };
