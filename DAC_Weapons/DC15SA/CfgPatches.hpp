@@ -8,7 +8,9 @@ class CfgPatches
         requiredAddons[] =
         {
             "LF_Weapon_Unit_RazorBlade",
-            "JLTS_weapons_Core" // Stun muzzle
+                // DC-15SA
+            "JLTS_weapons_Core"
+                // Stun muzzle
         };
         units[] = {};
         weapons[] =

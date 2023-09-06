@@ -8,6 +8,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "LF_Weapon_Unit_WestarM5"
+                // DC-17M
         };
         units[] = {};
         weapons[] =
