@@ -10,7 +10,7 @@
  * None
  *
  * Examples:
- * init = "_this call DAC_fnc_switchGoggles";
+ * call DAC_fnc_switchGoggles;
  */
 
 
