@@ -78,15 +78,7 @@ class CfgWeapons
     // │       Vests       │
     // └───────────────────┘
     class V_PlateCarrier1_rgr;
-
     class SWLB_clone_commando_basic_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
-    class SWLB_clone_commando_sl_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
-    class SWLB_clone_commando_eod_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
-    class SWLB_clone_commando_sniper_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
-    class SWLB_clone_commando_tech_armor_k1: V_PlateCarrier1_rgr { class ItemInfo; };
-
-    // Vests currently cannot be retextured due to the hiddenSelections not being set correctly
-
     class DAC_Vest_Commando_Base: SWLB_clone_commando_basic_armor_k1
     {
         // Mod Info
@@ -95,7 +87,6 @@ class CfgWeapons
 
         // Scope
         scope = 2;
-        scopeCurator = 2;
         scopeArsenal = 2;
 
         displayName = "[DA] Katarn I Commando Vest (Base)";
@@ -105,92 +96,43 @@ class CfgWeapons
         };
     };
 
-    class DAC_Vest_Commando_SL_Base: SWLB_clone_commando_sl_armor_k1
+    class DAC_Vest_Commando_SL_Base: DAC_Vest_Commando_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn I Commando Vest (SL)";
+        model = "\SWLB_clones_spec\SWLB_clone_commando_sl_armor.p3d";
         class ItemInfo: ItemInfo
         {
-            vestType = "Rebreather";
-        };
-        hiddenSelectionsTextures[] =
-        {
-            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+            uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_sl_armor.p3d";
         };
     };
 
-    class DAC_Vest_Commando_EOD_Base: SWLB_clone_commando_eod_armor_k1
+    class DAC_Vest_Commando_EOD_Base: DAC_Vest_Commando_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn I Commando Vest (EOD)";
+        model = "\SWLB_clones_spec\SWLB_clone_commando_eod_armor.p3d";
         class ItemInfo: ItemInfo
         {
-            vestType = "Rebreather";
-        };
-        hiddenSelectionsTextures[] =
-        {
-            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+            uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_eod_armor.p3d";
         };
     };
 
-    class DAC_Vest_Commando_DM_Base: SWLB_clone_commando_sniper_armor_k1
+    class DAC_Vest_Commando_DM_Base: DAC_Vest_Commando_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn I Commando Vest (DM)";
+        model = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
         class ItemInfo: ItemInfo
         {
-            vestType = "Rebreather";
-        };
-        hiddenSelectionsTextures[] =
-        {
-            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa",
-            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+            uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
         };
     };
 
-    class DAC_Vest_Commando_Tech_Base: SWLB_clone_commando_tech_armor_k1
+    class DAC_Vest_Commando_Tech_Base: DAC_Vest_Commando_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn I Commando Vest (Tech)";
+        model = "\SWLB_clones_spec\SWLB_clone_commando_tech_armor.p3d";
         class ItemInfo: ItemInfo
         {
-            vestType = "Rebreather";
-        };
-        hiddenSelectionsTextures[] =
-        {
-            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+            uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_tech_armor.p3d";
         };
     };
 
