@@ -93,11 +93,22 @@ class CfgMagazines
 
     class LFP_DC17M_GL: LFP_mag_base
     {
+        ammo = "DAC_Ammo_DC17M_GL";
         DAC_DC17M_isGLMag = 1;
     };
 
     class LFP_DC17M_Mag_Sniper: LFP_mag_base
     {
         DAC_DC17M_isSniperMag = 1;
+    };
+};
+
+
+class CfgAmmo
+{
+    class LFP_ammo_DC17M_gr;
+    class DAC_Ammo_DC17M_GL: LFP_ammo_DC17M_gr
+    {
+        coefgravity = 0;
     };
 };
