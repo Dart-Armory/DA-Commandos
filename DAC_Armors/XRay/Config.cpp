@@ -167,11 +167,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Medic","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_Medic","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Medic","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_Medic","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
         };
         backpack = "DAC_Backpack_XRay_Medic";
     };
