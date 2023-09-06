@@ -1,23 +1,23 @@
 class CfgMods
 {
-	class Mod_Base;
-	class DA_Commando_Mod: Mod_Base
-	{
-		name = "[DA] Commando Squads";
-	};
+    class Mod_Base;
+    class DA_Commando_Mod: Mod_Base
+    {
+        name = "[DA] Commando Squads";
+    };
 };
 
 
 class CfgPatches
 {
-	class DA_Commando_Mod
-	{
-		author = "DartRuffian";
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-		units[] = {};
-		weapons[] = {};
-	};
+    class DA_Commando_Mod
+    {
+        author = "DartRuffian";
+        requiredVersion = 0.1;
+        requiredAddons[] = {};
+        units[] = {};
+        weapons[] = {};
+    };
 };
 
 
@@ -25,19 +25,19 @@ class CfgFactionClasses
 {
     class DA_Commandos
     {
-		// Mod Info
+        // Mod Info
         dlc = "DA_Commando_Mod";
         author = "DartRuffian";
 
-		// Scope
+        // Scope
         scope = 2;
         scopeCurator = 2;
 
         displayName = "[DA] Commando Squads";
     };
 
-	class DA_Commandos_OPFOR: DA_Commandos
+    class DA_Commandos_OPFOR: DA_Commandos
     {
-		side = 0;
+        side = 0;
     };
 };
