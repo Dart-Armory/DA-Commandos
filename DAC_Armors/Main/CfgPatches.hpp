@@ -19,7 +19,7 @@ class CfgPatches
             "DAC_Unit_Commando_SL_Base",
             "DAC_Unit_Commando_EOD_Base",
             "DAC_Unit_Commando_DM_Base",
-            "DAC_Unit_Commando_Medic_Base",
+            "DAC_Unit_Commando_Tech_Base",
 
             // Backpacks
             "DAC_Backpack_Base",
