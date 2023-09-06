@@ -139,10 +139,12 @@ class CfgWeapons
     // ┌──────────────────┐
     // │       NVGs       │
     // └──────────────────┘
-    class SWLB_clone_commando_nvg;
-    class SWLB_clone_commando_nvg_antenna;
-
-    class DAC_NVG_Commando_Visor: SWLB_clone_commando_nvg
+    class NVGoggles;
+    class SWLB_clone_commando_nvg: NVGoggles
+    {
+        class ItemInfo;
+    };
+    class DAC_NVG_Chip_NV: SWLB_clone_commando_nvg
     {
         // Mod Info
         dlc = "DA_Commandos";
@@ -150,39 +152,70 @@ class CfgWeapons
 
         // Scope
         scope = 2;
-        scopeCurator = 2;
         scopeArsenal = 2;
 
-        displayName = "[DA] Katarn I Commando Visor";
+        displayName = "[DA] Katarn I Commando Chip [NV]";
+
+        model = "\A3\weapons_f\dummynvg.p3d";
+        hiddenSelections[] = {};
+        hiddenSelectionsTextures[] = {};
+        hiddenSelectionsMaterials[] = {};
+        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_1_ui_ca.paa";
+
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {};
+            uniformModel = "\A3\weapons_f\dummynvg.p3d";
+            modelOff = "\A3\weapons_f\dummynvg.p3d";
+        };
+    };
+    class DAC_NVG_Chip_NVTI: DAC_NVG_Chip_NV
+    {
+        displayName = "[DA] Katarn I Commando Chip [NV/TI]";
+        visionMode[] = { "Normal", "NVG", "TI" };
+        thermalMode[] = { 0, 1 }; // WHOT, BHOT
+    };
+
+    class DAC_NVG_Commando_Visor: DAC_NVG_Chip_NVTI
+    {
+        displayName = "[DA] Katarn I Commando Visor [NV/TI]";
+
+        model = "\SWLB_clones_spec\SWLB_clone_commando_nvg.p3d";
+        hiddenSelections[] = { "illum", "camo1" };
         hiddenSelectionsTextures[] =
         {
             "DAC_Armors\Main\Data\NVGs\Commando_NVG_Visor.paa",
             "DAC_Armors\Main\Data\NVGs\Commando_NVG_Visor.paa"
         };
+        hiddenSelectionsMaterials[] = { "a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat" };
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_ca.paa";
 
-        visionMode[] = { "Normal", "NVG", "TI" };
-        thermalMode[] = { 0, 1 }; // WHOT, BHOT
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = { "illum", "camo1" };
+            uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_nvg.p3d";
+            modelOff = "\SWLB_clones_spec\SWLB_clone_commando_nvg.p3d";
+        };
     };
 
-    class DAC_NVG_Commando_Antenna: SWLB_clone_commando_nvg_antenna
+    class DAC_NVG_Commando_Antenna: DAC_NVG_Chip_NVTI
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
+        displayName = "[DA] Katarn I Commando Antenna [NV/TI]";
 
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
-        displayName = "[DA] Katarn I Commando Antenna";
+        model = "\SWLB_clones_spec\SWLB_clone_commando_nvg_antenna.p3d";
+        hiddenSelections[] = { "camo1" };
         hiddenSelectionsTextures[] =
         {
             "DAC_Armors\Main\Data\NVGs\Commando_NVG_Antenna.paa"
         };
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_antenna_ca.paa";
 
-        visionMode[] = { "Normal", "NVG", "TI" };
-        thermalMode[] = { 0, 1 }; // WHOT, BHOT
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = { "camo1" };
+            uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_nvg_antenna.p3d";
+            modelOff = "\SWLB_clones_spec\SWLB_clone_commando_nvg_antenna.p3d";
+        };
     };
 };
 
