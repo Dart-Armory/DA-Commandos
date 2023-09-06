@@ -77,11 +77,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
     };
     class DAC_Unit_Imperial_Commando_OPFOR: DAC_Unit_Imperial_Commando
@@ -99,11 +99,11 @@ class CfgVehicles
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_SL_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_SL_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
     };
     class DAC_Unit_Imperial_Commando_SL_OPFOR: DAC_Unit_Imperial_Commando_SL
@@ -121,11 +121,11 @@ class CfgVehicles
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_EOD_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_EOD_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
     };
     class DAC_Unit_Imperial_Commando_EOD_OPFOR: DAC_Unit_Imperial_Commando_EOD
@@ -143,11 +143,11 @@ class CfgVehicles
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_Tech_Base","DAC_NVG_Commando_Antenna","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_Tech_Base","DAC_NVG_Commando_Antenna","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
     };
     class DAC_Unit_Imperial_Commando_Tech_OPFOR: DAC_Unit_Imperial_Commando_Tech
@@ -165,11 +165,11 @@ class CfgVehicles
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_DM_Base","DAC_NVG_Commando_Visor","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando","DAC_Vest_Commando_DM_Base","DAC_NVG_Commando_Visor","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
     };
     class DAC_Unit_Imperial_Commando_DM_OPFOR: DAC_Unit_Imperial_Commando_DM

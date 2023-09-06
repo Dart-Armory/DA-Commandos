@@ -123,11 +123,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_XRay_SL","DAC_Vest_Commando_SL_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_SL", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_XRay_SL","DAC_Vest_Commando_SL_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_SL", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_XRay_SL";
     };
@@ -145,11 +145,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_XRay_EOD","DAC_Vest_Commando_EOD_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_EOD", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_XRay_EOD","DAC_Vest_Commando_EOD_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_EOD", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_XRay_EOD";
     };
@@ -167,11 +167,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_XRay_Medic","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_Medic", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_XRay_Medic","DAC_Vest_Commando_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_Medic", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_XRay_Medic";
     };
@@ -189,11 +189,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_XRay_DM","DAC_Vest_Commando_DM_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_DM", "DAC_Vest_Commando_DM_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_XRay_DM","DAC_Vest_Commando_DM_Base","DAC_Commando_Hud","ItemMap","SWLB_comlink","ItemCompass"
+            "DAC_Helmet_XRay_DM", "DAC_Vest_Commando_DM_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_XRay_DM";
     };
