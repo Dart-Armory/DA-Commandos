@@ -23,8 +23,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Galahad])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_SL.paa,
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_SL.paa
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_SL.paa",
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_SL.paa"
 		};
 	};
 	class DAC_Helmet_Zulu_EOD: DAC_Helmet_Commando_Base
@@ -32,8 +32,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Thor])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_EOD.paa,
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_EOD.paa
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_EOD.paa",
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_EOD.paa"
 		};
 	};
 	class DAC_Helmet_Zulu_Medic : DAC_Helmet_Commando_Base
@@ -41,8 +41,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Cherryy])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_Medic.paa,
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_Medic.paa
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_Medic.paa",
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_Medic.paa"
 		};
 	};
 	class DAC_Helmet_Zulu_DM: DAC_Helmet_Commando_Base
@@ -50,8 +50,8 @@ class CfgWeapons
 		displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Cyan])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_DM.paa,
-			DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_DM.paa
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_DM.paa",
+			"DAC_Armors\Zulu\Data\Helmets\Zulu_Helmet_DM.paa"
 		};
 	};
 
@@ -117,8 +117,8 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_Zulu_SL";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_SL_Upper.paa,
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_SL_Lower.paa
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_SL_Upper.paa",
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_SL_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -139,8 +139,8 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_Zulu_EOD";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_EOD_Upper.paa,
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_EOD_Lower.paa
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_EOD_Upper.paa",
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_EOD_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -161,8 +161,8 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_Zulu_Medic";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_Medic_Upper.paa,
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_Medic_Lower.paa
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_Medic_Upper.paa",
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_Medic_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -183,8 +183,8 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_Zulu_DM";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_DM_Upper.paa,
-			DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_DM_Lower.paa
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_DM_Upper.paa",
+			"DAC_Armors\Zulu\Data\Uniforms\Zulu_Uniform_DM_Lower.paa"
 		};
 
 		linkedItems[] =
@@ -211,8 +211,8 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Clone Commando RTO Backpack (Zulu [Galahad])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_SL.paa,
-			DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_SL.paa
+			"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_SL.paa",
+			"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_SL.paa"
 		};
 	}
 	class DAC_Backpack_Zulu_SL_Huge: DAC_Backpack_Zulu_SL
@@ -226,8 +226,8 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Clone Commando EOD Backpack (Zulu [Thor])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_EOD.paa,
-			DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_EOD.paa
+			"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_EOD.paa",
+			"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_EOD.paa"
 		};
 	};
 	class DAC_Backpack_Zulu_EOD_Huge: DAC_Backpack_Zulu_EOD
@@ -241,9 +241,10 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Clone Commando Medic Backpack (Zulu [Cherryy])";
 		hiddenSelectionsTextures[] =
 			{
-				DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_Medic_Base.paa,
-				DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_Medic_Base.paa,
-				DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_Medic_Addon.paa};
+				"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_Medic_Base.paa",
+				"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_Medic_Base.paa",
+				"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_Medic_Addon.paa"
+            };
 	};
 	class DAC_Backpack_Zulu_Medic_Huge : DAC_Backpack_Zulu_Medic
 	{
@@ -256,8 +257,8 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan])";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_DM.paa,
-			DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_DM.paa
+			"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_DM.paa",
+			"DAC_Armors\Zulu\Data\Backpacks\Zulu_BP_DM.paa"
 		};
 	};
 	class DAC_Backpack_Zulu_DM_Huge: DAC_Backpack_Zulu_DM

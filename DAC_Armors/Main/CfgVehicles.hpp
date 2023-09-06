@@ -26,8 +26,8 @@ class CfgVehicles
 		uniformClass = "DAC_Uniform_Commando_Base";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Upper.paa,
-			DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Lower.paa
+			"DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Upper.paa",
+			"DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Lower.paa"
 		};
 		nakedUniform = "lsd_gar_bodyGlove_uniform";
 
@@ -128,8 +128,8 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Commando Backpack";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa,
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa"
 		};
 		maximumLoad = NORM_SIZE;
 	};
@@ -153,8 +153,8 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Commando RTO Backpack";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa,
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa",
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa"
 		};
 		maximumLoad = NORM_SIZE;
 	};
@@ -178,8 +178,8 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Commando EOD Backpack";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa,
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa",
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa"
 		};
 		maximumLoad = NORM_SIZE;
 	};
@@ -203,9 +203,9 @@ class CfgVehicles
 		displayName = "[DA] Katarn II Commando Tech Backpack";
 		hiddenSelectionsTextures[] =
 		{
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa,
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa,
-			DAC_Armors\Main\Data\Backpacks\Commando_BP_Tech_Addon.paa
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
+			"DAC_Armors\Main\Data\Backpacks\Commando_BP_Tech_Addon.paa"
 		};
 		maximumLoad = NORM_SIZE;
 	};
