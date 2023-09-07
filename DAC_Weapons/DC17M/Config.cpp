@@ -37,6 +37,15 @@ class CfgWeapons
             delete optics;
             class scope: scope {};
         };
+
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                slot = "MuzzleSlot";
+                item = "lfp_dc17m_attachment_blaster";
+            };
+        };
     };
 
     class DAC_DC17M_Sniper: DAC_DC17M
