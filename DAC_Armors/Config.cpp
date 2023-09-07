@@ -4,6 +4,9 @@ class CfgMods
     class DA_Commando_Mod: Mod_Base
     {
         name = "[DA] Commando Squads";
+        logo = "DAC_Armors\dac_logo.paa";
+        logoOver = "DAC_Armors\dac_logo.paa";
+        picture = "DAC_Armors\dac_logo.paa";
     };
 };
 
