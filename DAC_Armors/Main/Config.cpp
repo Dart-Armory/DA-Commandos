@@ -247,3 +247,57 @@ class CfgGlasses
         mode = 1;
     };
 };
+
+
+class CfgGroups
+{
+    class West
+    {
+        class DAC_Republic
+        {
+            name = "[DA] Galactic Republic";
+
+            class DAC_Commandos
+            {
+                name = "Commando Squads";
+                class Base
+                {
+                    faction = "DAC_Republic";
+                    name = "Base Squad";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    side = 1;
+
+                    class Object0
+                    {
+                        side = 1;
+                        vehicle = "DAC_Unit_Commando_SL_Base";
+                        description = "Squad Lead@Base";
+                        rank = "SERGEANT";
+                        position[] = { 0, 0, 0 };
+                        dir = 0;
+                        isPlayable = 1;
+                    };
+                    class Object1: Object0
+                    {
+                        vehicle = "DAC_Unit_Commando_EOD_Base";
+                        description = "Explosives Specialist";
+                        rank = "CORPORAL";
+                        position[] = { 5, -5, 0 };
+                    };
+                    class Object2: Object1
+                    {
+                        vehicle = "DAC_Unit_Commando_Tech_Base";
+                        description = "Tech Specialist";
+                        position[] = { -5, -5, 0 };
+                    };
+                    class Object3: Object1
+                    {
+                        vehicle = "DAC_Unit_Commando_DM_Base";
+                        description = "Designated Marksman";
+                        position[] = { 10, -10, 0 };
+                    };
+                };
+            };
+        };
+    };
+};
