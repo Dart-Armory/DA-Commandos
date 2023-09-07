@@ -100,6 +100,8 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (SL)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_sl_armor.p3d";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sl_armor_k1_ca.paa";
+
         class ItemInfo: ItemInfo
         {
             uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_sl_armor.p3d";
@@ -110,6 +112,8 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (EOD)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_eod_armor.p3d";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_eod_armor_k1_ca.paa";
+
         class ItemInfo: ItemInfo
         {
             uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_eod_armor.p3d";
@@ -120,6 +124,8 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (DM)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca.paa";
+
         class ItemInfo: ItemInfo
         {
             uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
@@ -130,6 +136,8 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (Tech)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_tech_armor.p3d";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca.paa";
+
         class ItemInfo: ItemInfo
         {
             uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_tech_armor.p3d";
