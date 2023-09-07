@@ -179,3 +179,107 @@ class CfgVehicles
         side = 0;
     };
 };
+
+
+class CfgGroups
+{
+    class West
+    {
+        class DAC_Empire
+        {
+            name = "[DA] Galactic Empire";
+
+            class DAC_Commandos
+            {
+                name = "Commando Squads";
+                class Base
+                {
+                    faction = "DAC_Empire";
+                    name = "Base Squad";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    side = 1;
+
+                    class Object0
+                    {
+                        side = 1;
+                        vehicle = "DAC_Unit_Imperial_Commando_SL";
+                        description = "Squad Lead@Base";
+                        rank = "SERGEANT";
+                        position[] = { 0, 0, 0 };
+                        dir = 0;
+                        isPlayable = 1;
+                    };
+                    class Object1: Object0
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_EOD";
+                        description = "Explosives Specialist";
+                        rank = "CORPORAL";
+                        position[] = { 1, -1, 0 };
+                    };
+                    class Object2: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_Tech";
+                        description = "Tech Specialist";
+                        position[] = { -1, -1, 0 };
+                    };
+                    class Object3: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_DM";
+                        description = "Designated Marksman";
+                        position[] = { 2, -2, 0 };
+                    };
+                };
+            };
+        };
+    };
+
+    class East
+    {
+        class DAC_Empire
+        {
+            name = "[DA] Galactic Empire";
+
+            class DAC_Commandos
+            {
+                name = "Commando Squads";
+                class Base
+                {
+                    faction = "DAC_Empire";
+                    name = "Base Squad";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    side = 0;
+
+                    class Object0
+                    {
+                        side = 0;
+                        vehicle = "DAC_Unit_Imperial_Commando_SL_OPFOR";
+                        description = "Squad Lead@Base";
+                        rank = "SERGEANT";
+                        position[] = { 0, 0, 0 };
+                        dir = 0;
+                        isPlayable = 1;
+                    };
+                    class Object1: Object0
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_EOD_OPFOR";
+                        description = "Explosives Specialist";
+                        rank = "CORPORAL";
+                        position[] = { 1, -1, 0 };
+                    };
+                    class Object2: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_Tech_OPFOR";
+                        description = "Tech Specialist";
+                        position[] = { -1, -1, 0 };
+                    };
+                    class Object3: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_DM_OPFOR";
+                        description = "Designated Marksman";
+                        position[] = { 2, -2, 0 };
+                    };
+                };
+            };
+        };
+    };
+};
