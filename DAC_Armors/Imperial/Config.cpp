@@ -179,7 +179,7 @@ class CfgVehicles
     };
 
     class DAC_HelmetHolder_Commando_Base;
-    HELMET_HOLDER(DAC_HelmetHolder_Imperial_Commando, Katarn I Imperial Helmet, DAC_Uniform_Imperial_Commando);
+    HELMET_HOLDER(DAC_HelmetHolder_Imperial_Commando, Katarn I Imperial Helmet, DAC_Helmet_Imperial_Commando);
 };
 
 
