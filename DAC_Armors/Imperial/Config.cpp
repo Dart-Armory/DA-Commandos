@@ -22,7 +22,6 @@ class CfgWeapons
     // │      Helmets      │
     // └───────────────────┘
     class DAC_Helmet_Commando_Base;
-
     class DAC_Helmet_Imperial_Commando: DAC_Helmet_Commando_Base
     {
         displayName = "[DA] Katarn I Imperial Commando Helmet";
@@ -32,6 +31,7 @@ class CfgWeapons
             "DAC_Armors\Imperial\Data\Helmets\Imperial_Helmet.paa"  // Main Helmet
         };
     };
+
     // ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
@@ -40,7 +40,6 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-
     class DAC_Uniform_Imperial_Commando: DAC_Uniform_Commando_Base
     {
         displayName = "[DA] Katarn I Imperial Commando Armor";
@@ -59,11 +58,6 @@ class CfgVehicles
     // │       Units       │
     // └───────────────────┘
     class DAC_Unit_Commando_Base;
-    class DAC_Unit_Commando_SL_Base;
-    class DAC_Unit_Commando_EOD_Base;
-    class DAC_Unit_Commando_Tech_Base;
-    class DAC_Unit_Commando_DM_Base;
-
     class DAC_Unit_Imperial_Commando: DAC_Unit_Commando_Base
     {
         displayName = "Imperial Commando";
@@ -92,6 +86,7 @@ class CfgVehicles
         side = 0;
     };
 
+    class DAC_Unit_Commando_SL_Base;
     class DAC_Unit_Imperial_Commando_SL: DAC_Unit_Commando_SL_Base
     {
         displayName = "Imperial Commando Squad Leader";
@@ -114,6 +109,7 @@ class CfgVehicles
         side = 0;
     };
 
+    class DAC_Unit_Commando_EOD_Base;
     class DAC_Unit_Imperial_Commando_EOD: DAC_Unit_Commando_EOD_Base
     {
         displayName = "Imperial Commando Explosives Specialist";
@@ -136,6 +132,7 @@ class CfgVehicles
         side = 0;
     };
 
+    class DAC_Unit_Commando_Tech_Base;
     class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
     {
         displayName = "Imperial Commando Tech Specialist";
@@ -158,6 +155,7 @@ class CfgVehicles
         side = 0;
     };
 
+    class DAC_Unit_Commando_DM_Base;
     class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
     {
         displayName = "Imperial Commando Designated Marksman";
