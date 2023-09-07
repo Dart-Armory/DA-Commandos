@@ -17,7 +17,6 @@ class CfgWeapons
     // │      Helmets      │
     // └───────────────────┘
     class DAC_Helmet_Commando_Base;
-
     class DAC_Helmet_Zulu_SL: DAC_Helmet_Commando_Base
     {
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Galahad])";
@@ -63,7 +62,6 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-
     class DAC_Uniform_Zulu_SL: DAC_Uniform_Commando_Base
     {
         displayName = "[DA] Katarn I Clone Commando Armor (Zulu [Galahad])";
@@ -202,10 +200,6 @@ class CfgVehicles
     // │     Backpacks     │
     // └───────────────────┘
     class DAC_Backpack_RTO_Base;
-    class DAC_Backpack_EOD_Base;
-    class DAC_Backpack_Tech_Base;
-    class DAC_Backpack_Base;
-
     class DAC_Backpack_Zulu_SL: DAC_Backpack_RTO_Base
     {
         displayName = "[DA] Katarn II Clone Commando RTO Backpack (Zulu [Galahad])";
@@ -221,6 +215,7 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     }
 
+    class DAC_Backpack_EOD_Base;
     class DAC_Backpack_Zulu_EOD: DAC_Backpack_EOD_Base
     {
         displayName = "[DA] Katarn II Clone Commando EOD Backpack (Zulu [Thor])";
@@ -236,6 +231,7 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
+    class DAC_Backpack_Tech_Base;
     class DAC_Backpack_Zulu_Medic : DAC_Backpack_Tech_Base
     {
         displayName = "[DA] Katarn II Clone Commando Medic Backpack (Zulu [Cherryy])";
@@ -252,6 +248,7 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
+    class DAC_Backpack_Base;
     class DAC_Backpack_Zulu_DM: DAC_Backpack_Base
     {
         displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan])";
