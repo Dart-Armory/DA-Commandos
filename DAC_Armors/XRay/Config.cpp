@@ -17,7 +17,6 @@ class CfgWeapons
     // │      Helmets      │
     // └───────────────────┘
     class DAC_Helmet_Commando_Base;
-
     class DAC_Helmet_XRay_SL: DAC_Helmet_Commando_Base
     {
         displayName = "[DA] Katarn I Clone Commando Helmet (X-Ray [Nix])";
@@ -63,7 +62,6 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-
     class DAC_Uniform_XRay_SL: DAC_Uniform_Commando_Base
     {
         displayName = "[DA] Katarn I Clone Commando Armor (X-Ray [Nix])";
@@ -266,6 +264,12 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost]) (Huge)";
         maximumLoad = HUGE_SIZE;
     };
+
+    class DAC_HelmetHolder_Commando_Base;
+    HELMET_HOLDER(DAC_HelmetHolder_XRay_SL, Katarn I Helmet (X-Ray [Nix]), DAC_Helmet_XRay_SL);
+    HELMET_HOLDER(DAC_HelmetHolder_XRay_EOD, Katarn I Helmet (X-Ray [Dart]), DAC_Helmet_XRay_EOD);
+    HELMET_HOLDER(DAC_HelmetHolder_XRay_Medic, Katarn I Helmet (X-Ray [Doktor]), DAC_Helmet_XRay_Medic);
+    HELMET_HOLDER(DAC_HelmetHolder_XRay_DM, Katarn I Helmet (X-Ray [Frost]), DAC_Helmet_XRay_DM);
 };
 
 
