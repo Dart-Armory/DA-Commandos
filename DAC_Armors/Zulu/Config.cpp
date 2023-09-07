@@ -266,6 +266,12 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan]) (Huge)";
         maximumLoad = HUGE_SIZE;
     };
+
+    class DAC_HelmetHolder_Commando_Base;
+    HELMET_HOLDER(DAC_HelmetHolder_Zulu_SL, Katarn I Helmet (Zulu [Galahad]), DAC_Helmet_Zulu_SL);
+    HELMET_HOLDER(DAC_HelmetHolder_Zulu_EOD, Katarn I Helmet (Zulu [Thor]), DAC_Helmet_Zulu_EOD);
+    HELMET_HOLDER(DAC_HelmetHolder_Zulu_Medic, Katarn I Helmet (Zulu [Cherryy]), DAC_Helmet_Zulu_Medic);
+    HELMET_HOLDER(DAC_HelmetHolder_Zulu_DM, Katarn I Helmet (Zulu [Cyan]), DAC_Helmet_Zulu_DM);
 };
 
 

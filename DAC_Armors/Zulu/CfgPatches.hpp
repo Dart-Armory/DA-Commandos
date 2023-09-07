@@ -26,7 +26,13 @@ class CfgPatches
             "DAC_Backpack_Zulu_Medic",
             "DAC_Backpack_Zulu_Medic_Huge",
             "DAC_Backpack_Zulu_DM",
-            "DAC_Backpack_Zulu_DM_Huge"
+            "DAC_Backpack_Zulu_DM_Huge",
+
+            // Placeable Helmets
+            "DAC_HelmetHolder_Zulu_SL",
+            "DAC_HelmetHolder_Zulu_EOD",
+            "DAC_HelmetHolder_Zulu_Medic",
+            "DAC_HelmetHolder_Zulu_DM"
         };
         weapons[] =
         {
