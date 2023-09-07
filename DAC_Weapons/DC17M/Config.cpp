@@ -43,6 +43,9 @@ class CfgWeapons
     {
         displayName = "[DA] DC-17M Sniper";
 
+        // Sniper mag first to load it by default
+        magazines[] = { "LFP_DC17M_Mag_Sniper", "LFP_DC17M_Mag", "LFP_DC17M_GL" };
+
         class OpticsModes: OpticsModes
         {
             class optics
