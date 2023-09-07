@@ -302,19 +302,19 @@ class CfgGroups
                         vehicle = "DAC_Unit_XRay_EOD";
                         description = "Explosives Specialist";
                         rank = "CORPORAL";
-                        position[] = { 5, -5, 0 };
+                        position[] = { 1, -1, 0 };
                     };
                     class Object2: Object1
                     {
                         vehicle = "DAC_Unit_XRay_Medic";
                         description = "Medic";
-                        position[] = { -5, -5, 0 };
+                        position[] = { -1, -1, 0 };
                     };
                     class Object3: Object1
                     {
                         vehicle = "DAC_Unit_XRay_DM";
                         description = "Designated Marksman";
-                        position[] = { 10, -10, 0 };
+                        position[] = { 2, -2, 0 };
                     };
                 };
             };
