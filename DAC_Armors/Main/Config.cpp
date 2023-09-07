@@ -124,11 +124,19 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (DM)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
+        hiddenSelections[] = { "illum", "camo1" };
+        hiddenSelectionsTextures[] =
+        {
+            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa",
+            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+        };
+        hiddenSelectionsMaterials[] = { "a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat" };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca.paa";
 
         class ItemInfo: ItemInfo
         {
             uniformModel = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
+            hiddenSelections[] = { "illum", "camo1" };
         };
     };
 
@@ -136,6 +144,11 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (Tech)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_tech_armor.p3d";
+        hiddenSelections[] = { "camo1" };
+        hiddenSelectionsTextures[] =
+        {
+            "DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+        };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca.paa";
 
         class ItemInfo: ItemInfo
