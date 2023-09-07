@@ -223,6 +223,13 @@ class CfgWeapons
 class CfgGlasses
 {
     // https://community.bistudio.com/wiki/Arma_3:_Characters_And_Gear_Encoding_Guide#Facewear_Configuration
+    class G_Combat;
+    class SWLB_clone_RC_HUD: G_Combat
+    {
+        DAC_Armor_landGoggles = "DAC_Commando_Hud";
+        DAC_Armor_waterGoggles = "DAC_Commando_Hud_Diving";
+    };
+
     class ls_combatGoggles_base;
     class lsd_gar_republicCommando_hud: ls_combatGoggles_base
     {
