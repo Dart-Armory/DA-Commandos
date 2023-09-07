@@ -117,10 +117,6 @@ class CfgVehicles
     // │     Backpacks     │
     // └───────────────────┘
     class SWLB_clone_commando_backpack_k2;
-    class SWLB_clone_commando_backpack_k2_eod;
-    class SWLB_clone_commando_backpack_k2_rto;
-    class SWLB_clone_commando_backpack_k2_tech;
-
     class DAC_Backpack_Base: SWLB_clone_commando_backpack_k2
     {
         // Mod Info
@@ -129,16 +125,19 @@ class CfgVehicles
 
         // Scope
         scope = 2;
-        scopeCurator = 2;
         scopeArsenal = 2;
 
         displayName = "[DA] Katarn II Commando Backpack";
+        maximumLoad = NORM_SIZE;
+
+        model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02.p3d";
+        hiddenSelections[] = { "illum", "camo1" };
         hiddenSelectionsTextures[] =
         {
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa"
         };
-        maximumLoad = NORM_SIZE;
+        hiddenSelectionsMaterials[] = { "a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat" };
     };
     class DAC_Backpack_Base_Huge: DAC_Backpack_Base
     {
@@ -146,24 +145,24 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
-    class DAC_Backpack_RTO_Base: SWLB_clone_commando_backpack_k2_rto
+    class DAC_Backpack_RTO_Base: DAC_Backpack_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn II Commando RTO Backpack";
+        model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_rto.p3d";
         hiddenSelectionsTextures[] =
         {
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa",
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa"
         };
-        maximumLoad = NORM_SIZE;
+
+        // TFAR Long Range
+        tf_hasLRradio = 1;
+        tf_range = 25000;
+
+        tf_dialog = "SWLB_clone_rto_radio_dialog";
+        tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode = "tf_west_radio_code";
+        tf_subtype = "digital_lr";
     };
     class DAC_Backpack_RTO_Base_Huge: DAC_Backpack_RTO_Base
     {
@@ -171,24 +170,15 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
-    class DAC_Backpack_EOD_Base: SWLB_clone_commando_backpack_k2_eod
+    class DAC_Backpack_EOD_Base: DAC_Backpack_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn II Commando EOD Backpack";
+        model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_eod.p3d";
         hiddenSelectionsTextures[] =
         {
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa",
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa"
         };
-        maximumLoad = NORM_SIZE;
     };
     class DAC_Backpack_EOD_Base_Huge: DAC_Backpack_EOD_Base
     {
@@ -196,25 +186,17 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
-    class DAC_Backpack_Tech_Base: SWLB_clone_commando_backpack_k2_tech
+    class DAC_Backpack_Tech_Base: DAC_Backpack_Base
     {
-        // Mod Info
-        dlc = "DA_Commandos";
-        author = "DartRuffian";
-
-        // Scope
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-
         displayName = "[DA] Katarn II Commando Tech Backpack";
+        model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_tech.p3d";
+        hiddenSelections[] = { "illum", "camo1", "camo2" };
         hiddenSelectionsTextures[] =
         {
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
             "DAC_Armors\Main\Data\Backpacks\Commando_BP_Tech_Addon.paa"
         };
-        maximumLoad = NORM_SIZE;
     };
     class DAC_Backpack_Tech_Base_Huge: DAC_Backpack_Tech_Base
     {
