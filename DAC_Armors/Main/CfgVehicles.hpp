@@ -6,7 +6,6 @@ class CfgVehicles
     // │       Units       │
     // └───────────────────┘
     class SWLB_clone_commando_base;
-
     class DAC_Unit_Commando_Base: SWLB_clone_commando_base
     {
         // Mod Info
@@ -202,5 +201,32 @@ class CfgVehicles
     {
         displayName = "[DA] Katarn II Commando Tech Backpack (Huge)";
         maximumLoad = HUGE_SIZE;
+    };
+
+
+    class ls_blueforHeadgear_base;
+    class DAC_HelmetHolder_Commando_Base: ls_blueforHeadgear_base
+    {
+        // Mod Info
+        dlc = "DA_Commandos";
+        author = "DartRuffian";
+
+        // Scope
+        scope = 2;
+        scopeCurator = 2;
+
+        // Editor Attributes
+        editorCategory = "DAC_Objects";
+        editorSubcategory = "DAC_Objects_Helmets";
+
+        displayName = "Katarn I Commando Helmet";
+        class TransportItems
+        {
+            class DAC_Helmet_Commando_Base
+            {
+                name = "DAC_Helmet_Commando_Base";
+                count = 1;
+            };
+        };
     };
 };

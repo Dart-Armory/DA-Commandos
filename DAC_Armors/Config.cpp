@@ -44,3 +44,35 @@ class CfgFactionClasses
         side = 0;
     };
 };
+
+
+class CfgEditorCategories
+{
+    class DAC_Objects
+    {
+        dlc = "BNA_KC";
+        author = "DartRuffian";
+
+        // Scope
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "[DA] Objects";
+    };
+};
+
+
+class CfgEditorSubcategories
+{
+    class DAC_Objects_Helmets
+    {
+        dlc = "BNA_KC";
+        author = "DartRuffian";
+
+        // Scope
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "Helmets";
+    };
+}

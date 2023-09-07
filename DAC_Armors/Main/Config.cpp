@@ -19,7 +19,6 @@ class CfgWeapons
     // │      Helmets      │
     // └───────────────────┘
     class SWLB_clone_commando_helmet_k1;
-
     class DAC_Helmet_Commando_Base: SWLB_clone_commando_helmet_k1
     {
         // Mod Info
@@ -47,7 +46,6 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-
     class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
     {
         // Mod Info
