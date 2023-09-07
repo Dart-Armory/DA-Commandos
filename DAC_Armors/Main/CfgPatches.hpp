@@ -9,8 +9,10 @@ class CfgPatches
         {
             "SWLW_clones_spec",
                 // Clone Commando Helmets, Uniforms, and Units
-            "SWLB_clones_spec_backpacks"
+            "SWLB_clones_spec_backpacks",
                 // Clone Commando Backpacks
+            "ls_armor_bluefor"
+                // Helmet holder
         };
         units[] =
         {
