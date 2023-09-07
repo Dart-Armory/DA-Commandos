@@ -22,7 +22,10 @@ class CfgPatches
             "DAC_Unit_Imperial_Commando_Tech",
             "DAC_Unit_Imperial_Commando_Tech_OPFOR",
             "DAC_Unit_Imperial_Commando_DM",
-            "DAC_Unit_Imperial_Commando_DM_OPFOR"
+            "DAC_Unit_Imperial_Commando_DM_OPFOR",
+
+            // Placeable Helmets
+            "DAC_HelmetHolder_Imperial_Commando"
         };
         weapons[] =
         {

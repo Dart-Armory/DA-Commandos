@@ -1,4 +1,5 @@
 #include "CfgPatches.hpp"
+#include "\DAC_Armors\Macros.hpp"
 
 
 class CfgEditorSubcategories
@@ -178,6 +179,9 @@ class CfgVehicles
         editorSubcategory = "DAC_Imperial_OPFOR";
         side = 0;
     };
+
+    class DAC_HelmetHolder_Commando_Base;
+    HELMET_HOLDER(DAC_HelmetHolder_Imperial_Commando, Katarn I Imperial Helmet, DAC_Uniform_Imperial_Commando);
 };
 
 
