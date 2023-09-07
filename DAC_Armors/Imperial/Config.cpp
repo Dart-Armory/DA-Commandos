@@ -246,7 +246,7 @@ class CfgGroups
                 {
                     faction = "DAC_Empire";
                     name = "Base Squad";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     side = 0;
 
                     class Object0
