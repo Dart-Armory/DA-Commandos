@@ -103,10 +103,6 @@ class CfgVehicles
     // │       Units       │
     // └───────────────────┘
     class DAC_Unit_Commando_SL_Base;
-    class DAC_Unit_Commando_EOD_Base;
-    class DAC_Unit_Commando_Tech_Base;
-    class DAC_Unit_Commando_DM_Base;
-
     class DAC_Unit_XRay_SL: DAC_Unit_Commando_SL_Base
     {
         displayName = "Clone Commando Squad Leader (X-Ray [Nix])";
@@ -129,6 +125,8 @@ class CfgVehicles
         };
         backpack = "DAC_Backpack_XRay_SL";
     };
+
+    class DAC_Unit_Commando_EOD_Base;
     class DAC_Unit_XRay_EOD: DAC_Unit_Commando_EOD_Base
     {
         displayName = "Clone Commando Explosives Specialist (X-Ray [Dart])";
@@ -151,6 +149,8 @@ class CfgVehicles
         };
         backpack = "DAC_Backpack_XRay_EOD";
     };
+
+    class DAC_Unit_Commando_Tech_Base;
     class DAC_Unit_XRay_Medic: DAC_Unit_Commando_Tech_Base
     {
         displayName = "Clone Commando Medic (X-Ray [Doktor])";
@@ -173,6 +173,8 @@ class CfgVehicles
         };
         backpack = "DAC_Backpack_XRay_Medic";
     };
+
+    class DAC_Unit_Commando_DM_Base;
     class DAC_Unit_XRay_DM: DAC_Unit_Commando_DM_Base
     {
         displayName = "Clone Commando Designated Marksman (X-Ray [Frost])";
@@ -200,10 +202,6 @@ class CfgVehicles
     // │     Backpacks     │
     // └───────────────────┘
     class DAC_Backpack_RTO_Base;
-    class DAC_Backpack_EOD_Base;
-    class DAC_Backpack_Tech_Base;
-    class DAC_Backpack_Base;
-
     class DAC_Backpack_XRay_SL: DAC_Backpack_RTO_Base
     {
         displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix])";
@@ -219,6 +217,7 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
+    class DAC_Backpack_EOD_Base;
     class DAC_Backpack_XRay_EOD: DAC_Backpack_EOD_Base
     {
         displayName = "[DA] Katarn II Clone Commando EOD Backpack (X-Ray [Dart])";
@@ -234,6 +233,7 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
+    class DAC_Backpack_Tech_Base;
     class DAC_Backpack_XRay_Medic: DAC_Backpack_Tech_Base
     {
         displayName = "[DA] Katarn II Clone Commando Medic Backpack (X-Ray [Doktor])";
@@ -250,6 +250,7 @@ class CfgVehicles
         maximumLoad = HUGE_SIZE;
     };
 
+    class DAC_Backpack_Base;
     class DAC_Backpack_XRay_DM: DAC_Backpack_Base
     {
         displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost])";
