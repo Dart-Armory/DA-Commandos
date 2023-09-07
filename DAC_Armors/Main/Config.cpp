@@ -18,8 +18,8 @@ class CfgWeapons
     // ┌───────────────────┐
     // │      Helmets      │
     // └───────────────────┘
-    class SWLB_clone_commando_helmet_k1;
-    class DAC_Helmet_Commando_Base: SWLB_clone_commando_helmet_k1
+    class lsd_sob_commando_helmet;
+    class DAC_Helmet_Commando_Base: lsd_sob_commando_helmet
     {
         // Mod Info
         dlc = "DA_Commandos";
@@ -27,7 +27,6 @@ class CfgWeapons
 
         // Scope
         scope = 2;
-        scopeCurator = 2;
         scopeArsenal = 2;
 
         displayName = "[DA] Katarn I Commando Helmet";
@@ -36,17 +35,18 @@ class CfgWeapons
             "DAC_Armors\Main\Data\Helmets\Commando_Helmet_Base.paa", // Visor
             "DAC_Armors\Main\Data\Helmets\Commando_Helmet_Base.paa"  // Main Helmet
         };
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_helmet_k1_ca.paa";
     };
 
     // ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
-    class U_B_CombatUniform_mcam;
-    class SWLB_clone_commando_uniform_k1: U_B_CombatUniform_mcam
+    class ls_blueforUniform_base;
+    class ls_sob_commando_uniform: ls_blueforUniform_base
     {
         class ItemInfo;
     };
-    class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
+    class DAC_Uniform_Commando_Base: ls_sob_commando_uniform
     {
         // Mod Info
         dlc = "DA_Commandos";
@@ -54,10 +54,11 @@ class CfgWeapons
 
         // Scope
         scope = 2;
-        scopeCurator = 2;
         scopeArsenal = 2;
 
         displayName = "[DA] Katarn I Commando Armor";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_uniform_k1_ca.paa";
+
         class ItemInfo: ItemInfo
         {
             uniformClass = "DAC_Unit_Commando_Base";

@@ -5,8 +5,8 @@ class CfgVehicles
     // ┌───────────────────┐
     // │       Units       │
     // └───────────────────┘
-    class SWLB_clone_commando_base;
-    class DAC_Unit_Commando_Base: SWLB_clone_commando_base
+    class ls_sob_commando_base;
+    class DAC_Unit_Commando_Base: ls_sob_commando_base
     {
         // Mod Info
         dlc = "DA_Commandos";
@@ -15,13 +15,13 @@ class CfgVehicles
         // Scope
         scope = 2;
         scopeCurator = 2;
-        scopeArsenal = 2;
 
         // Editor Attributes
         faction = "DA_Commandos";
         editorSubcategory = "DAC_Base";
 
         displayName = "Clone Commando";
+        editorPreview = "\SWLB_clones_spec\data\ui\editorPreviews\SWLB_clone_commando_base.jpg";
         uniformClass = "DAC_Uniform_Commando_Base";
         hiddenSelectionsTextures[] =
         {

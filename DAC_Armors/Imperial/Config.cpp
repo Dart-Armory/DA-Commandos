@@ -35,8 +35,8 @@ class CfgWeapons
     // ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
-    class SWLB_clone_commando_uniform_k1;
-    class DAC_Uniform_Commando_Base: SWLB_clone_commando_uniform_k1
+    class ls_sob_commando_uniform;
+    class DAC_Uniform_Commando_Base: ls_sob_commando_uniform
     {
         class ItemInfo;
     };
