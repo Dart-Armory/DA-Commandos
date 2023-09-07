@@ -10,8 +10,10 @@ class CfgPatches
             "ls_armor_bluefor",
                 // Clone Commando Helmets, Uniforms, and Units
                 // Helmet holder
-            "SWLB_clones_spec_backpacks"
+            "SWLB_clones_spec_backpacks",
                 // Clone Commando Backpacks
+            "DAC_Weapons_DC17M",
+            "DAC_Weapons_DC15SA"
         };
         units[] =
         {

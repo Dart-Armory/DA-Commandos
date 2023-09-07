@@ -30,6 +30,32 @@ class CfgVehicles
         };
         nakedUniform = "lsd_gar_bodyGlove_uniform";
 
+        weapons[] =
+        {
+            "DAC_DC17M",
+            "DAC_DC15SA",
+            "Throw",
+            "Put"
+        };
+        respawnWeapons[] =
+        {
+            "DAC_DC17M",
+            "DAC_DC15SA",
+            "Throw",
+            "Put"
+        };
+
+        magazines[] =
+        {
+            "LFP_DC17M_Mag",
+            "LFP_RazorBlade_Mag"
+        };
+        respawnMagazines[] =
+        {
+            "LFP_DC17M_Mag",
+            "LFP_RazorBlade_Mag"
+        };
+
         linkedItems[] =
         {
             "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
@@ -82,6 +108,21 @@ class CfgVehicles
     {
         displayName = "Clone Commando Designated Marksman";
         editorPreview="SWLB_clones_spec\data\ui\editorPreviews\SWLB_clone_commando_sniper_base.jpg";
+
+        weapons[] =
+        {
+            "DAC_DC17M_Sniper",
+            "DAC_DC15SA",
+            "Throw",
+            "Put"
+        };
+        respawnWeapons[] =
+        {
+            "DAC_DC17M_Sniper",
+            "DAC_DC15SA",
+            "Throw",
+            "Put"
+        };
 
         linkedItems[] =
         {
