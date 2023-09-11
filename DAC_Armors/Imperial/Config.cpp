@@ -53,7 +53,6 @@ class CfgWeapons
 
 class CfgVehicles
 {
-    class ItemInfo;
     // ┌───────────────────┐
     // │       Units       │
     // └───────────────────┘
