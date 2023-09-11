@@ -1,8 +1,9 @@
 class CfgPatches
 {
-    class DA_Commando_Items
+    class DAC_Items_WBK_ScFiWeapons
     {
         author = "DartRuffian";
+        addonRootClass = "DAC_Items";
         requiredVersion = 0.1;
         requiredAddons[] =
         {
