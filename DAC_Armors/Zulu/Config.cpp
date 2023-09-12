@@ -121,11 +121,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Zulu_SL", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_SL", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Zulu_SL", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_SL", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_Zulu_SL";
     };
@@ -143,11 +143,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Zulu_EOD", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_EOD", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Zulu_EOD", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_EOD", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_Zulu_EOD";
     };
@@ -165,11 +165,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Zulu_Medic", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_Medic", "DAC_Vest_Commando_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Zulu_Medic", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_Medic", "DAC_Vest_Commando_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_Zulu_Medic";
     };
@@ -187,11 +187,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Zulu_DM", "DAC_Vest_Commando_DM_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_DM", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Zulu_DM", "DAC_Vest_Commando_DM_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Zulu_DM", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_Zulu_DM";
     };

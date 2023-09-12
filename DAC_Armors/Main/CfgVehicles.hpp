@@ -66,11 +66,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_Base";
     };
@@ -82,11 +82,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_RTO_Base";
 
@@ -100,11 +100,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
         };
         backpack = "DAC_Backpack_EOD_Base";
 
