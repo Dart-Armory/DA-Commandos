@@ -8,11 +8,6 @@ class CfgEditorSubcategories
     {
         displayName = "Imperial Commandos";
     };
-    class DAC_Imperial_OPFOR
-    {
-        displayName = "Imperial Commandos";
-        side = 0;
-    };
 };
 
 
@@ -81,7 +76,6 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_OPFOR: DAC_Unit_Imperial_Commando
     {
         faction = "DA_Commandos_OPFOR";
-        editorSubcategory = "DAC_Imperial_OPFOR";
         side = 0;
     };
 
@@ -104,7 +98,6 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_SL_OPFOR: DAC_Unit_Imperial_Commando_SL
     {
         faction = "DA_Commandos_OPFOR";
-        editorSubcategory = "DAC_Imperial_OPFOR";
         side = 0;
     };
 
@@ -127,7 +120,6 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_EOD_OPFOR: DAC_Unit_Imperial_Commando_EOD
     {
         faction = "DA_Commandos_OPFOR";
-        editorSubcategory = "DAC_Imperial_OPFOR";
         side = 0;
     };
 
@@ -150,7 +142,6 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_Tech_OPFOR: DAC_Unit_Imperial_Commando_Tech
     {
         faction = "DA_Commandos_OPFOR";
-        editorSubcategory = "DAC_Imperial_OPFOR";
         side = 0;
     };
 
@@ -173,7 +164,6 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_DM_OPFOR: DAC_Unit_Imperial_Commando_DM
     {
         faction = "DA_Commandos_OPFOR";
-        editorSubcategory = "DAC_Imperial_OPFOR";
         side = 0;
     };
 
