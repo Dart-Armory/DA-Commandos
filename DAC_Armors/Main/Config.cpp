@@ -213,9 +213,9 @@ class CfgWeapons
         };
     };
 
-    class DAC_NVG_Commando_Antenna: DAC_NVG_Chip_NVTI
+    class DAC_NVG_Commando_Antenna: DAC_NVG_Chip_NV
     {
-        displayName = "[DA] Katarn I Commando Antenna [NV/TI]";
+        displayName = "[DA] Katarn I Commando Antenna [NV]";
 
         model = "\SWLB_clones_spec\SWLB_clone_commando_nvg_antenna.p3d";
         hiddenSelections[] = { "camo1" };
