@@ -30,6 +30,14 @@ class CfgVehicles
         };
         nakedUniform = "lsd_gar_bodyGlove_uniform";
 
+        modelSides[] = {0, 1, 2, 3};
+        /*
+          0: OPFOR
+          1: BLUFOR
+          2: Independent
+          3: Civilian
+        */
+
         weapons[] =
         {
             "DAC_DC17M",

@@ -29,6 +29,8 @@ class CfgWeapons
         scope = 2;
         scopeArsenal = 2;
 
+        modelSides[] = {0, 1, 2, 3};
+
         displayName = "[DA] Katarn I Commando Helmet";
         hiddenSelectionsTextures[] =
         {
@@ -63,13 +65,6 @@ class CfgWeapons
         {
             uniformClass = "DAC_Unit_Commando_Base";
             uniformType = "Neopren";
-            modelSides[] = {0, 1, 2, 3};
-            /*
-            0: OPFOR
-            1: BLUFOR
-            2: Independent
-            3: Civilian
-            */
         };
     };
 
