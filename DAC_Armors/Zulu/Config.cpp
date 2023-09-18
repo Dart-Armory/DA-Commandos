@@ -19,6 +19,7 @@ class CfgWeapons
     class DAC_Helmet_Commando_Base;
     class DAC_Helmet_Zulu_SL: DAC_Helmet_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Galahad])";
         hiddenSelectionsTextures[] =
         {
@@ -28,6 +29,7 @@ class CfgWeapons
     };
     class DAC_Helmet_Zulu_EOD: DAC_Helmet_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Thor])";
         hiddenSelectionsTextures[] =
         {
@@ -37,6 +39,7 @@ class CfgWeapons
     };
     class DAC_Helmet_Zulu_Medic : DAC_Helmet_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Cherryy])";
         hiddenSelectionsTextures[] =
         {
@@ -46,6 +49,7 @@ class CfgWeapons
     };
     class DAC_Helmet_Zulu_DM: DAC_Helmet_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Cyan])";
         hiddenSelectionsTextures[] =
         {
@@ -64,6 +68,7 @@ class CfgWeapons
     };
     class DAC_Uniform_Zulu_SL: DAC_Uniform_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Armor (Zulu [Galahad])";
         class ItemInfo: ItemInfo
         {
@@ -72,6 +77,7 @@ class CfgWeapons
     };
     class DAC_Uniform_Zulu_EOD: DAC_Uniform_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Armor (Zulu [Thor])";
         class ItemInfo: ItemInfo
         {
@@ -80,6 +86,7 @@ class CfgWeapons
     };
     class DAC_Uniform_Zulu_Medic: DAC_Uniform_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Armor (Zulu [Cherryy])";
         class ItemInfo: ItemInfo
         {
@@ -88,6 +95,7 @@ class CfgWeapons
     };
     class DAC_Uniform_Zulu_DM: DAC_Uniform_Commando_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn I Clone Commando Armor (Zulu [Cyan])";
         class ItemInfo: ItemInfo
         {
@@ -109,6 +117,7 @@ class CfgVehicles
 
     class DAC_Unit_Zulu_SL: DAC_Unit_Commando_SL_Base
     {
+        author = "Cyan";
         displayName = "Clone Commando Squad Leader (Zulu [Galahad])";
         editorSubcategory = "DAC_Zulu";
 
@@ -131,6 +140,7 @@ class CfgVehicles
     };
     class DAC_Unit_Zulu_EOD: DAC_Unit_Commando_EOD_Base
     {
+        author = "Cyan";
         displayName = "Clone Commando Explosives Specialist (Zulu [Thor])";
         editorSubcategory = "DAC_Zulu";
 
@@ -153,6 +163,7 @@ class CfgVehicles
     };
     class DAC_Unit_Zulu_Medic: DAC_Unit_Commando_Tech_Base
     {
+        author = "Cyan";
         displayName = "Clone Commando Medic (Zulu [Cherryy])";
         editorSubcategory = "DAC_Zulu";
 
@@ -175,6 +186,7 @@ class CfgVehicles
     };
     class DAC_Unit_Zulu_DM: DAC_Unit_Commando_DM_Base
     {
+        author = "Cyan";
         displayName = "Clone Commando Designated Marksman (Zulu [Cyan])";
         editorSubcategory = "DAC_Zulu";
 
@@ -202,6 +214,7 @@ class CfgVehicles
     class DAC_Backpack_RTO_Base;
     class DAC_Backpack_Zulu_SL: DAC_Backpack_RTO_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn II Clone Commando RTO Backpack (Zulu [Galahad])";
         hiddenSelectionsTextures[] =
         {
@@ -218,6 +231,7 @@ class CfgVehicles
     class DAC_Backpack_EOD_Base;
     class DAC_Backpack_Zulu_EOD: DAC_Backpack_EOD_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn II Clone Commando EOD Backpack (Zulu [Thor])";
         hiddenSelectionsTextures[] =
         {
@@ -234,6 +248,7 @@ class CfgVehicles
     class DAC_Backpack_Tech_Base;
     class DAC_Backpack_Zulu_Medic : DAC_Backpack_Tech_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn II Clone Commando Medic Backpack (Zulu [Cherryy])";
         hiddenSelectionsTextures[] =
             {
@@ -251,6 +266,7 @@ class CfgVehicles
     class DAC_Backpack_Base;
     class DAC_Backpack_Zulu_DM: DAC_Backpack_Base
     {
+        author = "Cyan";
         displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan])";
         hiddenSelectionsTextures[] =
         {
