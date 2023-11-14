@@ -1,0 +1,58 @@
+name = "Dart Armory Commandos"
+author = "DartRuffian"
+prefix = "DAC"
+mainprefix = "DA"
+
+[version]
+path = "addons/Core/script_version.hpp"
+
+[files]
+include = []
+exclude = [
+    "*.psd",
+    "*.spp",
+    "*.spp.painter_lock"
+]
+
+[properties]
+author = "DartRuffian"
+url = "https://github.com/DartRuffian/Dart-Armory-Commandos"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997",  # CBA
+    "463939057",  # ACE
+    "2369477168", # ADT
+    "623475643",  # 3DEN
+    "1779063631", # ZEN
+    "2018593688", # ZEN ACE Compat
+    "1940589429", # JLTS
+    "2162749089", # LS
+    "2061309401"  # LFP
+]
+presets = []
+dlc = []
+optionals = []
+parameters = [
+    "C:\\Users\\skull\\OneDrive\\Documents\\Arma 3 - Other Profiles\\CE%2fSPC-0925%20%22Dart%22\\missions\\Commando%20Test.VR"
+]
+
+[hemtt.launch.previews]
+workshop = [
+    "450814997",  # CBA
+    "463939057",  # ACE
+    "2369477168", # ADT
+    "623475643",  # 3DEN
+    "1779063631", # ZEN
+    "2018593688", # ZEN ACE Compat
+    "1940589429", # JLTS
+    "2162749089", # LS
+    "2061309401"  # LFP
+]
+presets = []
+dlc = []
+optionals = []
+parameters = [
+    "C:\\Users\\skull\\OneDrive\\Documents\\Arma 3 - Other Profiles\\Previews\\missions\\Previews.VR\\mission.sqm",
+    "-name=Previews"
+]
