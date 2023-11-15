@@ -2,7 +2,7 @@
 #define PREFIX DAC
 #define ADDON PREFIX##_##COMPONENT
 
-#include "\DA\DAC\core\script_version.hpp"
+#include "\DA\DAC\Core\script_version.hpp"
 
 #define VERSION     MAJOR.MINOR
 #define VERSION_STR MAJOR.MINOR.PATCHLVL.BUILD
