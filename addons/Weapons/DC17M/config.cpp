@@ -15,6 +15,11 @@ class CfgPatches
             "DAC_Weapons"
         };
         units[] = {};
-        weapons[] = {};
+        weapons[] =
+        {
+            "DAC_DC17M",
+            "DAC_DC17M_Sniper",
+            "DAC_Weap_DC17M"
+        };
     };
 };
