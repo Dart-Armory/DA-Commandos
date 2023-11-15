@@ -118,8 +118,8 @@ class CfgWeapons
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\vests\commando\camo1.paa",
-            "\DA\DAC\Armor\data\vests\commando\camo1.paa"
+            "\DA\DAC\Armor\data\vests\commando_camo1.paa",
+            "\DA\DAC\Armor\data\vests\commando_camo1.paa"
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca.paa";
@@ -138,7 +138,7 @@ class CfgWeapons
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\vests\commando\camo1.paa"
+            "\DA\DAC\Armor\data\vests\commando_camo1.paa"
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca.paa";
 
