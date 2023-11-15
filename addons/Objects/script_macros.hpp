@@ -3,6 +3,6 @@
     displayName = DISPLAY_NAME; \
     class TransportItems \
     { \
-        ITEM_XX(HELM_NAME,1) \
+        ITEM_XX(HELM_NAME,1); \
     }; \
 }
