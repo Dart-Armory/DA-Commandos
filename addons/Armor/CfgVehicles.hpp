@@ -152,7 +152,7 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando: DAC_Unit_Commando_Base
     {
         displayName = "Imperial Commando";
-        editorSubcategory = "DAC_Imperial";
+        editorSubcategory = "DAC_Commandos_Imperial";
 
         uniformClass = "DAC_Uniform_Imperial_Commando";
         hiddenSelectionsTextures[] =
@@ -178,7 +178,7 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_SL: DAC_Unit_Commando_SL_Base
     {
         displayName = "Imperial Commando Squad Leader";
-        editorSubcategory = "DAC_Imperial";
+        editorSubcategory = "DAC_Commandos_Imperial";
 
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
@@ -198,7 +198,7 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_EOD: DAC_Unit_Commando_EOD_Base
     {
         displayName = "Imperial Commando Explosives Specialist";
-        editorSubcategory = "DAC_Imperial";
+        editorSubcategory = "DAC_Commandos_Imperial";
 
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
@@ -218,7 +218,7 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
     {
         displayName = "Imperial Commando Tech Specialist";
-        editorSubcategory = "DAC_Imperial";
+        editorSubcategory = "DAC_Commandos_Imperial";
 
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
@@ -238,7 +238,7 @@ class CfgVehicles
     class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
     {
         displayName = "Imperial Commando Designated Marksman";
-        editorSubcategory = "DAC_Imperial";
+        editorSubcategory = "DAC_Commandos_Imperial";
 
         uniformClass = "DAC_Uniform_Imperial_Commando";
         linkedItems[] =
