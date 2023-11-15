@@ -51,10 +51,7 @@ class CfgPatches
             "DAC_Backpack_EOD_Base",
             "DAC_Backpack_EOD_Base_Huge",
             "DAC_Backpack_Tech_Base",
-            "DAC_Backpack_Tech_Base_Huge",
-
-            // Placeable Helmets
-            "DAC_HelmetHolder_Commando_Base"
+            "DAC_Backpack_Tech_Base_Huge"
         };
         weapons[] =
         {

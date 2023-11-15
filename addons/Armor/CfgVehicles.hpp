@@ -341,27 +341,4 @@ class CfgVehicles
         displayName = "[DA] Katarn II Commando Tech Backpack (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
-
-
-    class ls_blueforHeadgear_base;
-    class DAC_HelmetHolder_Commando_Base: ls_blueforHeadgear_base
-    {
-        scope = 2;
-        scopeCurator = 2;
-        author = "DartRuffian";
-
-        // Editor Attributes
-        editorCategory = "DAC_Objects";
-        editorSubcategory = "DAC_Objects_Helmets";
-
-        displayName = "Katarn I Commando Helmet";
-        class TransportItems
-        {
-            class DAC_Helmet_Commando_Base
-            {
-                name = "DAC_Helmet_Commando_Base";
-                count = 1;
-            };
-        };
-    };
 };
