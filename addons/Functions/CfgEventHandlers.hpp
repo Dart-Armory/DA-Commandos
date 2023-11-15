@@ -6,6 +6,17 @@ class Extended_PreInit_EventHandlers
     };
 };
 
+class Extended_InitPost_EventHandlers
+{
+    class CAManBase
+    {
+        class GVAR(addRadio)
+        {
+            init = QUOTE(_this call GFUNC(addRadio));
+        };
+    };
+};
+
 class Extended_Reloaded_EventHandlers
 {
     class CAManBase
