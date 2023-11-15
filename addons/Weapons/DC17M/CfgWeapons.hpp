@@ -17,8 +17,8 @@ class CfgWeapons
 
         displayName = "[DA] DC-17M";
 
-        DAC_attachmentSwap = 1; // Enables attachment swapping
-        DAC_attachments[] =     // Array of magazine properties to check and the attachment to use
+        DAC_Weapons_attachmentSwap = 1; // Enables attachment swapping
+        DAC_Weapons_attachments[] =     // Array of magazine properties to check and the attachment to use
         {
             {"DAC_DC17M_isBlasterMag", "lfp_dc17m_attachment_blaster"},
             {"DAC_DC17M_isGLMag", "lfp_dc17m_attachment_gl"},
