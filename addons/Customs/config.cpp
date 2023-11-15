@@ -50,7 +50,11 @@ class CfgPatches
             "DAC_Helmet_XRay_SL",
             "DAC_Helmet_XRay_EOD",
             "DAC_Helmet_XRay_Medic",
-            "DAC_Helmet_XRay_DM"
+            "DAC_Helmet_XRay_DM",
+            "DAC_Helmet_Zulu_SL",
+            "DAC_Helmet_Zulu_EOD",
+            "DAC_Helmet_Zulu_Medic",
+            "DAC_Helmet_Zulu_DM"
 
             // Uniforms
 
