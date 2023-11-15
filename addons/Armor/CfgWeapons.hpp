@@ -99,8 +99,8 @@ class CfgWeapons
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa",
-            "\DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+            "\DA\DAC\Armor\data\vests\commando\camo1.paa",
+            "\DA\DAC\Armor\data\vests\commando\camo1.paa"
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca.paa";
@@ -119,7 +119,7 @@ class CfgWeapons
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Vests\Commando_Vests_AiO.paa"
+            "\DA\DAC\Armor\data\vests\commando\camo1.paa"
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca.paa";
 
@@ -173,11 +173,11 @@ class CfgWeapons
         displayName = "[DA] Katarn I Commando Visor [NV/TI]";
 
         model = "\SWLB_clones_spec\SWLB_clone_commando_nvg.p3d";
-        hiddenSelections[] = { "illum", "camo1" };
+        hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\NVGs\Commando_NVG_Visor.paa",
-            "\DAC_Armors\Main\Data\NVGs\Commando_NVG_Visor.paa"
+            "\DA\DAC\Armor\data\nvgs\commando\visor_camo1.paa",
+            "\DA\DAC\Armor\data\nvgs\commando\visor_camo1.paa"
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_ca.paa";
@@ -198,7 +198,7 @@ class CfgWeapons
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\NVGs\Commando_NVG_Antenna.paa"
+            "\DA\DAC\Armor\data\nvgs\commando\antenna_camo1.paa"
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_antenna_ca.paa";
 
