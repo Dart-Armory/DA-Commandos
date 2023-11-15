@@ -100,7 +100,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Squad Leader (Zulu [Galahad])";
-        editorSubcategory = "DAC_Zulu";
+        editorSubcategory = "DAC_SOB_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_SL";
         hiddenSelectionsTextures[] =
@@ -123,7 +123,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Explosives Specialist (Zulu [Thor])";
-        editorSubcategory = "DAC_Zulu";
+        editorSubcategory = "DAC_SOB_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_EOD";
         hiddenSelectionsTextures[] =
@@ -146,7 +146,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Medic (Zulu [Cherryy])";
-        editorSubcategory = "DAC_Zulu";
+        editorSubcategory = "DAC_SOB_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_Medic";
         hiddenSelectionsTextures[] =
@@ -169,7 +169,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Designated Marksman (Zulu [Cyan])";
-        editorSubcategory = "DAC_Zulu";
+        editorSubcategory = "DAC_SOB_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_DM";
         hiddenSelectionsTextures[] =

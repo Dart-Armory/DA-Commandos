@@ -4,4 +4,8 @@ class CfgEditorSubcategories
     {
         displayName = "X-Ray Clone Commando Squad";
     };
+    class DAC_SOB_Zulu
+    {
+        displayName = "Zulu Clone Commando Squad";
+    };
 };
