@@ -49,6 +49,7 @@ class CfgPatches
         {
             // Helmets
             "DAC_Helmet_Commando_Base",
+            "DAC_Helmet_Imperial_Commando",
 
             // Uniforms
             "DAC_Uniform_Commando_Base",

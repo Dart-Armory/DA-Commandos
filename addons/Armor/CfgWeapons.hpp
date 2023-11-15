@@ -23,6 +23,16 @@ class CfgWeapons
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_helmet_k1_ca.paa";
     };
 
+    class DAC_Helmet_Imperial_Commando: DAC_Helmet_Commando_Base
+    {
+        displayName = "[DA] Katarn I Imperial Commando Helmet";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Armor\data\helmets\commando\imperial_camo1.paa",
+            "\DA\DAC\Armor\data\helmets\commando\imperial_camo1.paa"
+        };
+    };
+
     // ┌────────────────────┐
     // │      Uniforms      │
     // └────────────────────┘
