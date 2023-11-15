@@ -17,3 +17,13 @@ class Ground_DAC_Helmet_Commando_Base: ls_blueforHeadgear_base
 };
 
 GROUND_HOLDER(DAC_Helmet_Imperial_Commando,"Katarn I Imperial Commando Helmet");
+
+GROUND_HOLDER(DAC_Helmet_XRay_SL,"Katarn I Clone Commando Helmet (X-Ray [Nix]");
+GROUND_HOLDER(DAC_Helmet_XRay_EOD,"Katarn I Clone Commando Helmet (X-Ray [Dart]");
+GROUND_HOLDER(DAC_Helmet_XRay_Medic,"Katarn I Clone Commando Helmet (X-Ray [Doktor]");
+GROUND_HOLDER(DAC_Helmet_XRay_DM,"Katarn I Clone Commando Helmet (X-Ray [Frost]");
+
+GROUND_HOLDER(DAC_Helmet_Zulu_SL,"Katarn I Clone Commando Helmet (Zulu [Galahad]");
+GROUND_HOLDER(DAC_Helmet_Zulu_EOD,"Katarn I Clone Commando Helmet (Zulu [Thor]");
+GROUND_HOLDER(DAC_Helmet_Zulu_Medic,"Katarn I Clone Commando Helmet (Zulu [Cherryy]");
+GROUND_HOLDER(DAC_Helmet_Zulu_DM,"Katarn I Clone Commando Helmet (Zulu [Cyan]");

@@ -21,7 +21,16 @@ class CfgPatches
         };
         units[] =
         {
-            "Headgear_DAC_Helmet_Commando_Base"
+            "Ground_DAC_Helmet_Commando_Base",
+            "Ground_DAC_Helmet_Imperial_Commando",
+            "Ground_DAC_Helmet_XRay_SL",
+            "Ground_DAC_Helmet_XRay_EOD",
+            "Ground_DAC_Helmet_XRay_Medic",
+            "Ground_DAC_Helmet_XRay_DM",
+            "Ground_DAC_Helmet_Zulu_SL",
+            "Ground_DAC_Helmet_Zulu_EOD",
+            "Ground_DAC_Helmet_Zulu_Medic",
+            "Ground_DAC_Helmet_Zulu_DM"
         };
         weapons[] = {};
     };
