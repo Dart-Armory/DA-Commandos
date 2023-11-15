@@ -82,6 +82,7 @@ class CfgWeapons
 
     class DAC_Weap_DC17M: DAC_DC17M
     {
+        // Legacy class name
         scope = 1;
         scopeArsenal = 0;
     };
