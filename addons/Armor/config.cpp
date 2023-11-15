@@ -31,6 +31,16 @@ class CfgPatches
             "DAC_Unit_Commando_EOD_Base",
             "DAC_Unit_Commando_DM_Base",
             "DAC_Unit_Commando_Tech_Base",
+            "DAC_Unit_Imperial_Commando",
+            "DAC_Unit_Imperial_Commando_OPFOR",
+            "DAC_Unit_Imperial_Commando_SL",
+            "DAC_Unit_Imperial_Commando_SL_OPFOR",
+            "DAC_Unit_Imperial_Commando_EOD",
+            "DAC_Unit_Imperial_Commando_EOD_OPFOR",
+            "DAC_Unit_Imperial_Commando_DM",
+            "DAC_Unit_Imperial_Commando_DM_OPFOR",
+            "DAC_Unit_Imperial_Commando_Tech",
+            "DAC_Unit_Imperial_Commando_Tech_OPFOR",
 
             // Backpacks
             "DAC_Backpack_Base",

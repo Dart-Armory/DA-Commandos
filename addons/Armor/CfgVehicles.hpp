@@ -149,6 +149,112 @@ class CfgVehicles
         attendant = 1;
     };
 
+    class DAC_Unit_Imperial_Commando: DAC_Unit_Commando_Base
+    {
+        displayName = "Imperial Commando";
+        editorSubcategory = "DAC_Imperial";
+
+        uniformClass = "DAC_Uniform_Imperial_Commando";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Armor\data\uniforms\commando\imperial_upper.paa",
+            "\DA\DAC\Armor\data\uniforms\commando\imperial_lower.paa"
+        };
+
+        linkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+        respawnLinkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+    };
+    class DAC_Unit_Imperial_Commando_OPFOR: DAC_Unit_Imperial_Commando
+    {
+        side = 0;
+    };
+
+    class DAC_Unit_Imperial_Commando_SL: DAC_Unit_Commando_SL_Base
+    {
+        displayName = "Imperial Commando Squad Leader";
+        editorSubcategory = "DAC_Imperial";
+
+        uniformClass = "DAC_Uniform_Imperial_Commando";
+        linkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+        respawnLinkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+    };
+    class DAC_Unit_Imperial_Commando_SL_OPFOR: DAC_Unit_Imperial_Commando_SL
+    {
+        side = 0;
+    };
+
+    class DAC_Unit_Imperial_Commando_EOD: DAC_Unit_Commando_EOD_Base
+    {
+        displayName = "Imperial Commando Explosives Specialist";
+        editorSubcategory = "DAC_Imperial";
+
+        uniformClass = "DAC_Uniform_Imperial_Commando";
+        linkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+        respawnLinkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+    };
+    class DAC_Unit_Imperial_Commando_EOD_OPFOR: DAC_Unit_Imperial_Commando_EOD
+    {
+        side = 0;
+    };
+
+    class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
+    {
+        displayName = "Imperial Commando Tech Specialist";
+        editorSubcategory = "DAC_Imperial";
+
+        uniformClass = "DAC_Uniform_Imperial_Commando";
+        linkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+        respawnLinkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+    };
+    class DAC_Unit_Imperial_Commando_Tech_OPFOR: DAC_Unit_Imperial_Commando_Tech
+    {
+        side = 0;
+    };
+
+    class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
+    {
+        displayName = "Imperial Commando Designated Marksman";
+        editorSubcategory = "DAC_Imperial";
+
+        uniformClass = "DAC_Uniform_Imperial_Commando";
+        linkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+        respawnLinkedItems[] =
+        {
+            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+        };
+    };
+    class DAC_Unit_Imperial_Commando_DM_OPFOR: DAC_Unit_Imperial_Commando_DM
+    {
+        side = 0;
+    };
+
     // ┌───────────────────┐
     // │     Backpacks     │
     // └───────────────────┘
