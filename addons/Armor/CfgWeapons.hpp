@@ -183,6 +183,7 @@ class CfgWeapons
     class DAC_NVG_Chip_NVTI: DAC_NVG_Chip_NV
     {
         displayName = "[DA] Katarn I Commando Chip [NV/TI]";
+        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_2_ui_ca.paa";
         visionMode[] = {"Normal", "NVG", "TI"};
         thermalMode[] = {WHOT, BHOT};
     };
