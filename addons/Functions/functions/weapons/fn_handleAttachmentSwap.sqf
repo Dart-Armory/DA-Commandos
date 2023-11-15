@@ -34,10 +34,7 @@ _attachments =
 if (_isEnabled isEqualTo FALSE) exitWith {};
 if (_attachments isEqualTo []) exitWith
 {
-	if !(isMultiplayer) then
-	{
-		WARNING_1("[%1] has attachment swapping enabled, but does not have any attachments configured.", _weapon);
-	};
+	WARNING_1("[%1] has attachment swapping enabled, but does not have any attachments configured.", _weapon);
 };
 
 {
