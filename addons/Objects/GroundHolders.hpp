@@ -15,3 +15,5 @@ class Ground_DAC_Helmet_Commando_Base: ls_blueforHeadgear_base
         ITEM_XX(DAC_Helmet_Commando_Base,1)
     };
 };
+
+GROUND_HOLDER(DAC_Helmet_Imperial_Commando,"Katarn I Imperial Commando Helmet");
