@@ -1,0 +1,12 @@
+name = "Dart Armory - Commandos";
+picture = "logo_dac_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/DartRuffian/Dart-Armory-Commandos";
+description = "DAC - Version 0.0.0";
+logo = "logo_dac_ca.paa";
+logoOver = "logo_dac_over_ca.paa";
+tooltip = "DAC";
+tooltipOwned = "DAC Owned";
+overview = "A mod containing retextures and weapon balance changes.";
+author = "DartRuffian";
+overviewPicture = "logo_dac_ca.paa";

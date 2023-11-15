@@ -7,7 +7,14 @@ mainprefix = "DA"
 path = "addons/Core/script_version.hpp"
 
 [files]
-include = []
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "logo_dac_ca.paa",
+    "logo_dac_over_ca.paa",
+    "LICENSE",
+    "README.md"
+]
 exclude = [
     "*.psd",
     "*.spp",
