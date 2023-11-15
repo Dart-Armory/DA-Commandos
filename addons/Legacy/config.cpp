@@ -16,6 +16,7 @@ class CfgPatches
         weapons[] = {};
     };
 
+    // Legacy pre-rewrite addon names
     class DAC_Main: ADDON {};
     class DAC_Imperial: ADDON {};
     class DAC_XRay: ADDON {};
