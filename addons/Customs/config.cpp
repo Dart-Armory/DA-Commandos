@@ -19,6 +19,10 @@ class CfgPatches
         units[] =
         {
             // Units
+            "DAC_Unit_XRay_SL",
+            "DAC_Unit_XRay_EOD",
+            "DAC_Unit_XRay_Medic",
+            "DAC_Unit_XRay_DM",
 
             // Backpacks
             "DAC_Backpack_XRay_SL",
