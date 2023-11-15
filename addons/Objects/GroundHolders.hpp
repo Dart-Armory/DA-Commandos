@@ -1,5 +1,5 @@
-class ls_blueforHeadgear_base;
-class Ground_DAC_Helmet_Commando_Base: ls_blueforHeadgear_base
+class Headgear_Base_F;
+class Ground_DAC_Helmet_Commando_Base: Headgear_Base_F
 {
     scope = 2;
     scopeCurator = 2;

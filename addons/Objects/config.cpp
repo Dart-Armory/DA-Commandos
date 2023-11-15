@@ -15,9 +15,7 @@ class CfgPatches
             "A3_Data_F_Decade_Loadorder",
             "DAC_Core",
             "DAC_Armor",
-            "DAC_Customs",
-            "ls_armor_bluefor"
-                // Groundholder
+            "DAC_Customs"
         };
         units[] =
         {
