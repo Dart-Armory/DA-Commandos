@@ -1,6 +1,9 @@
 #define MAINPREFIX DA
 #define PREFIX DAC
 #define ADDON PREFIX##_##COMPONENT
+#ifdef SUBCOMPONENT
+    #define SUBADDON ADDON##_##SUBCOMPONENT
+#endif
 
 #include "\DA\DAC\Core\script_version.hpp"
 
