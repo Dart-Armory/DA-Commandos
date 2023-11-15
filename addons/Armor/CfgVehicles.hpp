@@ -166,7 +166,7 @@ class CfgVehicles
         author = "DartRuffian";
 
         displayName = "[DA] Katarn II Commando Backpack";
-        maximumLoad = NORM_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO;
 
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02.p3d";
         hiddenSelections[] = {"illum", "camo1"};
@@ -180,7 +180,7 @@ class CfgVehicles
     class DAC_Backpack_Base_Huge: DAC_Backpack_Base
     {
         displayName = "[DA] Katarn II Commando Backpack (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
     class DAC_Backpack_RTO_Base: DAC_Backpack_Base
@@ -205,7 +205,7 @@ class CfgVehicles
     class DAC_Backpack_RTO_Base_Huge: DAC_Backpack_RTO_Base
     {
         displayName = "[DA] Katarn II Commando RTO Backpack (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
     class DAC_Backpack_EOD_Base: DAC_Backpack_Base
@@ -221,7 +221,7 @@ class CfgVehicles
     class DAC_Backpack_EOD_Base_Huge: DAC_Backpack_EOD_Base
     {
         displayName = "[DA] Katarn II Commando EOD Backpack (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
     class DAC_Backpack_Tech_Base: DAC_Backpack_Base
@@ -239,7 +239,7 @@ class CfgVehicles
     class DAC_Backpack_Tech_Base_Huge: DAC_Backpack_Tech_Base
     {
         displayName = "[DA] Katarn II Commando Tech Backpack (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
 
