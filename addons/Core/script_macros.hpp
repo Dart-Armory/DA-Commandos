@@ -53,6 +53,5 @@
 #define RBHOT 5
 
 // Scripting
-#define QUOTE(TEXT) #TEXT
 #define TRUE 1
 #define FALSE 0

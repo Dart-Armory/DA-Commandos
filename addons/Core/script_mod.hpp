@@ -1,14 +1,9 @@
 #define MAINPREFIX DA
 #define PREFIX DAC
-#define ADDON PREFIX##_##COMPONENT
-#ifdef SUBCOMPONENT
-    #define SUBADDON ADDON##_##SUBCOMPONENT
-#endif
 
+#include "\x\cba\addons\main\script_macros_common.hpp"
 #include "\DA\DAC\Core\script_version.hpp"
 
-#define VERSION     MAJOR.MINOR
-#define VERSION_STR MAJOR.MINOR.PATCHLVL.BUILD
 #define VERSION_ARR MAJOR,MINOR,PATCHLVL,BUILD
 
 #define REQUIRED_VERSION 2.14
