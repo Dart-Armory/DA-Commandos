@@ -172,8 +172,8 @@ class CfgVehicles
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa"
+            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa",
+            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa"
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
     };
@@ -189,8 +189,8 @@ class CfgVehicles
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_rto.p3d";
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa",
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_RTO.paa"
+            "\DA\DAC\Armor\data\backpacks\commando\RTO_camo1.paa",
+            "\DA\DAC\Armor\data\backpacks\commando\RTO_camo1.paa"
         };
 
         // TFAR Long Range
@@ -214,8 +214,8 @@ class CfgVehicles
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_eod.p3d";
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa",
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_EOD.paa"
+            "\DA\DAC\Armor\data\backpacks\commando\EOD_camo1.paa",
+            "\DA\DAC\Armor\data\backpacks\commando\EOD_camo1.paa"
         };
     };
     class DAC_Backpack_EOD_Base_Huge: DAC_Backpack_EOD_Base
@@ -231,9 +231,9 @@ class CfgVehicles
         hiddenSelections[] = {"illum", "camo1", "camo2"};
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_Base.paa",
-            "\DAC_Armors\Main\Data\Backpacks\Commando_BP_Tech_Addon.paa"
+            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa",
+            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa",
+            "\DA\DAC\Armor\data\backpacks\commando\Tech_camo2.paa"
         };
     };
     class DAC_Backpack_Tech_Base_Huge: DAC_Backpack_Tech_Base
