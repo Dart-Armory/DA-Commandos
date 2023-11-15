@@ -42,6 +42,7 @@
 #define BLUFOR 1
 #define INDEP 2
 #define CIVILIAN 3
+#define ALL_SIDES OPFOR, BLUFOR, INDEP, CIVILIAN
 
 // Scripting
 #define QUOTE(TEXT) #TEXT
