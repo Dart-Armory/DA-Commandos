@@ -32,7 +32,15 @@ class CfgPatches
             "DAC_Backpack_XRay_Medic",
             "DAC_Backpack_XRay_Medic_Huge",
             "DAC_Backpack_XRay_DM",
-            "DAC_Backpack_XRay_DM_Huge"
+            "DAC_Backpack_XRay_DM_Huge",
+            "DAC_Backpack_Zulu_SL",
+            "DAC_Backpack_Zulu_SL_Huge",
+            "DAC_Backpack_Zulu_EOD",
+            "DAC_Backpack_Zulu_EOD_Huge",
+            "DAC_Backpack_Zulu_Medic",
+            "DAC_Backpack_Zulu_Medic_Huge",
+            "DAC_Backpack_Zulu_DM",
+            "DAC_Backpack_Zulu_DM_Huge"
 
             // Placeable Helmets
         };

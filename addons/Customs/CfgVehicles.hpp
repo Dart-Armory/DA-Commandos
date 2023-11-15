@@ -160,4 +160,65 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost]) (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
+
+    class DAC_Backpack_Zulu_SL: DAC_Backpack_RTO_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando RTO Backpack (Zulu [Galahad])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\SL_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\SL_camo1.paa"
+        };
+    };
+    class DAC_Backpack_Zulu_SL_Huge: DAC_Backpack_Zulu_SL
+    {
+        displayName = "[DA] Katarn II Clone Commando RTO Backpack (Zulu [Galahad]) (Huge)";
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
+    };
+
+    class DAC_Backpack_Zulu_EOD: DAC_Backpack_EOD_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando EOD Backpack (Zulu [Thor])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\EOD_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\EOD_camo1.paa"
+        };
+    };
+    class DAC_Backpack_Zulu_EOD_Huge: DAC_Backpack_Zulu_EOD
+    {
+        displayName = "[DA] Katarn II Clone Commando EOD Backpack (Zulu [Thor]) (Huge)";
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
+    };
+
+    class DAC_Backpack_Zulu_Medic: DAC_Backpack_Tech_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando Medic Backpack (Zulu [Cherryy])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\Medic_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\Medic_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\Medic_camo2.paa"
+        };
+    };
+    class DAC_Backpack_Zulu_Medic_Huge: DAC_Backpack_Zulu_Medic
+    {
+        displayName = "[DA] Katarn II Clone Commando Medic Backpack (Zulu [Cherryy]) (Huge)";
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
+    };
+
+    class DAC_Backpack_Zulu_DM: DAC_Backpack_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\DM_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\zulu\DM_camo1.paa"
+        };
+    };
+    class DAC_Backpack_Zulu_DM_Huge: DAC_Backpack_Zulu_DM
+    {
+        displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan]) (Huge)";
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
+    };
 };
