@@ -1,0 +1,10 @@
+[binarize]
+enabled = true
+exclude = []
+
+[rapify]
+enabled = true
+exclude = []
+
+[files]
+exclude = []
