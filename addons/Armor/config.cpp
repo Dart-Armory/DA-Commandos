@@ -53,6 +53,7 @@ class CfgPatches
 
             // Uniforms
             "DAC_Uniform_Commando_Base",
+            "DAC_Uniform_Imperial_Commando",
 
             // Vests
             "DAC_Vest_Commando_Base",

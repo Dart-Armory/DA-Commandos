@@ -57,6 +57,15 @@ class CfgWeapons
         };
     };
 
+    class DAC_Uniform_Imperial_Commando: DAC_Uniform_Commando_Base
+    {
+        displayName = "[DA] Katarn I Imperial Commando Armor";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "DAC_Unit_Imperial_Commando";
+        };
+    };
+
     // ┌───────────────────┐
     // │       Vests       │
     // └───────────────────┘
