@@ -14,6 +14,10 @@ class Extended_InitPost_EventHandlers
         {
             init = QUOTE(_this call GFUNC(addRadio));
         };
+        class GVAR(switchGoggles)
+        {
+            init = QUOTE(_this call GFUNC(switchGoggles));
+        };
     };
 };
 
