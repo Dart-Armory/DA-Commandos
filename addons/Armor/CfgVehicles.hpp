@@ -24,13 +24,7 @@ class CfgVehicles
         };
         nakedUniform = "lsd_gar_bodyGlove_uniform";
 
-        modelSides[] = {0, 1, 2, 3};
-        /*
-          0: OPFOR
-          1: BLUFOR
-          2: Independent
-          3: Civilian
-        */
+        modelSides[] = {ALL_SIDES};
 
         weapons[] =
         {
@@ -60,11 +54,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         backpack = "DAC_Backpack_Base";
     };
@@ -76,11 +70,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         backpack = "DAC_Backpack_RTO_Base";
 
@@ -94,11 +88,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         backpack = "DAC_Backpack_EOD_Base";
 
@@ -128,11 +122,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         backpack = "DAC_Backpack_Base";
     };
@@ -144,11 +138,11 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "ItemMap", "SWLB_comlink", "ItemCompass"
+            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
         backpack = "DAC_Backpack_Tech_Base";
 
