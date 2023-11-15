@@ -23,6 +23,10 @@ class CfgPatches
             "DAC_Unit_XRay_EOD",
             "DAC_Unit_XRay_Medic",
             "DAC_Unit_XRay_DM",
+            "DAC_Unit_Zulu_SL",
+            "DAC_Unit_Zulu_EOD",
+            "DAC_Unit_Zulu_Medic",
+            "DAC_Unit_Zulu_DM",
 
             // Backpacks
             "DAC_Backpack_XRay_SL",
