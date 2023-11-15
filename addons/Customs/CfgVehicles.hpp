@@ -95,4 +95,69 @@ class CfgVehicles
         };
         backpack = "DAC_Backpack_XRay_DM";
     };
+
+    class DAC_Backpack_RTO_Base;
+    class DAC_Backpack_XRay_SL: DAC_Backpack_RTO_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\xray\SL2_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\xray\SL2_camo1.paa"
+        };
+    };
+    class DAC_Backpack_XRay_SL_Huge: DAC_Backpack_XRay_SL
+    {
+        displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix]) (Huge)";
+        maximumLoad = HUGE_SIZE;
+    };
+
+    class DAC_Backpack_EOD_Base;
+    class DAC_Backpack_XRay_EOD: DAC_Backpack_EOD_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando EOD Backpack (X-Ray [Dart])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\xray\EOD_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\xray\EOD_camo1.paa"
+        };
+    };
+    class DAC_Backpack_XRay_EOD_Huge: DAC_Backpack_XRay_EOD
+    {
+        displayName = "[DA] Katarn II Clone Commando EOD Backpack (X-Ray [Dart]) (Huge)";
+        maximumLoad = HUGE_SIZE;
+    };
+
+    class DAC_Backpack_Tech_Base;
+    class DAC_Backpack_XRay_Medic: DAC_Backpack_Tech_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando Medic Backpack (X-Ray [Doktor])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\xray\Medic_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\xray\Medic_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\xray\Medic_camo2.paa"
+        };
+    };
+    class DAC_Backpack_XRay_Medic_Huge: DAC_Backpack_XRay_Medic
+    {
+        displayName = "[DA] Katarn II Clone Commando Medic Backpack (X-Ray [Doktor]) (Huge)";
+        maximumLoad = HUGE_SIZE;
+    };
+
+    class DAC_Backpack_Base;
+    class DAC_Backpack_XRay_DM: DAC_Backpack_Base
+    {
+        displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost])";
+        hiddenSelectionsTextures[] =
+        {
+            "\DA\DAC\Customs\data\backpacks\commando\xray\DM_camo1.paa",
+            "\DA\DAC\Customs\data\backpacks\commando\xray\DM_camo1.paa"
+        };
+    };
+    class DAC_Backpack_XRay_DM_Huge: DAC_Backpack_XRay_DM
+    {
+        displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost]) (Huge)";
+        maximumLoad = HUGE_SIZE;
+    };
 };
