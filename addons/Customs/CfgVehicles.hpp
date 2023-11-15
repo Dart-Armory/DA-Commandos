@@ -109,7 +109,7 @@ class CfgVehicles
     class DAC_Backpack_XRay_SL_Huge: DAC_Backpack_XRay_SL
     {
         displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix]) (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
     class DAC_Backpack_EOD_Base;
@@ -125,7 +125,7 @@ class CfgVehicles
     class DAC_Backpack_XRay_EOD_Huge: DAC_Backpack_XRay_EOD
     {
         displayName = "[DA] Katarn II Clone Commando EOD Backpack (X-Ray [Dart]) (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
     class DAC_Backpack_Tech_Base;
@@ -142,7 +142,7 @@ class CfgVehicles
     class DAC_Backpack_XRay_Medic_Huge: DAC_Backpack_XRay_Medic
     {
         displayName = "[DA] Katarn II Clone Commando Medic Backpack (X-Ray [Doktor]) (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
     class DAC_Backpack_Base;
@@ -158,6 +158,6 @@ class CfgVehicles
     class DAC_Backpack_XRay_DM_Huge: DAC_Backpack_XRay_DM
     {
         displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost]) (Huge)";
-        maximumLoad = HUGE_SIZE;
+        maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 };
