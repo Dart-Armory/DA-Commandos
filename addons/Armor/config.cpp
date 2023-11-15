@@ -17,6 +17,7 @@ class CfgPatches
             "DAC_Core",
             "ls_armor_bluefor",
                 // Commando Helmets, Uniforms, and Units
+                // Clone undersuit
             "SWLB_clones_spec",
                 // Inventory icons
             "SWLB_clones_spec_backpacks"
