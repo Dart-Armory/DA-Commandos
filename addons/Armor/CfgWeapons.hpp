@@ -17,8 +17,8 @@ class CfgWeapons
         displayName = "[DA] Katarn I Commando Helmet";
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Helmets\Commando_Helmet_Base.paa", // Visor
-            "\DAC_Armors\Main\Data\Helmets\Commando_Helmet_Base.paa"  // Main Helmet
+            "\DA\DAC\Armor\data\helmets\commando\camo1.paa", // Visor
+            "\DA\DAC\Armor\data\helmets\commando\camo1.paa"  // Main Helmet
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_helmet_k1_ca.paa";
     };
