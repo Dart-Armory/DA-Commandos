@@ -44,6 +44,14 @@
 #define CIVILIAN 3
 #define ALL_SIDES OPFOR, BLUFOR, INDEP, CIVILIAN
 
+// NVGs
+#define WHOT 0
+#define BHOT 1
+#define GHOT 2
+#define GBHOT 3
+#define RHOT 4
+#define RBHOT 5
+
 // Scripting
 #define QUOTE(TEXT) #TEXT
 #define TRUE 1

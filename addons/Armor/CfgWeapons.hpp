@@ -12,7 +12,7 @@ class CfgWeapons
         scopeArsenal = 2;
         author = "DartRuffian";
 
-        modelSides[] = {0, 1, 2, 3};
+        modelSides[] = {ALL_SIDES};
 
         displayName = "[DA] Katarn I Commando Helmet";
         hiddenSelectionsTextures[] =
@@ -184,7 +184,7 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Chip [NV/TI]";
         visionMode[] = {"Normal", "NVG", "TI"};
-        thermalMode[] = {0, 1}; // WHOT, BHOT
+        thermalMode[] = {WHOT, BHOT};
     };
 
     class DAC_NVG_Commando_Visor: DAC_NVG_Chip_NVTI
