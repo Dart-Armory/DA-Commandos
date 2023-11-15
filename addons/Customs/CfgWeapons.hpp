@@ -1,5 +1,8 @@
 class CfgWeapons
 {
+    // ┌───────────────────┐
+    // │      Helmets      │
+    // └───────────────────┘
     class DAC_Helmet_Commando_Base;
     class DAC_Helmet_XRay_SL: DAC_Helmet_Commando_Base
     {
@@ -75,6 +78,9 @@ class CfgWeapons
         };
     };
 
+    // ┌────────────────────┐
+    // │      Uniforms      │
+    // └────────────────────┘
     class ls_sob_commando_uniform;
     class DAC_Uniform_Commando_Base: ls_sob_commando_uniform
     {

@@ -1,5 +1,8 @@
 class CfgVehicles
 {
+    // ┌───────────────────┐
+    // │       Units       │
+    // └───────────────────┘
     class DAC_Unit_Commando_SL_Base;
     class DAC_Unit_XRay_SL: DAC_Unit_Commando_SL_Base
     {
@@ -189,6 +192,9 @@ class CfgVehicles
         backpack = "DAC_Backpack_Zulu_DM";
     };
 
+    // ┌───────────────────┐
+    // │     Backpacks     │
+    // └───────────────────┘
     class DAC_Backpack_RTO_Base;
     class DAC_Backpack_XRay_SL: DAC_Backpack_RTO_Base
     {
