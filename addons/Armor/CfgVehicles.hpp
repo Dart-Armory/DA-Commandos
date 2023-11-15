@@ -19,8 +19,8 @@ class CfgVehicles
         uniformClass = "DAC_Uniform_Commando_Base";
         hiddenSelectionsTextures[] =
         {
-            "\DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Upper.paa",
-            "\DAC_Armors\Main\Data\Uniforms\Commando_Uniform_Base_Lower.paa"
+            "\DA\DAC\Armor\data\uniforms\commando\upper.paa",
+            "\DA\DAC\Armor\data\uniforms\commando\lower.paa"
         };
         nakedUniform = "lsd_gar_bodyGlove_uniform";
 
