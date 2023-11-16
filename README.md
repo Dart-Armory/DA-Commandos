@@ -1,6 +1,8 @@
 ## Dart's Armory - Commando Squads
 [Dart's Armory](https://steamcommunity.com/sharedfiles/filedetails/?id=2954171067) is a group of mods all created by [DartRuffian](https://github.com/DartRuffian), which adds many re-textured items from several mods for the game ARMA 3.
 
+**Version 0.0.0**
+
 **Description**
 
 It originally started as a small mod for one Commando Squad, but I decided to possibly expand it to other squads. This may expand even further than just Commando Squads, but will primarily be Special Forces units. With this change came a rewrite to better organize the mod in the case of multiple squads.

@@ -1,3 +1,4 @@
 @echo off
-hemtt.exe launch
+hemtt.exe script update_build.rhai
+hemtt.exe build
 pause
