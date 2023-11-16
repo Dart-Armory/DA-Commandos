@@ -65,4 +65,49 @@ class CfgGroups
             };
         };
     };
+
+    class East
+    {
+        class DAC_SOB
+        {
+            name = "[DA] Special Operations Brigade";
+
+            class DAC_Commandos_Base
+            {
+                name = "Commando Squads";
+                class Imperial
+                {
+                    faction = "DAC_SOB";
+                    name = "Imperial Commandos";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    side = OPFOR;
+
+                    class Object0
+                    {
+                        side = OPFOR;
+                        vehicle = "DAC_Unit_Imperial_Commando_OPFOR";
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                        dir = 0;
+                    };
+                    class Object1: Object0
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_EOD_OPFOR";
+                        rank = "CORPORAL";
+                        position[] = {1, -1, 0};
+                    };
+                    class Object2: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_Tech_OPFOR";
+                        position[] = {-1, -1, 0};
+                    };
+                    class Object3: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_DM_OPFOR";
+                        position[] = {2, -2, 0};
+                    };
+                };
+            };
+        };
+    };
 };
