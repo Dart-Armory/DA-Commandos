@@ -5,6 +5,7 @@ mainprefix = "DA"
 
 [version]
 path = "addons/Common/script_version.hpp"
+git_hash = 0
 
 [files]
 include = [
