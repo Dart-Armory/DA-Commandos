@@ -2,7 +2,7 @@
 #define PREFIX DAC
 
 #include "\x\cba\addons\main\script_macros_common.hpp"
-#include "\DA\DAC\Core\script_version.hpp"
+#include "\DA\DAC\Common\script_version.hpp"
 
 #define VERSION_ARR MAJOR,MINOR,PATCHLVL,BUILD
 

@@ -4,7 +4,7 @@ class CfgFunctions
     {
         class Common
         {
-            file = "\DA\DAC\Core\functions";
+            file = "\DA\DAC\Common\functions";
             class addRadio {};
         };
     };

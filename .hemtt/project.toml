@@ -4,7 +4,7 @@ prefix = "DAC"
 mainprefix = "DA"
 
 [version]
-path = "addons/Core/script_version.hpp"
+path = "addons/Common/script_version.hpp"
 
 [files]
 include = [

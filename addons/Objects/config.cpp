@@ -13,7 +13,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Core",
+            "DAC_Common",
             "DAC_Armor",
             "DAC_Customs"
         };

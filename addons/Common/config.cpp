@@ -9,10 +9,10 @@ class CfgMods
     class PREFIX: Mod_Base
     {
         name = "Dart Armory Commandos";
-        logo = "\DA\DAC\Core\logo_dac_ca.paa";
-        logoSmall = "\DA\DAC\Core\logo_dac_ca.paa";
-        logoOver = "\DA\DAC\Core\logo_dac_ca.paa";
-        picture = "\DA\DAC\Core\logo_dac_ca.paa";
+        logo = "\DA\DAC\Common\logo_dac_ca.paa";
+        logoSmall = "\DA\DAC\Common\logo_dac_ca.paa";
+        logoOver = "\DA\DAC\Common\logo_dac_ca.paa";
+        picture = "\DA\DAC\Common\logo_dac_ca.paa";
     };
 };
 

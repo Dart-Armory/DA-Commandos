@@ -17,7 +17,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Core",
+            "DAC_Common",
             "ls_armor_bluefor",
                 // Commando Helmets, Uniforms, and Units
                 // Clone undersuit
