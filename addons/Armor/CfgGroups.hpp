@@ -12,7 +12,7 @@ class CfgGroups
                 class Base
                 {
                     faction = "DAC_SOB";
-                    name = "Base Squad";
+                    name = "Clone Commandos";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     side = BLUFOR;
 
@@ -44,6 +44,7 @@ class CfgGroups
 
                 class Imperial: Base
                 {
+                    name = "Imperial Commandos";
                     class Object0: Object0
                     {
                         vehicle = "DAC_Unit_Imperial_Commando";
