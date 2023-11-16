@@ -7,7 +7,7 @@ class CfgWeapons
         // Fixes the vibroblade counting as a mine detector
         displayName = "Katarn I Knuckle Vibroblade";
         descriptionShort = "A retractable blade inside the Katarn-class armor.";
-        picture = "\DA\DAC\Items\WBK_SciFiWeapons\data\ui\Katarn_Knife_UI.paa";
+        picture = "\DA\DAC\Items\WBK_SciFiWeapons\data\ui\Katarn_Knife_ca.paa";
         simulation = "weapon";
 
         class ItemInfo: CBA_MiscItem_ItemInfo
