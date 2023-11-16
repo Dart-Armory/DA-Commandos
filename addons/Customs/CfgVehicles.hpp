@@ -7,7 +7,7 @@ class CfgVehicles
     class DAC_Unit_XRay_SL: DAC_Unit_Commando_SL_Base
     {
         displayName = "Clone Commando Squad Leader (X-Ray [Nix])";
-        editorSubcategory = "DAC_SOB_XRay";
+        editorSubcategory = "DAC_Edsubcat_Commandos_XRay";
 
         uniformClass = "DAC_Uniform_XRay_SL";
         hiddenSelectionsTextures[] =
@@ -31,7 +31,7 @@ class CfgVehicles
     class DAC_Unit_XRay_EOD: DAC_Unit_Commando_EOD_Base
     {
         displayName = "Clone Commando Explosives Specialist (X-Ray [Dart])";
-        editorSubcategory = "DAC_SOB_XRay";
+        editorSubcategory = "DAC_Edsubcat_Commandos_XRay";
 
         uniformClass = "DAC_Uniform_XRay_EOD";
         hiddenSelectionsTextures[] =
@@ -55,7 +55,7 @@ class CfgVehicles
     class DAC_Unit_XRay_Medic: DAC_Unit_Commando_Tech_Base
     {
         displayName = "Clone Commando Medic (X-Ray [Doktor])";
-        editorSubcategory = "DAC_SOB_XRay";
+        editorSubcategory = "DAC_Edsubcat_Commandos_XRay";
 
         uniformClass = "DAC_Uniform_XRay_Medic";
         hiddenSelectionsTextures[] =
@@ -79,7 +79,7 @@ class CfgVehicles
     class DAC_Unit_XRay_DM: DAC_Unit_Commando_DM_Base
     {
         displayName = "Clone Commando Designated Marksman (X-Ray [Frost])";
-        editorSubcategory = "DAC_SOB_XRay";
+        editorSubcategory = "DAC_Edsubcat_Commandos_XRay";
 
         uniformClass = "DAC_Uniform_XRay_DM";
         hiddenSelectionsTextures[] =
@@ -103,7 +103,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Squad Leader (Zulu [Galahad])";
-        editorSubcategory = "DAC_SOB_Zulu";
+        editorSubcategory = "DAC_Edsubcat_Commandos_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_SL";
         hiddenSelectionsTextures[] =
@@ -126,7 +126,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Explosives Specialist (Zulu [Thor])";
-        editorSubcategory = "DAC_SOB_Zulu";
+        editorSubcategory = "DAC_Edsubcat_Commandos_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_EOD";
         hiddenSelectionsTextures[] =
@@ -149,7 +149,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Medic (Zulu [Cherryy])";
-        editorSubcategory = "DAC_SOB_Zulu";
+        editorSubcategory = "DAC_Edsubcat_Commandos_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_Medic";
         hiddenSelectionsTextures[] =
@@ -172,7 +172,7 @@ class CfgVehicles
     {
         author = "Cyan";
         displayName = "Clone Commando Designated Marksman (Zulu [Cyan])";
-        editorSubcategory = "DAC_SOB_Zulu";
+        editorSubcategory = "DAC_Edsubcat_Commandos_Zulu";
 
         uniformClass = "DAC_Uniform_Zulu_DM";
         hiddenSelectionsTextures[] =
