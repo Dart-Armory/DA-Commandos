@@ -5,7 +5,7 @@
     QGVAR(addRadioToPlayers),
     "CHECKBOX",
     ["Assign Radio", "Automatically assign radios to players without one when the mission starts."],
-    ["Dart's Armory", "Commandos"],
+    ["Dart Armory Commandos", QUOTE(COMPONENT_BEAUTIFIED)],
     true,
-    1
+    TRUE
 ] call CBA_fnc_addSetting;
