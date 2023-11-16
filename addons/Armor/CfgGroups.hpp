@@ -41,25 +41,25 @@ class CfgGroups
                         position[] = {2, -2, 0};
                     };
                 };
-            };
 
-            class DAC_Commandos_Imperial: DAC_Commandos_Base
-            {
-                class Object0: Object0
+                class Imperial: Base
                 {
-                    vehicle = "DAC_Unit_Imperial_Commando";
-                };
-                class Object1: Object1
-                {
-                    vehicle = "DAC_Unit_Imperial_Commando_EOD";
-                };
-                class Object2: Object2
-                {
-                    vehicle = "DAC_Unit_Imperial_Commando_Tech";
-                };
-                class Object3: Object3
-                {
-                    vehicle = "DAC_Unit_Imperial_Commando_DM";
+                    class Object0: Object0
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando";
+                    };
+                    class Object1: Object1
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_EOD";
+                    };
+                    class Object2: Object2
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_Tech";
+                    };
+                    class Object3: Object3
+                    {
+                        vehicle = "DAC_Unit_Imperial_Commando_DM";
+                    };
                 };
             };
         };
