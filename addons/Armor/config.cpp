@@ -14,6 +14,7 @@ class CfgPatches
     class ADDON
     {
         author = "DartRuffian";
+        name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
@@ -73,5 +74,6 @@ class CfgPatches
             "DAC_Vest_Commando_DM_Base",
             "DAC_Vest_Commando_Tech_Base"
         };
+        VERSION_CONFIG;
     };
 };

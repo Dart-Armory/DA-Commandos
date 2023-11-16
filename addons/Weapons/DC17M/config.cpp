@@ -10,11 +10,13 @@ class CfgPatches
     {
         author = "DartRuffian";
         addonRootClass = QUOTE(ADDON);
+        name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Weapons",
+            "DAC_Common",
+            QUOTE(ADDON),
             "LF_Weapon_Unit_WestarM5"
                 // DC-17M
         };
@@ -25,5 +27,6 @@ class CfgPatches
             "DAC_DC17M_Sniper",
             "DAC_Weap_DC17M"
         };
+        VERSION_CONFIG;
     };
 };

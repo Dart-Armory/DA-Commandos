@@ -9,6 +9,7 @@ class CfgPatches
     class ADDON
     {
         author = "DartRuffian";
+        name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
@@ -31,5 +32,6 @@ class CfgPatches
             "Ground_DAC_Helmet_Zulu_DM"
         };
         weapons[] = {};
+        VERSION_CONFIG;
     };
 };

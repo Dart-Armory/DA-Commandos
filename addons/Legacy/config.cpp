@@ -6,6 +6,7 @@ class CfgPatches
     class ADDON
     {
         author = "DartRuffian";
+        name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
@@ -14,6 +15,7 @@ class CfgPatches
         };
         units[] = {};
         weapons[] = {};
+        VERSION_CONFIG;
     };
 
     // Legacy pre-rewrite addon names
