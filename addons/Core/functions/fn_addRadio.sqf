@@ -1,4 +1,4 @@
-#include "..\..\script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: DartRuffian
  * Gives a LS radio to the given playable unit if they do not already have a radio.
