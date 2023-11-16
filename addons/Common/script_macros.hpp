@@ -1,3 +1,5 @@
+#include "\x\cba\addons\main\script_macros_common.hpp"
+
 // Inventory & Loadouts
 #define ITEM_2(a) a, a
 #define ITEM_3(a) a, a, a
