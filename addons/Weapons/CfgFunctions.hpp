@@ -4,7 +4,7 @@ class CfgFunctions
     {
         class Weapons
         {
-            file = "\DA\DAC\Functions\functions\weapons";
+            file = "\DA\DAC\Weapons\functions";
             class handleAttachmentSwap {};
         };
     };
