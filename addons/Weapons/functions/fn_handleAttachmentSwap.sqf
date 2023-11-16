@@ -1,4 +1,4 @@
-#include "..\..\script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: DartRuffian
  * Handles automatic weapon attachment switching for different magazines.
