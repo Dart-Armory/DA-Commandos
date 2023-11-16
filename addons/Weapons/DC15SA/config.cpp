@@ -13,7 +13,8 @@ class CfgPatches
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Weapons",
+            "DAC_Common",
+            QUOTE(ADDON),
             "LF_Weapon_Unit_RazorBlade"
                 // DC-15SA
         };

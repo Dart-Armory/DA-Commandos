@@ -13,6 +13,8 @@ class CfgPatches
         requiredAddons[] =
         {
             "cba_common",
+            "DAC_Common",
+            QUOTE(ADDON),
             "WBK_SomeSciFiWeapons"
         };
         units[] = {};
