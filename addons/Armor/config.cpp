@@ -14,6 +14,7 @@ class CfgPatches
     class ADDON
     {
         author = "DartRuffian";
+        name = QCOMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
