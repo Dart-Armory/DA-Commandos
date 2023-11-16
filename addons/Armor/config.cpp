@@ -4,6 +4,7 @@
 #include "CfgGlasses.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgFunctions.hpp"
 
 
 class CfgPatches
