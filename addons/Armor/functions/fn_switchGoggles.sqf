@@ -1,4 +1,4 @@
-#include "..\..\script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: DartRuffian
  * CBA frame handler that triggers every five seconds to check if the local player is in water.
