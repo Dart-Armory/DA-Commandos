@@ -15,6 +15,7 @@ class CfgPatches
         };
         units[] = {};
         weapons[] = {};
+        VERSION_CONFIG;
     };
 
     // Legacy pre-rewrite addon names

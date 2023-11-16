@@ -74,5 +74,6 @@ class CfgPatches
 
             // Vests
         };
+        VERSION_CONFIG;
     };
 };

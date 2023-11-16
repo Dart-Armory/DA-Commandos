@@ -23,5 +23,6 @@ class CfgPatches
         {
             "DAC_DC15SA"
         };
+        VERSION_CONFIG;
     };
 };

@@ -74,5 +74,6 @@ class CfgPatches
             "DAC_Vest_Commando_DM_Base",
             "DAC_Vest_Commando_Tech_Base"
         };
+        VERSION_CONFIG;
     };
 };

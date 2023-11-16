@@ -27,5 +27,6 @@ class CfgPatches
             "DAC_DC17M_Sniper",
             "DAC_Weap_DC17M"
         };
+        VERSION_CONFIG;
     };
 };

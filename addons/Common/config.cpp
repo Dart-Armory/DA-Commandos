@@ -30,5 +30,6 @@ class CfgPatches
         };
         units[] = {};
         weapons[] = {};
+        VERSION_CONFIG;
     };
 };

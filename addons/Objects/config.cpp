@@ -32,5 +32,6 @@ class CfgPatches
             "Ground_DAC_Helmet_Zulu_DM"
         };
         weapons[] = {};
+        VERSION_CONFIG;
     };
 };
