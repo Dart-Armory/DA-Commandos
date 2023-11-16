@@ -8,6 +8,7 @@ class CfgPatches
     {
         author = "DartRuffian";
         addonRootClass = QUOTE(ADDON);
+        name = QSUBCOMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
