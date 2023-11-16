@@ -170,10 +170,7 @@ class CfgVehicles
             "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
     };
-    class DAC_Unit_Imperial_Commando_OPFOR: DAC_Unit_Imperial_Commando
-    {
-        side = 0;
-    };
+    OPFOR_UNIT(DAC_Unit_Imperial_Commando);
 
     class DAC_Unit_Imperial_Commando_SL: DAC_Unit_Commando_SL_Base
     {
@@ -190,10 +187,7 @@ class CfgVehicles
             "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
     };
-    class DAC_Unit_Imperial_Commando_SL_OPFOR: DAC_Unit_Imperial_Commando_SL
-    {
-        side = 0;
-    };
+    OPFOR_UNIT(DAC_Unit_Imperial_Commando_SL);
 
     class DAC_Unit_Imperial_Commando_EOD: DAC_Unit_Commando_EOD_Base
     {
@@ -210,10 +204,7 @@ class CfgVehicles
             "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
     };
-    class DAC_Unit_Imperial_Commando_EOD_OPFOR: DAC_Unit_Imperial_Commando_EOD
-    {
-        side = 0;
-    };
+    OPFOR_UNIT(DAC_Unit_Imperial_Commando_EOD);
 
     class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
     {
@@ -230,10 +221,7 @@ class CfgVehicles
             "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
     };
-    class DAC_Unit_Imperial_Commando_Tech_OPFOR: DAC_Unit_Imperial_Commando_Tech
-    {
-        side = 0;
-    };
+    OPFOR_UNIT(DAC_Unit_Imperial_Commando_Tech);
 
     class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
     {
@@ -250,10 +238,7 @@ class CfgVehicles
             "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
         };
     };
-    class DAC_Unit_Imperial_Commando_DM_OPFOR: DAC_Unit_Imperial_Commando_DM
-    {
-        side = 0;
-    };
+    OPFOR_UNIT(DAC_Unit_Imperial_Commando_DM);
 
     // ┌───────────────────┐
     // │     Backpacks     │
