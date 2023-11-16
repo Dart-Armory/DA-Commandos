@@ -1,10 +1,22 @@
-let modcpp = HEMTT_VFS.join("mod.cpp").open_file().read();
-modcpp.replace("0.0.0", HEMTT.project().version().to_string_short());
-HEMTT_VFS.join("mod.cpp").create_file().write(modcpp);
+let modcpp = HEMTT_VFS.join("mod.cpp")
+    .open_file()
+    .read();
+modcpp.replace("0.0.0",
+    HEMTT.project().
+    version().
+    to_string_short()
+);
+HEMTT_VFS.join("mod.cpp")
+    .create_file()
+    .write(modcpp);
 print("mod.cpp version set");
 
 let readme = "README.md";
-let readmemd = HEMTT_VFS.join(readme).open_file().read();
+let readmemd = HEMTT_VFS.join(readme)
+    .open_file()
+    .read();
 readmemd.replace("0.0.0", HEMTT.project().version().to_string_short());
-HEMTT_VFS.join(readme).create_file().write(readmemd);
+HEMTT_VFS.join(readme)
+    .create_file()
+    .write(readmemd);
 print(readme + " version set");
