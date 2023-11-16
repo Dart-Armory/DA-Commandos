@@ -4,8 +4,6 @@
 #include "\x\cba\addons\main\script_macros_common.hpp"
 #include "\DA\DAC\Common\script_version.hpp"
 
-#define VERSION_ARR MAJOR,MINOR,PATCHLVL,BUILD
-
 #define REQUIRED_VERSION 2.14
 
 #ifndef COMPONENT_BEAUTIFIED
