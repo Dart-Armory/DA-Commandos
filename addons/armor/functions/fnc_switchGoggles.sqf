@@ -11,34 +11,28 @@
  * None
  *
  * Examples:
- * call DAC_fnc_switchGoggles;
+ * call DAC_armor_fnc_switchGoggles;
  */
-
 
 [
     {
         private ["_landGoggles", "_waterGoggles"];
-        _landGoggles =
-        [
+        _landGoggles = [
             configFile >> "CfgGlasses" >> goggles player,
-            QEGVAR(armor,landGoggles),
+            QGVAR(landGoggles),
             ""
         ] call BIS_fnc_returnConfigEntry;
-        _waterGoggles =
-        [
+        _waterGoggles = [
             configFile >> "CfgGlasses" >> goggles player,
-            QEGVAR(armor,waterGoggles),
+            QGVAR(waterGoggles),
             ""
         ] call BIS_fnc_returnConfigEntry;
 
         if (_landGoggles == "" or _waterGoggles == "") exitWith {};
 
-        if (getDiverState player) then
-        {
+        if (getDiverState player) then {
             player linkItem _waterGoggles;
-        }
-        else
-        {
+        } else {
             player linkItem _landGoggles;
         };
     },
