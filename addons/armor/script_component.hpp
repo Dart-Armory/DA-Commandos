@@ -1,5 +1,5 @@
 #define COMPONENT armor
-#define SUBCOMPONENT_BEAUTIFIED Armor
+#define COMPONENT_BEAUTIFIED Armor
 
 #include "\DA\DAC\core\script_mod.hpp"
 #include "\DA\DAC\core\script_macros.hpp"
