@@ -10,14 +10,13 @@
  * None
  *
  * Examples:
- * init = "_this call DAC_fnc_addRadio";
+ * init = "_this call DAC_core_fnc_addRadio";
  */
 
 
 params ["_unit"];
 if !(GVAR(addRadioToPlayers)) exitWith {};
 
-if (isPlayer _unit and _unit getSlotItemName 611 isEqualTo "") then
-{
+if (isPlayer _unit and _unit getSlotItemName TYPE_RADIO isEqualTo "") then {
     _unit linkItem "SWLB_comlink";
 };

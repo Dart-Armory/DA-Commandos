@@ -6,13 +6,22 @@ class Extended_PreInit_EventHandlers
     };
 };
 
+class Extended_PreStart_EventHandlers
+{
+    class ADDON
+    {
+        init = QUOTE(call COMPILE_SCRIPT(XEH_preStart));
+    };
+};
+
+
 class Extended_InitPost_EventHandlers
 {
     class CAManBase
     {
         class GVAR(addRadio)
         {
-            init = QUOTE(_this call GFUNC(addRadio));
+            init = QUOTE(_this call FUNC(addRadio));
         };
     };
 };

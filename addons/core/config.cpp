@@ -1,7 +1,6 @@
 #include "script_component.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgEditorCategories.hpp"
-#include "CfgFunctions.hpp"
 #include "CfgEventHandlers.hpp"
 
 
