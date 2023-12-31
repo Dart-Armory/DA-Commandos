@@ -1,18 +1,17 @@
 class CfgWeapons
 {
-    class DAC_Muzzle_Stun;
+    class CLASS(Muzzle_Stun);
     class LFP_RazorBlade;
-    class DAC_DC15SA: LFP_RazorBlade
+    class CLASS(DC15SA): LFP_RazorBlade
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         displayName = "[DA] DC-15SA";
 
         muzzles[] = {"this", "Stun"};
 
-        class Stun: DAC_Muzzle_Stun
+        class Stun: CLASS(Muzzle_Stun)
         {
             reloadAction = "GestureReloadPistol";
             reloadMagazineSound[] = {"\LF_Weapon_Unit\main\sounds\dc15_reload.wss", 0.8, 1, 10};
@@ -20,10 +19,8 @@ class CfgWeapons
     };
 
 
-    class DAC_Weapons_DC15SA: DAC_DC15SA
+    class CLASS(Weapons_DC15SA): CLASS(DC15SA)
     {
-        // Legacy class name
-        scope = 1;
-        scopeArsenal = 0;
+        SCOPE_HIDDEN;
     };
 };

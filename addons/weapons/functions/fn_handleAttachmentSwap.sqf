@@ -20,14 +20,14 @@ private ["_isEnabled", "_attachments"];
 _isEnabled =
 [
     configFile >> "CfgWeapons" >> _weapon,
-    QEGVAR(weapons,attachmentSwap),
+    QGVAR(attachmentSwap),
     FALSE
 ] call BIS_fnc_returnConfigEntry;
 
 _attachments =
 [
     configFile >> "CfgWeapons" >> _weapon,
-    QEGVAR(weapons,attachments),
+    QGVAR(attachments),
     []
 ] call BIS_fnc_returnConfigEntry;
 

@@ -4,23 +4,22 @@ class CfgVehicles
     // │       Units       │
     // └───────────────────┘
     class ls_sob_commando_base;
-    class DAC_Unit_Commando_Base: ls_sob_commando_base
+    class CLASS(Unit_Commando_Base): ls_sob_commando_base
     {
-        scope = 2;
-        scopeCurator = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         // Editor Attributes
-        faction = "DAC_SOB";
-        editorSubcategory = "DAC_Edsubcat_Commandos_Base";
+        faction = QCLASS(SOB);
+        editorSubcategory = QCLASS(Edsubcat_Commandos_Base);
 
         displayName = "Clone Commando";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Commando_Base.jpg);
-        uniformClass = "DAC_Uniform_Commando_Base";
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_Base).jpg);
+        uniformClass = QCLASS(Uniform_Commando_Base);
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\uniforms\commando\upper.paa",
-            "\DA\DAC\Armor\data\uniforms\commando\lower.paa"
+            QPATHTOF(data\uniforms\commando\upper.paa),
+            QPATHTOF(data\uniforms\commando\lower.paa)
         };
         nakedUniform = "lsd_gar_bodyGlove_uniform";
 
@@ -28,15 +27,15 @@ class CfgVehicles
 
         weapons[] =
         {
-            "DAC_DC17M",
-            "DAC_DC15SA",
+            QCLASS(DC17M),
+            QCLASS(DC15SA),
             "Throw",
             "Put"
         };
         respawnWeapons[] =
         {
-            "DAC_DC17M",
-            "DAC_DC15SA",
+            QCLASS(DC17M),
+            QCLASS(DC15SA),
             "Throw",
             "Put"
         };
@@ -54,205 +53,204 @@ class CfgVehicles
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
-        backpack = "DAC_Backpack_Base";
+        backpack = QCLASS(Backpack_Base);
     };
 
-    class DAC_Unit_Commando_SL_Base: DAC_Unit_Commando_Base
+    class CLASS(Unit_Commando_SL_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Squad Leader";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Commando_SL_Base.jpg);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_SL_Base).jpg);
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_SL_Base), QCLASS(NVG_Chip_NVTI), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_SL_Base), QCLASS(NVG_Chip_NVTI), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
-        backpack = "DAC_Backpack_RTO_Base";
+        backpack = QCLASS(Backpack_RTO_Base);
 
         attendant = 1;
     };
 
-    class DAC_Unit_Commando_EOD_Base: DAC_Unit_Commando_Base
+    class CLASS(Unit_Commando_EOD_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Explosives Specialist";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Commando_EOD_Base.jpg);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_EOD_Base).jpg);
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_EOD_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_EOD_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
-        backpack = "DAC_Backpack_EOD_Base";
+        backpack = QCLASS(Backpack_EOD_Base);
 
-        canDeactivateMines = 1;
+        canDeactivateMines = TRUE;
         engineer = 1;
     };
 
-    class DAC_Unit_Commando_DM_Base: DAC_Unit_Commando_Base
+    class CLASS(Unit_Commando_DM_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Designated Marksman";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Commando_DM_Base.jpg);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_DM_Base).jpg);
 
         weapons[] =
         {
-            "DAC_DC17M_Sniper",
-            "DAC_DC15SA",
+            QCLASS(DC17M_Sniper),
+            QCLASS(DC15SA),
             "Throw",
             "Put"
         };
         respawnWeapons[] =
         {
-            "DAC_DC17M_Sniper",
-            "DAC_DC15SA",
+            QCLASS(DC17M_Sniper),
+            QCLASS(DC15SA),
             "Throw",
             "Put"
         };
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_DM_Base), QCLASS(NVG_Commando_Visor), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_DM_Base), QCLASS(NVG_Commando_Visor), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
-        backpack = "DAC_Backpack_Base";
+        backpack = QCLASS(Backpack_Base);
     };
 
-    class DAC_Unit_Commando_Tech_Base: DAC_Unit_Commando_Base
+    class CLASS(Unit_Commando_Tech_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Tech Specialist";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Commando_Tech_Base.jpg);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_Tech_Base).jpg);
 
         linkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_Tech_Base), QCLASS(NVG_Commando_Antenna), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Commando_Base", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Commando_Base), QCLASS(Vest_Commando_Tech_Base), QCLASS(NVG_Commando_Antenna), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
-        backpack = "DAC_Backpack_Tech_Base";
+        backpack = QCLASS(Backpack_Tech_Base);
 
         attendant = 1;
     };
 
-    class DAC_Unit_Imperial_Commando: DAC_Unit_Commando_Base
+    class CLASS(Unit_Imperial_Commando): CLASS(Unit_Commando_Base)
     {
         displayName = "Imperial Commando";
-        editorSubcategory = "DAC_Edsubcat_Commandos_Imperial";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Imperial_Commando.jpg);
+        editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando).jpg);
 
-        uniformClass = "DAC_Uniform_Imperial_Commando";
+        uniformClass = QCLASS(Uniform_Imperial_Commando);
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\uniforms\commando\imperial_upper.paa",
-            "\DA\DAC\Armor\data\uniforms\commando\imperial_lower.paa"
+            QPATHTOF(data\uniforms\commando\imperial_upper.paa),
+            QPATHTOF(data\uniforms\commando\imperial_lower.paa)
         };
 
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
     };
-    OPFOR_UNIT(DAC_Unit_Imperial_Commando);
+    OPFOR_UNIT(CLASS(Unit_Imperial_Commando));
 
-    class DAC_Unit_Imperial_Commando_SL: DAC_Unit_Commando_SL_Base
+    class CLASS(Unit_Imperial_Commando)_SL: CLASS(Unit_Commando_SL_Base)
     {
         displayName = "Imperial Commando Squad Leader";
-        editorSubcategory = "DAC_Edsubcat_Commandos_Imperial";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Imperial_Commando_SL.jpg);
+        editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando)_SL.jpg);
 
-        uniformClass = "DAC_Uniform_Imperial_Commando";
+        uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_SL_Base), QCLASS(NVG_Chip_NVTI), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_SL_Base", "DAC_NVG_Chip_NVTI", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_SL_Base), QCLASS(NVG_Chip_NVTI), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
     };
-    OPFOR_UNIT(DAC_Unit_Imperial_Commando_SL);
+    OPFOR_UNIT(CLASS(Unit_Imperial_Commando_SL));
 
-    class DAC_Unit_Imperial_Commando_EOD: DAC_Unit_Commando_EOD_Base
+    class CLASS(Unit_Imperial_Commando_EOD): CLASS(Unit_Commando_EOD_Base)
     {
         displayName = "Imperial Commando Explosives Specialist";
-        editorSubcategory = "DAC_Edsubcat_Commandos_Imperial";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Imperial_Commando_EOD.jpg);
+        editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando)_EOD.jpg);
 
-        uniformClass = "DAC_Uniform_Imperial_Commando";
+        uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_EOD_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_EOD_Base", "DAC_NVG_Chip_NV", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_EOD_Base), QCLASS(NVG_Chip_NV), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
     };
-    OPFOR_UNIT(DAC_Unit_Imperial_Commando_EOD);
+    OPFOR_UNIT(CLASS(Unit_Imperial_Commando_EOD));
 
-    class DAC_Unit_Imperial_Commando_Tech: DAC_Unit_Commando_Tech_Base
+    class CLASS(Unit_Imperial_Commando_Tech): CLASS(Unit_Commando_Tech_Base)
     {
         displayName = "Imperial Commando Tech Specialist";
-        editorSubcategory = "DAC_Edsubcat_Commandos_Imperial";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Imperial_Commando_Tech.jpg);
+        editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando_Tech.jpg));
 
-        uniformClass = "DAC_Uniform_Imperial_Commando";
+        uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_Tech_Base), QCLASS(NVG_Commando_Antenna), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_Tech_Base", "DAC_NVG_Commando_Antenna", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_Tech_Base), QCLASS(NVG_Commando_Antenna), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
     };
-    OPFOR_UNIT(DAC_Unit_Imperial_Commando_Tech);
+    OPFOR_UNIT(CLASS(Unit_Imperial_Commando_Tech));
 
-    class DAC_Unit_Imperial_Commando_DM: DAC_Unit_Commando_DM_Base
+    class CLASS(Unit_Imperial_Commando_DM): CLASS(Unit_Commando_DM_Base)
     {
         displayName = "Imperial Commando Designated Marksman";
-        editorSubcategory = "DAC_Edsubcat_Commandos_Imperial";
-        editorPreview = QPATHTOF(data\previews\DAC_Unit_Imperial_Commando_DM.jpg);
+        editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
+        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando_DM.jpg));
 
-        uniformClass = "DAC_Uniform_Imperial_Commando";
+        uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_DM_Base), QCLASS(NVG_Commando_Visor), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
         respawnLinkedItems[] =
         {
-            "DAC_Helmet_Imperial_Commando", "DAC_Vest_Commando_DM_Base", "DAC_NVG_Commando_Visor", "DAC_Commando_Hud", "SWLB_comlink", LINKED_ITEMS
+            QCLASS(Helmet_Imperial_Commando), QCLASS(Vest_Commando_DM_Base), QCLASS(NVG_Commando_Visor), QCLASS(Commando_Hud), "SWLB_comlink", LINKED_ITEMS
         };
     };
-    OPFOR_UNIT(DAC_Unit_Imperial_Commando_DM);
+    OPFOR_UNIT(CLASS(Unit_Imperial_Commando_DM));
 
     // ┌───────────────────┐
     // │     Backpacks     │
     // └───────────────────┘
     class SWLB_clone_commando_backpack_k2;
-    class DAC_Backpack_Base: SWLB_clone_commando_backpack_k2
+    class CLASS(Backpack_Base): SWLB_clone_commando_backpack_k2
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         displayName = "[DA] Katarn II Commando Backpack";
@@ -262,29 +260,29 @@ class CfgVehicles
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa",
-            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa"
+            QPATHTOF(data\backpacks\commando\camo1.paa),
+            QPATHTOF(data\backpacks\commando\camo1.paa)
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
     };
-    class DAC_Backpack_Base_Huge: DAC_Backpack_Base
+    class CLASS(Backpack_Base_Huge): CLASS(Backpack_Base)
     {
         displayName = "[DA] Katarn II Commando Backpack (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
-    class DAC_Backpack_RTO_Base: DAC_Backpack_Base
+    class CLASS(Backpack_RTO_Base): CLASS(Backpack_Base)
     {
         displayName = "[DA] Katarn II Commando RTO Backpack";
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_rto.p3d";
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\backpacks\commando\RTO_camo1.paa",
-            "\DA\DAC\Armor\data\backpacks\commando\RTO_camo1.paa"
+            QPATHTOF(data\backpacks\commando\RTO_camo1.paa),
+            QPATHTOF(data\backpacks\commando\RTO_camo1.paa)
         };
 
         // TFAR Long Range
-        tf_hasLRradio = 1;
+        tf_hasLRradio = TRUE;
         tf_range = 25000;
 
         tf_dialog = "SWLB_clone_rto_radio_dialog";
@@ -292,41 +290,41 @@ class CfgVehicles
         tf_encryptionCode = "tf_west_radio_code";
         tf_subtype = "digital_lr";
     };
-    class DAC_Backpack_RTO_Base_Huge: DAC_Backpack_RTO_Base
+    class CLASS(Backpack_RTO_Base_Huge): CLASS(Backpack_RTO_Base)
     {
         displayName = "[DA] Katarn II Commando RTO Backpack (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
-    class DAC_Backpack_EOD_Base: DAC_Backpack_Base
+    class CLASS(Backpack_EOD_Base): CLASS(Backpack_Base)
     {
         displayName = "[DA] Katarn II Commando EOD Backpack";
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_eod.p3d";
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\backpacks\commando\EOD_camo1.paa",
-            "\DA\DAC\Armor\data\backpacks\commando\EOD_camo1.paa"
+            QPATHTOF(data\backpacks\commando\EOD_camo1.paa),
+            QPATHTOF(data\backpacks\commando\EOD_camo1.paa)
         };
     };
-    class DAC_Backpack_EOD_Base_Huge: DAC_Backpack_EOD_Base
+    class CLASS(Backpack_EOD_Base_Huge): CLASS(Backpack_EOD_Base)
     {
         displayName = "[DA] Katarn II Commando EOD Backpack (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
 
-    class DAC_Backpack_Tech_Base: DAC_Backpack_Base
+    class CLASS(Backpack_Tech_Base): CLASS(Backpack_Base)
     {
         displayName = "[DA] Katarn II Commando Tech Backpack";
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_tech.p3d";
         hiddenSelections[] = {"illum", "camo1", "camo2"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa",
-            "\DA\DAC\Armor\data\backpacks\commando\camo1.paa",
-            "\DA\DAC\Armor\data\backpacks\commando\Tech_camo2.paa"
+            QPATHTOF(data\backpacks\commando\camo1.paa),
+            QPATHTOF(data\backpacks\commando\camo1.paa),
+            QPATHTOF(data\backpacks\commando\Tech_camo2.paa)
         };
     };
-    class DAC_Backpack_Tech_Base_Huge: DAC_Backpack_Tech_Base
+    class CLASS(Backpack_Tech_Base_Huge): CLASS(Backpack_Tech_Base)
     {
         displayName = "[DA] Katarn II Commando Tech Backpack (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;

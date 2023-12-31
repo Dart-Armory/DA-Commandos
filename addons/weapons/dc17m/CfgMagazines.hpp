@@ -8,7 +8,7 @@ class CfgMagazines
 
     class LFP_DC17M_GL: LFP_mag_base
     {
-        ammo = "DAC_Ammo_DC17M_GL";
+        ammo = QCLASS(Ammo_DC17M_GL);
         GVAR(isGLMag) = TRUE;
     };
 

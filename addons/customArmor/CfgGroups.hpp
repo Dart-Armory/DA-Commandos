@@ -2,9 +2,9 @@ class CfgGroups
 {
     class West
     {
-        class DAC_SOB
+        class CLASS(SOB)
         {
-            class DAC_Commandos_Base
+            class CLASS(Commandos_Base)
             {
                 class Base
                 {
@@ -19,19 +19,19 @@ class CfgGroups
                     name = "X-Ray Squad";
                     class Object0: Object0
                     {
-                        vehicle = "DAC_Unit_XRay_SL";
+                        vehicle = QCLASS(Unit_XRay_SL);
                     };
                     class Object1: Object1
                     {
-                        vehicle = "DAC_Unit_XRay_EOD";
+                        vehicle = QCLASS(Unit_XRay_EOD);
                     };
                     class Object2: Object2
                     {
-                        vehicle = "DAC_Unit_XRay_Medic";
+                        vehicle = QCLASS(Unit_XRay_Medic);
                     };
                     class Object3: Object3
                     {
-                        vehicle = "DAC_Unit_XRay_DM";
+                        vehicle = QCLASS(Unit_XRay_DM);
                     };
                 };
 
@@ -40,19 +40,19 @@ class CfgGroups
                     name = "Zulu Squad";
                     class Object0: Object0
                     {
-                        vehicle = "DAC_Unit_Zulu_SL";
+                        vehicle = QCLASS(Unit_Zulu_SL);
                     };
                     class Object1: Object1
                     {
-                        vehicle = "DAC_Unit_Zulu_EOD";
+                        vehicle = QCLASS(Unit_Zulu_EOD);
                     };
                     class Object2: Object2
                     {
-                        vehicle = "DAC_Unit_Zulu_Medic";
+                        vehicle = QCLASS(Unit_Zulu_Medic);
                     };
                     class Object3: Object3
                     {
-                        vehicle = "DAC_Unit_Zulu_DM";
+                        vehicle = QCLASS(Unit_Zulu_DM);
                     };
                 };
             };

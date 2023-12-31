@@ -6,10 +6,9 @@ class CfgWeapons
     // │      Helmets      │
     // └───────────────────┘
     class lsd_sob_commando_helmet;
-    class DAC_Helmet_Commando_Base: lsd_sob_commando_helmet
+    class CLASS(Helmet_Commando_Base): lsd_sob_commando_helmet
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         modelSides[] = {ALL_SIDES};
@@ -17,19 +16,19 @@ class CfgWeapons
         displayName = "[DA] Katarn I Commando Helmet";
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\helmets\commando\camo1.paa", // Visor
-            "\DA\DAC\Armor\data\helmets\commando\camo1.paa"  // Main Helmet
+            QPATHTOF(data\helmets\commando\camo1.paa), // Visor
+            QPATHTOF(data\helmets\commando\camo1.paa)  // Main Helmet
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_helmet_k1_ca.paa";
     };
 
-    class DAC_Helmet_Imperial_Commando: DAC_Helmet_Commando_Base
+    class CLASS(Helmet_Imperial_Commando): CLASS(Helmet_Commando_Base)
     {
         displayName = "[DA] Katarn I Imperial Commando Helmet";
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\helmets\commando\imperial_camo1.paa",
-            "\DA\DAC\Armor\data\helmets\commando\imperial_camo1.paa"
+            QPATHTOF(data\helmets\commando\imperial_camo1.paa),
+            QPATHTOF(data\helmets\commando\imperial_camo1.paa)
         };
     };
 
@@ -41,10 +40,9 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-    class DAC_Uniform_Commando_Base: ls_sob_commando_uniform
+    class CLASS(Uniform_Commando_Base): ls_sob_commando_uniform
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         displayName = "[DA] Katarn I Commando Armor";
@@ -52,17 +50,17 @@ class CfgWeapons
 
         class ItemInfo: ItemInfo
         {
-            uniformClass = "DAC_Unit_Commando_Base";
+            uniformClass = QCLASS(Unit_Commando_Base);
             uniformType = "Neopren";
         };
     };
 
-    class DAC_Uniform_Imperial_Commando: DAC_Uniform_Commando_Base
+    class CLASS(Uniform_Imperial_Commando): CLASS(Uniform_Commando_Base)
     {
         displayName = "[DA] Katarn I Imperial Commando Armor";
         class ItemInfo: ItemInfo
         {
-            uniformClass = "DAC_Unit_Imperial_Commando";
+            uniformClass = QCLASS(Unit_Imperial_Commando);
         };
     };
 
@@ -74,10 +72,9 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-    class DAC_Vest_Commando_Base: SWLB_clone_commando_basic_armor_k1
+    class CLASS(Vest_Commando_Base): SWLB_clone_commando_basic_armor_k1
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         displayName = "[DA] Katarn I Commando Vest";
@@ -87,7 +84,7 @@ class CfgWeapons
         };
     };
 
-    class DAC_Vest_Commando_SL_Base: DAC_Vest_Commando_Base
+    class CLASS(Vest_Commando_SL_Base): CLASS(Vest_Commando_Base)
     {
         displayName = "[DA] Katarn I Commando Vest (SL)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_sl_armor.p3d";
@@ -99,7 +96,7 @@ class CfgWeapons
         };
     };
 
-    class DAC_Vest_Commando_EOD_Base: DAC_Vest_Commando_Base
+    class CLASS(Vest_Commando_EOD_Base): CLASS(Vest_Commando_Base)
     {
         displayName = "[DA] Katarn I Commando Vest (EOD)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_eod_armor.p3d";
@@ -111,15 +108,15 @@ class CfgWeapons
         };
     };
 
-    class DAC_Vest_Commando_DM_Base: DAC_Vest_Commando_Base
+    class CLASS(Vest_Commando_DM_Base): CLASS(Vest_Commando_Base)
     {
         displayName = "[DA] Katarn I Commando Vest (DM)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_sniper_armor.p3d";
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\vests\commando_camo1.paa",
-            "\DA\DAC\Armor\data\vests\commando_camo1.paa"
+            QPATHTOF(data\vests\commando_camo1.paa),
+            QPATHTOF(data\vests\commando_camo1.paa)
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca.paa";
@@ -131,14 +128,14 @@ class CfgWeapons
         };
     };
 
-    class DAC_Vest_Commando_Tech_Base: DAC_Vest_Commando_Base
+    class CLASS(Vest_Commando_Tech_Base): CLASS(Vest_Commando_Base)
     {
         displayName = "[DA] Katarn I Commando Vest (Tech)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_tech_armor.p3d";
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\vests\commando_camo1.paa"
+            QPATHTOF(data\vests\commando_camo1.paa)
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca.paa";
 
@@ -156,10 +153,9 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-    class DAC_NVG_Chip_NV: SWLB_clone_commando_nvg
+    class CLASS(NVG_Chip_NV): SWLB_clone_commando_nvg
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         displayName = "[DA] Katarn I Commando Chip [NV]";
@@ -180,7 +176,7 @@ class CfgWeapons
             modelOff = "\A3\weapons_f\dummynvg.p3d";
         };
     };
-    class DAC_NVG_Chip_NVTI: DAC_NVG_Chip_NV
+    class CLASS(NVG_Chip_NVTI): CLASS(NVG_Chip_NV)
     {
         displayName = "[DA] Katarn I Commando Chip [NV/TI]";
         picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_2_ui_ca.paa";
@@ -188,7 +184,7 @@ class CfgWeapons
         thermalMode[] = {WHOT, BHOT};
     };
 
-    class DAC_NVG_Commando_Visor: DAC_NVG_Chip_NVTI
+    class CLASS(NVG_Commando_Visor): CLASS(NVG_Chip_NVTI)
     {
         displayName = "[DA] Katarn I Commando Visor [NV/TI]";
 
@@ -196,8 +192,8 @@ class CfgWeapons
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\nvgs\commando\visor_camo1.paa",
-            "\DA\DAC\Armor\data\nvgs\commando\visor_camo1.paa"
+            QPATHTOF(data\nvgs\commando\visor_camo1.paa),
+            QPATHTOF(data\nvgs\commando\visor_camo1.paa)
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_ca.paa";
@@ -210,7 +206,7 @@ class CfgWeapons
         };
     };
 
-    class DAC_NVG_Commando_Antenna: DAC_NVG_Chip_NV
+    class CLASS(NVG_Commando_Antenna): CLASS(NVG_Chip_NV)
     {
         displayName = "[DA] Katarn I Commando Antenna [NV]";
 
@@ -218,7 +214,7 @@ class CfgWeapons
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            "\DA\DAC\Armor\data\nvgs\commando\antenna_camo1.paa"
+            QPATHTOF(data\nvgs\commando\antenna_camo1.paa)
         };
         picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_antenna_ca.paa";
 

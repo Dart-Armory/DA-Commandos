@@ -10,8 +10,7 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "A3_Data_F_Decade_Loadorder",
-            "DAC_core"
+            QCLASS(core)
         };
         units[] = {};
         weapons[] = {};
@@ -19,8 +18,8 @@ class CfgPatches
     };
 
     // Legacy pre-rewrite addon names
-    class DAC_Main: ADDON {};
-    class DAC_Imperial: ADDON {};
-    class DAC_XRay: ADDON {};
-    class DAC_Zulu: ADDON {};
+    class CLASS(Main): ADDON {};
+    class CLASS(Imperial): ADDON {};
+    class CLASS(XRay): ADDON {};
+    class CLASS(Zulu): ADDON {};
 };

@@ -13,10 +13,8 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "A3_Data_F_Decade_Loadorder",
-            "DAC_core",
+            QCLASS(core),
             "JLTS_weapons_Core"
-                // Stun muzzle and magazines
         };
         units[] = {};
         weapons[] = {};

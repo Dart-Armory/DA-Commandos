@@ -5,30 +5,29 @@ class CfgGlasses
     class G_Combat;
     class SWLB_clone_RC_HUD: G_Combat
     {
-        GVAR(landGoggles) = "DAC_Commando_Hud";
-        GVAR(waterGoggles) = "DAC_Commando_Hud_Diving";
+        GVAR(landGoggles) = QCLASS(Commando_Hud);
+        GVAR(waterGoggles) = QCLASS(Commando_Hud_Diving);
     };
 
     class ls_combatGoggles_base;
     class lsd_gar_republicCommando_hud: ls_combatGoggles_base
     {
-        GVAR(landGoggles) = "DAC_Commando_Hud";
-        GVAR(waterGoggles) = "DAC_Commando_Hud_Diving";
+        GVAR(landGoggles) = QCLASS(Commando_Hud);
+        GVAR(waterGoggles) = QCLASS(Commando_Hud_Diving);
     };
 
-    class DAC_Commando_Hud: lsd_gar_republicCommando_hud
+    class CLASS(Commando_Hud): lsd_gar_republicCommando_hud
     {
         author = "DartRuffian";
         displayName = "[DA] Katarn I Commando Helmet Interior";
 
-        GVAR(landGoggles) = "DAC_Commando_Hud";
-        GVAR(waterGoggles) = "DAC_Commando_Hud_Diving";
+        GVAR(landGoggles) = QCLASS(Commando_Hud);
+        GVAR(waterGoggles) = QCLASS(Commando_Hud_Diving);
     };
 
-    class DAC_Commando_Hud_Diving: DAC_Commando_Hud
+    class CLASS(Commando_Hud_Diving): CLASS(Commando_Hud)
     {
-        scope = 1;
-        scopeArsenal = 0;
+        SCOPE_HIDDEN;
         mode = 1;
     };
 };

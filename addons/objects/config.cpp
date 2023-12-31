@@ -13,10 +13,9 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "A3_Data_F_Decade_Loadorder",
-            "DAC_core",
-            "DAC_Armor",
-            "DAC_Customs"
+            QCLASS(core),
+            QCLASS(armor),
+            QCLASS(customArmor)
         };
         units[] =
         {

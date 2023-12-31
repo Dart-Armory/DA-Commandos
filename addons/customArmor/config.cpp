@@ -14,63 +14,61 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "A3_Data_F_Decade_Loadorder",
-            "DAC_core",
-            "DAC_Armor"
+            QCLASS(core)
         };
         units[] =
         {
             // Units
-            "DAC_Unit_XRay_SL",
-            "DAC_Unit_XRay_EOD",
-            "DAC_Unit_XRay_Medic",
-            "DAC_Unit_XRay_DM",
-            "DAC_Unit_Zulu_SL",
-            "DAC_Unit_Zulu_EOD",
-            "DAC_Unit_Zulu_Medic",
-            "DAC_Unit_Zulu_DM",
+            QCLASS(Unit_XRay_SL),
+            QCLASS(Unit_XRay_EOD),
+            QCLASS(Unit_XRay_Medic),
+            QCLASS(Unit_XRay_DM),
+            QCLASS(Unit_Zulu_SL),
+            QCLASS(Unit_Zulu_EOD),
+            QCLASS(Unit_Zulu_Medic),
+            QCLASS(Unit_Zulu_DM),
 
             // Backpacks
-            "DAC_Backpack_XRay_SL",
-            "DAC_Backpack_XRay_SL_Huge",
-            "DAC_Backpack_XRay_EOD",
-            "DAC_Backpack_XRay_EOD_Huge",
-            "DAC_Backpack_XRay_Medic",
-            "DAC_Backpack_XRay_Medic_Huge",
-            "DAC_Backpack_XRay_DM",
-            "DAC_Backpack_XRay_DM_Huge",
-            "DAC_Backpack_Zulu_SL",
-            "DAC_Backpack_Zulu_SL_Huge",
-            "DAC_Backpack_Zulu_EOD",
-            "DAC_Backpack_Zulu_EOD_Huge",
-            "DAC_Backpack_Zulu_Medic",
-            "DAC_Backpack_Zulu_Medic_Huge",
-            "DAC_Backpack_Zulu_DM",
-            "DAC_Backpack_Zulu_DM_Huge"
+            QCLASS(Backpack_XRay_SL),
+            QCLASS(Backpack_XRay_SL_Huge),
+            QCLASS(Backpack_XRay_EOD),
+            QCLASS(Backpack_XRay_EOD_Huge),
+            QCLASS(Backpack_XRay_Medic),
+            QCLASS(Backpack_XRay_Medic_Huge),
+            QCLASS(Backpack_XRay_DM),
+            QCLASS(Backpack_XRay_DM_Huge),
+            QCLASS(Backpack_Zulu_SL),
+            QCLASS(Backpack_Zulu_SL_Huge),
+            QCLASS(Backpack_Zulu_EOD),
+            QCLASS(Backpack_Zulu_EOD_Huge),
+            QCLASS(Backpack_Zulu_Medic),
+            QCLASS(Backpack_Zulu_Medic_Huge),
+            QCLASS(Backpack_Zulu_DM),
+            QCLASS(Backpack_Zulu_DM_Huge)
 
             // Placeable Helmets
         };
         weapons[] =
         {
             // Helmets
-            "DAC_Helmet_XRay_SL",
-            "DAC_Helmet_XRay_EOD",
-            "DAC_Helmet_XRay_Medic",
-            "DAC_Helmet_XRay_DM",
-            "DAC_Helmet_Zulu_SL",
-            "DAC_Helmet_Zulu_EOD",
-            "DAC_Helmet_Zulu_Medic",
-            "DAC_Helmet_Zulu_DM",
+            QCLASS(Helmet_XRay_SL),
+            QCLASS(Helmet_XRay_EOD),
+            QCLASS(Helmet_XRay_Medic),
+            QCLASS(Helmet_XRay_DM),
+            QCLASS(Helmet_Zulu_SL),
+            QCLASS(Helmet_Zulu_EOD),
+            QCLASS(Helmet_Zulu_Medic),
+            QCLASS(Helmet_Zulu_DM),
 
             // Uniforms
-            "DAC_Uniform_XRay_SL",
-            "DAC_Uniform_XRay_EOD",
-            "DAC_Uniform_XRay_Medic",
-            "DAC_Uniform_XRay_DM",
-            "DAC_Uniform_Zulu_SL",
-            "DAC_Uniform_Zulu_EOD",
-            "DAC_Uniform_Zulu_Medic",
-            "DAC_Uniform_Zulu_DM"
+            QCLASS(Uniform_XRay_SL),
+            QCLASS(Uniform_XRay_EOD),
+            QCLASS(Uniform_XRay_Medic),
+            QCLASS(Uniform_XRay_DM),
+            QCLASS(Uniform_Zulu_SL),
+            QCLASS(Uniform_Zulu_EOD),
+            QCLASS(Uniform_Zulu_Medic),
+            QCLASS(Uniform_Zulu_DM)
 
             // Vests
         };

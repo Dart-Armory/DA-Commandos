@@ -9,16 +9,15 @@ class CfgWeapons
             class scope;
         };
     };
-    class DAC_DC17M: LFP_DC17M
+    class CLASS(DC17M): LFP_DC17M
     {
-        scope = 2;
-        scopeArsenal = 2;
+        SCOPE_PUBLIC;
         author = "DartRuffian";
 
         displayName = "[DA] DC-17M";
 
-        DAC_Weapons_attachmentSwap = TRUE; // Enables attachment swapping
-        DAC_Weapons_attachments[] =        // Array of magazine properties to check and the attachment to use
+        GVAR(attachmentSwap) = TRUE; // Enables attachment swapping
+        GVAR(attachments)[] =        // Array of magazine properties to check and the attachment to use
         {
             {QGVAR(isBlasterMag), "lfp_dc17m_attachment_blaster"},
             {QGVAR(isGLMag), "lfp_dc17m_attachment_gl"},
@@ -41,7 +40,7 @@ class CfgWeapons
         };
     };
 
-    class DAC_DC17M_Sniper: DAC_DC17M
+    class CLASS(DC17M_Sniper): CLASS(DC17M)
     {
         displayName = "[DA] DC-17M Sniper";
 
@@ -80,10 +79,8 @@ class CfgWeapons
         };
     };
 
-    class DAC_Weap_DC17M: DAC_DC17M
+    class CLASS(Weap_DC17M): CLASS(DC17M)
     {
-        // Legacy class name
-        scope = 1;
-        scopeArsenal = 0;
+        SCOPE_HIDDEN;
     };
 };

@@ -14,18 +14,15 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "A3_Data_F_Decade_Loadorder",
-            "DAC_core",
             QUOTE(ADDON),
             "LF_Weapon_Unit_WestarM5"
-                // DC-17M
         };
         units[] = {};
         weapons[] =
         {
-            "DAC_DC17M",
-            "DAC_DC17M_Sniper",
-            "DAC_Weap_DC17M"
+            QCLASS(DC17M),
+            QCLASS(DC17M_Sniper),
+            QCLASS(Weap_DC17M)
         };
         VERSION_CONFIG;
     };

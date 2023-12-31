@@ -1,6 +1,6 @@
 class CfgFactionClasses
 {
-    class DAC_SOB
+    class CLASS(SOB)
     {
         displayName = "[DA] Special Operation Brigade";
     };

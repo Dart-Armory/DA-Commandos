@@ -12,8 +12,6 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "cba_common",
-            "DAC_core",
             QUOTE(ADDON),
             "WBK_SomeSciFiWeapons"
         };

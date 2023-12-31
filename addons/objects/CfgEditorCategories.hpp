@@ -1,6 +1,6 @@
 class CfgEditorCategories
 {
-    class DAC_Objects
+    class CLASS(Objects)
     {
         displayName = "[DA] Objects";
     };

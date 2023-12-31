@@ -1,6 +1,6 @@
 class CfgEditorSubcategories
 {
-    class DAC_Edsubcat_Helmets
+    class CLASS(Edsubcat_Helmets)
     {
         displayName = "Helmets";
     };
