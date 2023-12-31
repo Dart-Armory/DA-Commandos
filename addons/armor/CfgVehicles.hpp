@@ -14,7 +14,7 @@ class CfgVehicles
         editorSubcategory = QCLASS(Edsubcat_Commandos_Base);
 
         displayName = "Clone Commando";
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_Base).jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Commando_Base);
         uniformClass = QCLASS(Uniform_Commando_Base);
         hiddenSelectionsTextures[] =
         {
@@ -65,7 +65,7 @@ class CfgVehicles
     class CLASS(Unit_Commando_SL_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Squad Leader";
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_SL_Base).jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Commando_SL_Base);
 
         linkedItems[] =
         {
@@ -83,7 +83,7 @@ class CfgVehicles
     class CLASS(Unit_Commando_EOD_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Explosives Specialist";
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_EOD_Base).jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Commando_EOD_Base);
 
         linkedItems[] =
         {
@@ -102,7 +102,7 @@ class CfgVehicles
     class CLASS(Unit_Commando_DM_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Designated Marksman";
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_DM_Base).jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Commando_DM_Base);
 
         weapons[] =
         {
@@ -133,7 +133,7 @@ class CfgVehicles
     class CLASS(Unit_Commando_Tech_Base): CLASS(Unit_Commando_Base)
     {
         displayName = "Clone Commando Tech Specialist";
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Commando_Tech_Base).jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Commando_Tech_Base);
 
         linkedItems[] =
         {
@@ -152,7 +152,7 @@ class CfgVehicles
     {
         displayName = "Imperial Commando";
         editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando).jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Imperial_Commando);
 
         uniformClass = QCLASS(Uniform_Imperial_Commando);
         hiddenSelectionsTextures[] =
@@ -172,11 +172,11 @@ class CfgVehicles
     };
     OPFOR_UNIT(CLASS(Unit_Imperial_Commando));
 
-    class CLASS(Unit_Imperial_Commando)_SL: CLASS(Unit_Commando_SL_Base)
+    class CLASS(Unit_Imperial_Commando_SL): CLASS(Unit_Commando_SL_Base)
     {
         displayName = "Imperial Commando Squad Leader";
         editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando)_SL.jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Imperial_Commando_SL);
 
         uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
@@ -194,7 +194,7 @@ class CfgVehicles
     {
         displayName = "Imperial Commando Explosives Specialist";
         editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando)_EOD.jpg);
+        editorPreview = EDITOR_PREVIEW(Unit_Imperial_Commando_EOD);
 
         uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
@@ -212,7 +212,7 @@ class CfgVehicles
     {
         displayName = "Imperial Commando Tech Specialist";
         editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando_Tech.jpg));
+        editorPreview = EDITOR_PREVIEW(Unit_Imperial_Commando_Tech);
 
         uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
@@ -230,7 +230,7 @@ class CfgVehicles
     {
         displayName = "Imperial Commando Designated Marksman";
         editorSubcategory = QCLASS(Edsubcat_Commandos_Imperial);
-        editorPreview = QPATHTOF(data\previews\CLASS(Unit_Imperial_Commando_DM.jpg));
+        editorPreview = EDITOR_PREVIEW(Unit_Imperial_Commando_DM);
 
         uniformClass = QCLASS(Uniform_Imperial_Commando);
         linkedItems[] =
