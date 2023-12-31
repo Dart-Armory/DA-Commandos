@@ -1,6 +1,6 @@
 class CfgEditorCategories
 {
-    class CLASS(Objects)
+    class CLASS(Edcat_Objects)
     {
         displayName = "[DA] Objects";
     };

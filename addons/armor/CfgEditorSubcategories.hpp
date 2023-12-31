@@ -8,4 +8,8 @@ class CfgEditorSubcategories
     {
         displayName = "Imperial Commando Squad";
     };
+    class CLASS(Edsubcat_Helmets)
+    {
+        displayName = "Helmets";
+    };
 };
