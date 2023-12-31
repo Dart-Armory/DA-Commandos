@@ -16,7 +16,7 @@ class CfgWeapons
 
         displayName = "[DA] DC-17M";
 
-        GVAR(attachmentSwap) = TRUE; // Enables attachment swapping
+        GVAR(attachmentSwapEnabled) = TRUE; // Enables attachment swapping
         GVAR(attachments)[] =        // Array of magazine properties to check and the attachment to use
         {
             {QGVAR(isBlasterMag), "lfp_dc17m_attachment_blaster"},

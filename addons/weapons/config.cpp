@@ -1,6 +1,5 @@
 #include "script_component.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgFunctions.hpp"
 #include "CfgEventHandlers.hpp"
 
 
