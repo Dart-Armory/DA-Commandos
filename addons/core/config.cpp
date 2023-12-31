@@ -3,20 +3,6 @@
 #include "CfgEventHandlers.hpp"
 
 
-class CfgMods
-{
-    class Mod_Base;
-    class PREFIX: Mod_Base
-    {
-        name = "Dart Armory Commandos";
-        logo = "\DA\DAC\core\logo_dac_ca.paa";
-        logoSmall = "\DA\DAC\core\logo_dac_ca.paa";
-        logoOver = "\DA\DAC\core\logo_dac_ca.paa";
-        picture = "\DA\DAC\core\logo_dac_ca.paa";
-    };
-};
-
-
 class CfgPatches
 {
     class ADDON
