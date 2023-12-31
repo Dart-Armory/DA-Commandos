@@ -50,7 +50,11 @@ class CfgPatches
             QCLASS(Backpack_EOD_Base),
             QCLASS(Backpack_EOD_Base_Huge),
             QCLASS(Backpack_Tech_Base),
-            QCLASS(Backpack_Tech_Base_Huge)
+            QCLASS(Backpack_Tech_Base_Huge),
+
+            // Placeable Helmets
+            QGROUND_CLASS(Helmet_Commando_Base),
+            QGROUND_CLASS(Helmet_Imperial_Commando)
         };
         weapons[] =
         {

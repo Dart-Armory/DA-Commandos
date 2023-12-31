@@ -328,4 +328,14 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan]) (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
+
+    class GROUND_CLASS(Holder_Base);
+    GROUND_HOLDER(Helmet_XRay_SL,"Katarn I Clone Commando Helmet (X-Ray [Nix]");
+    GROUND_HOLDER(Helmet_XRay_EOD,"Katarn I Clone Commando Helmet (X-Ray [Dart]");
+    GROUND_HOLDER(Helmet_XRay_Medic,"Katarn I Clone Commando Helmet (X-Ray [Doktor]");
+    GROUND_HOLDER(Helmet_XRay_DM,"Katarn I Clone Commando Helmet (X-Ray [Frost]");
+    GROUND_HOLDER(Helmet_Zulu_SL,"Katarn I Clone Commando Helmet (Zulu [Galahad]");
+    GROUND_HOLDER(Helmet_Zulu_EOD,"Katarn I Clone Commando Helmet (Zulu [Thor]");
+    GROUND_HOLDER(Helmet_Zulu_Medic,"Katarn I Clone Commando Helmet (Zulu [Cherryy]");
+    GROUND_HOLDER(Helmet_Zulu_DM,"Katarn I Clone Commando Helmet (Zulu [Cyan]");
 };

@@ -44,9 +44,17 @@ class CfgPatches
             QCLASS(Backpack_Zulu_Medic),
             QCLASS(Backpack_Zulu_Medic_Huge),
             QCLASS(Backpack_Zulu_DM),
-            QCLASS(Backpack_Zulu_DM_Huge)
+            QCLASS(Backpack_Zulu_DM_Huge),
 
             // Placeable Helmets
+            QGROUND_CLASS(Helmet_XRay_SL),
+            QGROUND_CLASS(Helmet_XRay_EOD),
+            QGROUND_CLASS(Helmet_XRay_Medic),
+            QGROUND_CLASS(Helmet_XRay_DM),
+            QGROUND_CLASS(Helmet_Zulu_SL),
+            QGROUND_CLASS(Helmet_Zulu_EOD),
+            QGROUND_CLASS(Helmet_Zulu_Medic),
+            QGROUND_CLASS(Helmet_Zulu_DM),
         };
         weapons[] =
         {

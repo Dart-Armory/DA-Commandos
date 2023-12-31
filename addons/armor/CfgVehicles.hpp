@@ -329,4 +329,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Commando Tech Backpack (Huge)";
         maximumLoad = LOAD_BACKPACK_COMMANDO_HUGE;
     };
+
+    class GROUND_CLASS(Holder_Base);
+    GROUND_HOLDER(Helmet_Commando_Base,"Katarn I Commando Helmet");
+    GROUND_HOLDER(Helmet_Imperial_Commando,"Katarn I Imperial Commando Helmet");
 };
