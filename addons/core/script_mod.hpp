@@ -1,7 +1,7 @@
 #define MAINPREFIX DA
 #define PREFIX DAC
 
-#include "\DA\DAC\core\script_version.hpp"
+#include "\DA\DAC\addons\core\script_version.hpp"
 
 #define REQUIRED_VERSION 2.14
 
