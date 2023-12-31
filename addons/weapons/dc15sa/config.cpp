@@ -1,26 +1,28 @@
 #include "script_component.hpp"
+#include "CfgWeapons.hpp"
 
 
 class CfgPatches
 {
-    class ADDON
+    class SUBADDON
     {
         author = "DartRuffian";
+        addonRootClass = QUOTE(ADDON);
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Common"
+            "DAC_core",
+            QUOTE(ADDON),
+            "LF_Weapon_Unit_RazorBlade"
+                // DC-15SA
         };
         units[] = {};
-        weapons[] = {};
+        weapons[] =
+        {
+            "DAC_DC15SA"
+        };
         VERSION_CONFIG;
     };
-
-    // Legacy pre-rewrite addon names
-    class DAC_Main: ADDON {};
-    class DAC_Imperial: ADDON {};
-    class DAC_XRay: ADDON {};
-    class DAC_Zulu: ADDON {};
 };

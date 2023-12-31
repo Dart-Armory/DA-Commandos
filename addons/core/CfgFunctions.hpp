@@ -2,9 +2,9 @@ class CfgFunctions
 {
     class PREFIX
     {
-        class Common
+        class core
         {
-            file = "\DA\DAC\Common\functions";
+            file = "\DA\DAC\core\functions";
             class addRadio {};
         };
     };

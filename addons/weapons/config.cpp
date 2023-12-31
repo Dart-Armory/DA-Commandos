@@ -1,4 +1,7 @@
 #include "script_component.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgFunctions.hpp"
+#include "CfgEventHandlers.hpp"
 
 
 class CfgPatches
@@ -11,7 +14,9 @@ class CfgPatches
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Common"
+            "DAC_core",
+            "JLTS_weapons_Core"
+                // Stun muzzle and magazines
         };
         units[] = {};
         weapons[] = {};

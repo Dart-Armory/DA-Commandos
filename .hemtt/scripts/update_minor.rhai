@@ -1,6 +1,6 @@
 // Read the current contents of script_version.hpp
 let script_version = HEMTT_RFS.join("addons")
-    .join("common")
+    .join("core")
     .join("script_version.hpp")
     .open_file()
     .read();
@@ -14,7 +14,7 @@ script_version.replace(prefix + current.to_string(), prefix + next.to_string());
 
 // Write the modified contents to script_version.hpp
 HEMTT_RFS.join("addons")
-    .join("common")
+    .join("core")
     .join("script_version.hpp")
     .create_file()
     .write(script_version);

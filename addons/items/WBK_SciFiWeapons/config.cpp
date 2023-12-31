@@ -1,7 +1,5 @@
 #include "script_component.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgAmmo.hpp"
 
 
 class CfgPatches
@@ -14,19 +12,15 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            "A3_Data_F_Decade_Loadorder",
-            "DAC_Common",
+            "cba_common",
+            "DAC_core",
             QUOTE(ADDON),
-            "LF_Weapon_Unit_WestarM5"
-                // DC-17M
+            "WBK_SomeSciFiWeapons"
         };
         units[] = {};
-        weapons[] =
-        {
-            "DAC_DC17M",
-            "DAC_DC17M_Sniper",
-            "DAC_Weap_DC17M"
-        };
+        weapons[] = {};
         VERSION_CONFIG;
+
+        skipWhenMissingDependencies = TRUE;
     };
 };

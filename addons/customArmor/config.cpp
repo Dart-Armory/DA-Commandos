@@ -15,7 +15,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "A3_Data_F_Decade_Loadorder",
-            "DAC_Common",
+            "DAC_core",
             "DAC_Armor"
         };
         units[] =
