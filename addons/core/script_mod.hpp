@@ -1,5 +1,6 @@
 #define MAINPREFIX DA
 #define PREFIX DAC
+#define MOD_NAME Dart Armory Commandos
 
 #include "\DA\DAC\addons\core\script_version.hpp"
 
