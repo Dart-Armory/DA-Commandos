@@ -1,4 +1,4 @@
-#define COMPONENT customArmor
+#define COMPONENT custom_armor
 #define COMPONENT_BEAUTIFIED Custom Armor
 
 #include "\DA\DAC\addons\core\script_mod.hpp"
