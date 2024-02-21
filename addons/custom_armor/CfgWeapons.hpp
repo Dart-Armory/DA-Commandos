@@ -46,8 +46,8 @@ class CfgWeapons
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Galahad])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\helmets\commando\zulu\SL_camo1.paa),
-            QPATHTOF(data\helmets\commando\zulu\SL_camo1.paa)
+            QPATHTOF(data\helmets\commando\zulu\SL_camo1_co.paa),
+            QPATHTOF(data\helmets\commando\zulu\SL_camo1_co.paa)
         };
     };
     class CLASS(Helmet_Zulu_EOD): CLASS(Helmet_Commando_Base)
@@ -55,8 +55,8 @@ class CfgWeapons
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Thor])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\helmets\commando\zulu\EOD_camo1.paa),
-            QPATHTOF(data\helmets\commando\zulu\EOD_camo1.paa)
+            QPATHTOF(data\helmets\commando\zulu\EOD_camo1_co.paa),
+            QPATHTOF(data\helmets\commando\zulu\EOD_camo1_co.paa)
         };
     };
     class CLASS(Helmet_Zulu_Medic): CLASS(Helmet_Commando_Base)
@@ -64,8 +64,8 @@ class CfgWeapons
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Cherryy])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\helmets\commando\zulu\Medic_camo1.paa),
-            QPATHTOF(data\helmets\commando\zulu\Medic_camo1.paa)
+            QPATHTOF(data\helmets\commando\zulu\Medic_camo1_co.paa),
+            QPATHTOF(data\helmets\commando\zulu\Medic_camo1_co.paa)
         };
     };
     class CLASS(Helmet_Zulu_DM): CLASS(Helmet_Commando_Base)
@@ -73,8 +73,8 @@ class CfgWeapons
         displayName = "[DA] Katarn I Clone Commando Helmet (Zulu [Cyan])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\helmets\commando\zulu\DM_camo1.paa),
-            QPATHTOF(data\helmets\commando\zulu\DM_camo1.paa)
+            QPATHTOF(data\helmets\commando\zulu\DM_camo1_co.paa),
+            QPATHTOF(data\helmets\commando\zulu\DM_camo1_co.paa)
         };
     };
 
