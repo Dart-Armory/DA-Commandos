@@ -17,8 +17,7 @@ class CfgPatches
         weapons[] =
         {
             QCLASS(DC17M),
-            QCLASS(DC17M_Sniper),
-            QCLASS(Weap_DC17M)
+            QCLASS(DC17M_Sniper)
         };
         VERSION_CONFIG;
     };

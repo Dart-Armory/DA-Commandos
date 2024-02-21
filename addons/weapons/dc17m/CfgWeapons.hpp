@@ -78,9 +78,4 @@ class CfgWeapons
             class scope: scope {};
         };
     };
-
-    class CLASS(Weap_DC17M): CLASS(DC17M)
-    {
-        SCOPE_HIDDEN;
-    };
 };

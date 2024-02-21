@@ -9,7 +9,9 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] =
         {
-            QCLASS(core)
+            QCLASS(core),
+            QEGVAR(weapons,dc17m),
+            QEGVAR(weapons,dc15sa)
         };
         units[] = {};
         weapons[] = {};
@@ -21,4 +23,7 @@ class CfgPatches
     class CLASS(Imperial): ADDON {};
     class CLASS(XRay): ADDON {};
     class CLASS(Zulu): ADDON {};
+    class CLASS(customArmor): ADDON {};
 };
+
+#include "CfgWeapons.hpp"
