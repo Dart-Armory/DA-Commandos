@@ -29,7 +29,7 @@ _attachments = [
     []
 ] call BIS_fnc_returnConfigEntry;
 
-TRACE_5("fnc_attachmentSwap", _unit, _weapon, _newMagazine, _isEnabled, _attachments);
+TRACE_5("fnc_attachmentSwap",_unit,_weapon,_newMagazine,_isEnabled,_attachments);
 
 if (_isEnabled isEqualTo FALSE or _attachments isEqualTo []) exitWith {};
 
@@ -46,6 +46,6 @@ if (_isEnabled isEqualTo FALSE or _attachments isEqualTo []) exitWith {};
     // Only add the first attachment that matches
     if (_matches isEqualTo TRUE) exitWith {
         _unit addWeaponItem [_weapon, _attachment, true];
-		INFO_2("Adding attachment %1 to %2", _attachment, _weapon);
+		INFO_2("Adding attachment %1 to %2",_attachment,_weapon);
     };
 } forEach _attachments;
