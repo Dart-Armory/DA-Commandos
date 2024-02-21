@@ -2,7 +2,7 @@
 #define PREFIX DAC
 #define MOD_NAME Dart Armory Commandos
 
-#include "\DA\DAC\addons\core\script_version.hpp"
+#include "script_version.hpp"
 
 #define REQUIRED_VERSION 2.14
 

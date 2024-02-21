@@ -13,8 +13,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_XRay_SL);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\xray\SL_upper.paa),
-            QPATHTOF(data\uniforms\commando\xray\SL2_lower.paa)
+            QPATHTOF(data\uniforms\commando\xray\SL_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\xray\SL2_lower_co.paa)
         };
 
         linkedItems[] =
@@ -38,8 +38,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_XRay_EOD);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\xray\EOD_upper.paa),
-            QPATHTOF(data\uniforms\commando\xray\EOD_lower.paa)
+            QPATHTOF(data\uniforms\commando\xray\EOD_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\xray\EOD_lower_co.paa)
         };
 
         linkedItems[] =
@@ -63,8 +63,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_XRay_Medic);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\xray\Medic2_upper.paa),
-            QPATHTOF(data\uniforms\commando\xray\Medic_lower.paa)
+            QPATHTOF(data\uniforms\commando\xray\Medic2_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\xray\Medic_lower_co.paa)
         };
 
         linkedItems[] =
@@ -88,8 +88,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_XRay_DM);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\xray\DM_upper.paa),
-            QPATHTOF(data\uniforms\commando\xray\DM_lower.paa)
+            QPATHTOF(data\uniforms\commando\xray\DM_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\xray\DM_lower_co.paa)
         };
 
         linkedItems[] =
@@ -113,8 +113,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_Zulu_SL);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\zulu\SL_upper.paa),
-            QPATHTOF(data\uniforms\commando\zulu\SL_upper.paa)
+            QPATHTOF(data\uniforms\commando\zulu\SL_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\zulu\SL_upper_co.paa)
         };
 
         linkedItems[] =
@@ -137,8 +137,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_Zulu_EOD);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\zulu\EOD_upper.paa),
-            QPATHTOF(data\uniforms\commando\zulu\EOD_upper.paa)
+            QPATHTOF(data\uniforms\commando\zulu\EOD_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\zulu\EOD_upper_co.paa)
         };
 
         linkedItems[] =
@@ -161,8 +161,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_Zulu_Medic);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\zulu\Medic_upper.paa),
-            QPATHTOF(data\uniforms\commando\zulu\Medic_upper.paa)
+            QPATHTOF(data\uniforms\commando\zulu\Medic_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\zulu\Medic_upper_co.paa)
         };
 
         linkedItems[] =
@@ -185,8 +185,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_Zulu_DM);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\zulu\DM_upper.paa),
-            QPATHTOF(data\uniforms\commando\zulu\DM_upper.paa)
+            QPATHTOF(data\uniforms\commando\zulu\DM_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\zulu\DM_upper_co.paa)
         };
 
         linkedItems[] =
@@ -209,8 +209,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando RTO Backpack (X-Ray [Nix])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\xray\SL2_camo1.paa),
-            QPATHTOF(data\backpacks\commando\xray\SL2_camo1.paa)
+            QPATHTOF(data\backpacks\commando\xray\SL2_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\xray\SL2_camo1_co.paa)
         };
     };
     class CLASS(Backpack_XRay_SL_Huge): CLASS(Backpack_XRay_SL)
@@ -225,8 +225,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando EOD Backpack (X-Ray [Dart])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\xray\EOD_camo1.paa),
-            QPATHTOF(data\backpacks\commando\xray\EOD_camo1.paa)
+            QPATHTOF(data\backpacks\commando\xray\EOD_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\xray\EOD_camo1_co.paa)
         };
     };
     class CLASS(Backpack_XRay_EOD_Huge): CLASS(Backpack_XRay_EOD)
@@ -241,9 +241,9 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Medic Backpack (X-Ray [Doktor])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\xray\Medic_camo1.paa),
-            QPATHTOF(data\backpacks\commando\xray\Medic_camo1.paa),
-            QPATHTOF(data\backpacks\commando\xray\Medic_camo2.paa)
+            QPATHTOF(data\backpacks\commando\xray\Medic_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\xray\Medic_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\xray\Medic_camo2_co.paa)
         };
     };
     class CLASS(Backpack_XRay_Medic_Huge): CLASS(Backpack_XRay_Medic)
@@ -258,8 +258,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Backpack (X-Ray [Frost])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\xray\DM_camo1.paa),
-            QPATHTOF(data\backpacks\commando\xray\DM_camo1.paa)
+            QPATHTOF(data\backpacks\commando\xray\DM_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\xray\DM_camo1_co.paa)
         };
     };
     class CLASS(Backpack_XRay_DM_Huge): CLASS(Backpack_XRay_DM)
@@ -273,8 +273,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando RTO Backpack (Zulu [Galahad])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\zulu\SL_camo1.paa),
-            QPATHTOF(data\backpacks\commando\zulu\SL_camo1.paa)
+            QPATHTOF(data\backpacks\commando\zulu\SL_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\zulu\SL_camo1_co.paa)
         };
     };
     class CLASS(Backpack_Zulu_SL_Huge): CLASS(Backpack_Zulu_SL)
@@ -288,8 +288,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando EOD Backpack (Zulu [Thor])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\zulu\EOD_camo1.paa),
-            QPATHTOF(data\backpacks\commando\zulu\EOD_camo1.paa)
+            QPATHTOF(data\backpacks\commando\zulu\EOD_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\zulu\EOD_camo1_co.paa)
         };
     };
     class CLASS(Backpack_Zulu_EOD_Huge): CLASS(Backpack_Zulu_EOD)
@@ -303,9 +303,9 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Medic Backpack (Zulu [Cherryy])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\zulu\Medic_camo1.paa),
-            QPATHTOF(data\backpacks\commando\zulu\Medic_camo1.paa),
-            QPATHTOF(data\backpacks\commando\zulu\Medic_camo2.paa)
+            QPATHTOF(data\backpacks\commando\zulu\Medic_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\zulu\Medic_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\zulu\Medic_camo2_co.paa)
         };
     };
     class CLASS(Backpack_Zulu_Medic_Huge): CLASS(Backpack_Zulu_Medic)
@@ -319,8 +319,8 @@ class CfgVehicles
         displayName = "[DA] Katarn II Clone Commando Backpack (Zulu [Cyan])";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\zulu\DM_camo1.paa),
-            QPATHTOF(data\backpacks\commando\zulu\DM_camo1.paa)
+            QPATHTOF(data\backpacks\commando\zulu\DM_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\zulu\DM_camo1_co.paa)
         };
     };
     class CLASS(Backpack_Zulu_DM_Huge): CLASS(Backpack_Zulu_DM)

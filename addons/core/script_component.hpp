@@ -1,5 +1,8 @@
 #define COMPONENT core
 #define COMPONENT_BEAUTIFIED Core
+#include "script_mod.hpp"
 
-#include "\DA\DAC\addons\core\script_mod.hpp"
-#include "\DA\DAC\addons\core\script_macros.hpp"
+// #define DEBUG_MODE_FULL
+// #define DISABLE_COMPILE_CACHE
+
+#include "script_macros.hpp"

@@ -14,7 +14,6 @@ class Extended_PreStart_EventHandlers
     };
 };
 
-
 class Extended_InitPost_EventHandlers
 {
     class CAManBase

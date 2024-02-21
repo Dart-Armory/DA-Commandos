@@ -1,9 +1,4 @@
 #include "script_component.hpp"
-#include "CfgEditorSubcategories.hpp"
-#include "CfgWeapons.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgGroups.hpp"
-
 
 class CfgPatches
 {
@@ -83,3 +78,8 @@ class CfgPatches
         VERSION_CONFIG;
     };
 };
+
+#include "CfgEditorSubcategories.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"

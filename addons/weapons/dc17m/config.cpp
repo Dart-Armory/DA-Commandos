@@ -1,8 +1,4 @@
 #include "script_component.hpp"
-#include "CfgWeapons.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgAmmo.hpp"
-
 
 class CfgPatches
 {
@@ -21,9 +17,12 @@ class CfgPatches
         weapons[] =
         {
             QCLASS(DC17M),
-            QCLASS(DC17M_Sniper),
-            QCLASS(Weap_DC17M)
+            QCLASS(DC17M_Sniper)
         };
         VERSION_CONFIG;
     };
 };
+
+#include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgAmmo.hpp"

@@ -16,10 +16,10 @@ class CfgWeapons
         displayName = "[DA] Katarn I Commando Helmet";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\helmets\commando\camo1.paa), // Visor
-            QPATHTOF(data\helmets\commando\camo1.paa)  // Main Helmet
+            QPATHTOF(data\helmets\commando\camo1_co.paa), // Visor
+            QPATHTOF(data\helmets\commando\camo1_co.paa)  // Main Helmet
         };
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_helmet_k1_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_helmet_k1_ca_co.paa";
     };
 
     class CLASS(Helmet_Imperial_Commando): CLASS(Helmet_Commando_Base)
@@ -27,8 +27,8 @@ class CfgWeapons
         displayName = "[DA] Katarn I Imperial Commando Helmet";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\helmets\commando\imperial_camo1.paa),
-            QPATHTOF(data\helmets\commando\imperial_camo1.paa)
+            QPATHTOF(data\helmets\commando\imperial_camo1_co.paa),
+            QPATHTOF(data\helmets\commando\imperial_camo1_co.paa)
         };
     };
 
@@ -46,7 +46,7 @@ class CfgWeapons
         author = "DartRuffian";
 
         displayName = "[DA] Katarn I Commando Armor";
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_uniform_k1_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_uniform_k1_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {
@@ -88,7 +88,7 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (SL)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_sl_armor.p3d";
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sl_armor_k1_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sl_armor_k1_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {
@@ -100,7 +100,7 @@ class CfgWeapons
     {
         displayName = "[DA] Katarn I Commando Vest (EOD)";
         model = "\SWLB_clones_spec\SWLB_clone_commando_eod_armor.p3d";
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_eod_armor_k1_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_eod_armor_k1_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {
@@ -115,11 +115,11 @@ class CfgWeapons
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\vests\commando_camo1.paa),
-            QPATHTOF(data\vests\commando_camo1.paa)
+            QPATHTOF(data\vests\commando_camo1_co.paa),
+            QPATHTOF(data\vests\commando_camo1_co.paa)
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_sniper_armor_k1_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {
@@ -135,9 +135,9 @@ class CfgWeapons
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\vests\commando_camo1.paa)
+            QPATHTOF(data\vests\commando_camo1_co.paa)
         };
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_tech_armor_k1_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {
@@ -164,7 +164,7 @@ class CfgWeapons
         hiddenSelections[] = {};
         hiddenSelectionsTextures[] = {};
         hiddenSelectionsMaterials[] = {};
-        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_1_ui_ca.paa";
+        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_1_ui_ca_co.paa";
 
         visionMode[] = {"Normal", "NVG"};
         thermalMode[] = {};
@@ -179,7 +179,7 @@ class CfgWeapons
     class CLASS(NVG_Chip_NVTI): CLASS(NVG_Chip_NV)
     {
         displayName = "[DA] Katarn I Commando Chip [NV/TI]";
-        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_2_ui_ca.paa";
+        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_2_ui_ca_co.paa";
         visionMode[] = {"Normal", "NVG", "TI"};
         thermalMode[] = {WHOT, BHOT};
     };
@@ -192,11 +192,11 @@ class CfgWeapons
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\nvgs\commando\visor_camo1.paa),
-            QPATHTOF(data\nvgs\commando\visor_camo1.paa)
+            QPATHTOF(data\nvgs\commando\visor_camo1_co.paa),
+            QPATHTOF(data\nvgs\commando\visor_camo1_co.paa)
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {
@@ -214,9 +214,9 @@ class CfgWeapons
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\nvgs\commando\antenna_camo1.paa)
+            QPATHTOF(data\nvgs\commando\antenna_camo1_co.paa)
         };
-        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_antenna_ca.paa";
+        picture = "\SWLB_clones_spec\data\ui\icon_SWLB_clone_commando_nvg_antenna_ca_co.paa";
 
         class ItemInfo: ItemInfo
         {

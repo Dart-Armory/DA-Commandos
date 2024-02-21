@@ -18,8 +18,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_Commando_Base);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\upper.paa),
-            QPATHTOF(data\uniforms\commando\lower.paa)
+            QPATHTOF(data\uniforms\commando\upper_co.paa),
+            QPATHTOF(data\uniforms\commando\lower_co.paa)
         };
         nakedUniform = "lsd_gar_bodyGlove_uniform";
 
@@ -157,8 +157,8 @@ class CfgVehicles
         uniformClass = QCLASS(Uniform_Imperial_Commando);
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\uniforms\commando\imperial_upper.paa),
-            QPATHTOF(data\uniforms\commando\imperial_lower.paa)
+            QPATHTOF(data\uniforms\commando\imperial_upper_co.paa),
+            QPATHTOF(data\uniforms\commando\imperial_lower_co.paa)
         };
 
         linkedItems[] =
@@ -260,8 +260,8 @@ class CfgVehicles
         hiddenSelections[] = {"illum", "camo1"};
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\camo1.paa),
-            QPATHTOF(data\backpacks\commando\camo1.paa)
+            QPATHTOF(data\backpacks\commando\camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\camo1_co.paa)
         };
         hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
     };
@@ -277,8 +277,8 @@ class CfgVehicles
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_rto.p3d";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\RTO_camo1.paa),
-            QPATHTOF(data\backpacks\commando\RTO_camo1.paa)
+            QPATHTOF(data\backpacks\commando\RTO_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\RTO_camo1_co.paa)
         };
 
         // TFAR Long Range
@@ -302,8 +302,8 @@ class CfgVehicles
         model = "\SWLB_clones_spec\backpacks\SWLB_clone_commando_backpack_02_eod.p3d";
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\EOD_camo1.paa),
-            QPATHTOF(data\backpacks\commando\EOD_camo1.paa)
+            QPATHTOF(data\backpacks\commando\EOD_camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\EOD_camo1_co.paa)
         };
     };
     class CLASS(Backpack_EOD_Base_Huge): CLASS(Backpack_EOD_Base)
@@ -319,9 +319,9 @@ class CfgVehicles
         hiddenSelections[] = {"illum", "camo1", "camo2"};
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\backpacks\commando\camo1.paa),
-            QPATHTOF(data\backpacks\commando\camo1.paa),
-            QPATHTOF(data\backpacks\commando\Tech_camo2.paa)
+            QPATHTOF(data\backpacks\commando\camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\camo1_co.paa),
+            QPATHTOF(data\backpacks\commando\Tech_camo2_co.paa)
         };
     };
     class CLASS(Backpack_Tech_Base_Huge): CLASS(Backpack_Tech_Base)
