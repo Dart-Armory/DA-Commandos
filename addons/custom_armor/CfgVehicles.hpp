@@ -114,7 +114,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] =
         {
             QPATHTOF(data\uniforms\commando\zulu\SL_upper_co.paa),
-            QPATHTOF(data\uniforms\commando\zulu\SL_upper_co.paa)
+            QPATHTOF(data\uniforms\commando\zulu\SL_lower_co.paa)
         };
 
         linkedItems[] =
@@ -138,7 +138,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] =
         {
             QPATHTOF(data\uniforms\commando\zulu\EOD_upper_co.paa),
-            QPATHTOF(data\uniforms\commando\zulu\EOD_upper_co.paa)
+            QPATHTOF(data\uniforms\commando\zulu\EOD_lower_co.paa)
         };
 
         linkedItems[] =
@@ -162,7 +162,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] =
         {
             QPATHTOF(data\uniforms\commando\zulu\Medic_upper_co.paa),
-            QPATHTOF(data\uniforms\commando\zulu\Medic_upper_co.paa)
+            QPATHTOF(data\uniforms\commando\zulu\Medic_lower_co.paa)
         };
 
         linkedItems[] =
@@ -186,7 +186,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] =
         {
             QPATHTOF(data\uniforms\commando\zulu\DM_upper_co.paa),
-            QPATHTOF(data\uniforms\commando\zulu\DM_upper_co.paa)
+            QPATHTOF(data\uniforms\commando\zulu\DM_lower_co.paa)
         };
 
         linkedItems[] =
